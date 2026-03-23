@@ -15,6 +15,7 @@ import Diagnostic2_1 from "@/pages/diagnostic2-1";
 import Diagnostic2_2 from "@/pages/diagnostic2-2";
 import Diagnostic2_3 from "@/pages/diagnostic2-3";
 import Diagnostic3_1 from "@/pages/diagnostic3-1";
+import Diagnostic3_2 from "@/pages/diagnostic3-2";
 import SubPlaceholder from "@/pages/sub-placeholder";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ function Router() {
       <Route path="/sub-placeholder/2/2" component={Diagnostic2_2} />
       <Route path="/sub-placeholder/2/3" component={Diagnostic2_3} />
       <Route path="/sub-placeholder/3/1" component={Diagnostic3_1} />
+      <Route path="/sub-placeholder/3/2" component={Diagnostic3_2} />
       <Route path="/sub-placeholder/:parentId/:id" component={SubPlaceholder} />
       <Route component={NotFound} />
     </Switch>
