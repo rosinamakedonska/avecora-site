@@ -5,6 +5,8 @@ const labels: Record<string, string> = {
   "2": "The context becomes clearer",
   "3": "The limits become visible",
   "next": "Continue",
+  "3-1": "Research and source support",
+  "3-2": "Structure and message shaping",
 };
 
 export default function SubPlaceholder() {
