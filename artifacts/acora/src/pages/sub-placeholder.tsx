@@ -4,6 +4,7 @@ const labels: Record<string, string> = {
   "1": "The goal becomes more specific",
   "2": "The context becomes clearer",
   "3": "The limits become visible",
+  "next": "Continue",
 };
 
 export default function SubPlaceholder() {
