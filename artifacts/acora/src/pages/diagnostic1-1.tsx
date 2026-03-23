@@ -19,6 +19,14 @@ export default function Diagnostic1_1() {
             </p>
           </div>
 
+          <div className="diag-bridge">
+            <p className="diag-bridge-text">
+              This is where AI Clarity Funnel begins. It helps define the
+              situation more clearly, so the output becomes more relevant and
+              easier to use.
+            </p>
+          </div>
+
           <div className="diag-action-row">
             <button className="back-btn" onClick={() => navigate("/placeholder/1")}>
               ← Back
@@ -27,7 +35,7 @@ export default function Diagnostic1_1() {
               className="continue-btn"
               onClick={() => navigate("/sub-placeholder/1/next")}
             >
-              Continue →
+              Enter AI Clarity Funnel
             </button>
           </div>
         </main>

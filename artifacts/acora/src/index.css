@@ -223,6 +223,17 @@
   color: hsl(220, 10%, 48%);
 }
 
+.diag-bridge {
+  border-left: 2px solid hsl(220, 16%, 82%);
+  padding-left: 1rem;
+}
+
+.diag-bridge-text {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: hsl(220, 12%, 42%);
+}
+
 .diag-action-row {
   display: flex;
   align-items: center;
