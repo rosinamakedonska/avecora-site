@@ -41,9 +41,6 @@ export default function Diagnostic3_3() {
           </button>
         </main>
 
-        <footer className="landing-footer">
-          <span>Diagnostic Entry · Screen 1.3.3</span>
-        </footer>
       </div>
     </div>
   );
