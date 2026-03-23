@@ -5,6 +5,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Landing from "@/pages/landing";
 import Placeholder from "@/pages/placeholder";
+import Diagnostic1 from "@/pages/diagnostic1";
+import SubPlaceholder from "@/pages/sub-placeholder";
 
 const queryClient = new QueryClient();
 
@@ -12,7 +14,9 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Landing} />
+      <Route path="/placeholder/1" component={Diagnostic1} />
       <Route path="/placeholder/:id" component={Placeholder} />
+      <Route path="/sub-placeholder/:parentId/:id" component={SubPlaceholder} />
       <Route component={NotFound} />
     </Switch>
   );
