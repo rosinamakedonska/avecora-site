@@ -25,6 +25,7 @@ import Diagnostic4_2 from "@/pages/diagnostic4-2";
 import Diagnostic4_3 from "@/pages/diagnostic4-3";
 import ProductAIClarityFunnel from "@/pages/product-ai-clarity-funnel";
 import ProductMentalPrioritySystem from "@/pages/product-mental-priority-system";
+import ProductAIToolNavigator from "@/pages/product-ai-tool-navigator";
 import SubPlaceholder from "@/pages/sub-placeholder";
 
 const queryClient = new QueryClient();
@@ -54,6 +55,7 @@ function Router() {
       <Route path="/sub-placeholder/4/3" component={Diagnostic4_3} />
       <Route path="/sub-placeholder/1/next" component={ProductAIClarityFunnel} />
       <Route path="/sub-placeholder/2/next" component={ProductMentalPrioritySystem} />
+      <Route path="/sub-placeholder/3/next" component={ProductAIToolNavigator} />
       <Route path="/sub-placeholder/:parentId/:id" component={SubPlaceholder} />
       <Route component={NotFound} />
     </Switch>
