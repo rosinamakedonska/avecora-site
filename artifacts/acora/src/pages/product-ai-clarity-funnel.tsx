@@ -14,36 +14,37 @@ export default function ProductAIClarityFunnel() {
           <div className="diag-heading-block">
             <p className="diag-title">AI Clarity Funnel</p>
             <p className="diag-body">
-              AI Clarity Funnel helps define the situation more clearly, so the
-              output becomes more relevant and easier to use.
+              This is where AI Clarity Funnel begins. It helps define the
+              situation more clearly, so the output becomes more relevant and
+              easier to use.
             </p>
           </div>
 
           <div className="product-section">
             <p className="product-section-title">What this helps you do</p>
             <ul className="product-list">
-              <li>clarify the real situation</li>
+              <li>make the situation clearer</li>
               <li>make the goal more precise</li>
               <li>make the context clearer</li>
               <li>make the limits visible</li>
-              <li>get more relevant AI output</li>
+              <li>make the output more relevant</li>
             </ul>
           </div>
 
           <div className="product-section">
             <p className="product-section-title">Who this is for</p>
             <p className="diag-body">
-              For people who feel that AI responses are still too general, too
-              vague, or not close enough to the real situation.
+              For people who feel that AI output is still too general and not
+              close enough to the real situation.
             </p>
           </div>
 
           <div className="product-section">
             <p className="product-section-title">What you get</p>
             <ul className="product-list">
-              <li>a practical clarity framework</li>
               <li>a structured way to define the situation</li>
-              <li>a more useful starting point for AI output</li>
+              <li>a clearer starting point for better AI output</li>
+              <li>a more relevant and easier-to-use result</li>
             </ul>
           </div>
 
