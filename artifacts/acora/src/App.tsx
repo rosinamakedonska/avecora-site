@@ -8,6 +8,7 @@ import Placeholder from "@/pages/placeholder";
 import Diagnostic1 from "@/pages/diagnostic1";
 import Diagnostic2 from "@/pages/diagnostic2";
 import Diagnostic3 from "@/pages/diagnostic3";
+import Diagnostic4 from "@/pages/diagnostic4";
 import Diagnostic1_1 from "@/pages/diagnostic1-1";
 import Diagnostic1_2 from "@/pages/diagnostic1-2";
 import Diagnostic1_3 from "@/pages/diagnostic1-3";
@@ -30,6 +31,7 @@ function Router() {
       <Route path="/placeholder/1" component={Diagnostic1} />
       <Route path="/placeholder/2" component={Diagnostic2} />
       <Route path="/placeholder/3" component={Diagnostic3} />
+      <Route path="/placeholder/4" component={Diagnostic4} />
       <Route path="/placeholder/:id" component={Placeholder} />
       <Route path="/sub-placeholder/1/1" component={Diagnostic1_1} />
       <Route path="/sub-placeholder/1/2" component={Diagnostic1_2} />
