@@ -14,9 +14,8 @@ export default function ProductAIClarityFunnel() {
           <div className="diag-heading-block">
             <p className="diag-title">AI Clarity Funnel</p>
             <p className="diag-body">
-              This is where AI Clarity Funnel begins. It helps define the
-              situation more clearly, so the output becomes more relevant and
-              easier to use.
+              AI Clarity Funnel helps define the situation more clearly, so the
+              output becomes more relevant, more specific, and easier to use.
             </p>
           </div>
 
@@ -27,7 +26,7 @@ export default function ProductAIClarityFunnel() {
               <li>make the goal more precise</li>
               <li>make the context clearer</li>
               <li>make the limits visible</li>
-              <li>make the output more relevant</li>
+              <li>get more relevant AI output</li>
             </ul>
           </div>
 
