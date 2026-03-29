@@ -23,6 +23,7 @@ import Diagnostic3_3_2 from "@/pages/diagnostic3-3-2";
 import Diagnostic4_1 from "@/pages/diagnostic4-1";
 import Diagnostic4_2 from "@/pages/diagnostic4-2";
 import Diagnostic4_3 from "@/pages/diagnostic4-3";
+import ProductAIClarityFunnel from "@/pages/product-ai-clarity-funnel";
 import SubPlaceholder from "@/pages/sub-placeholder";
 
 const queryClient = new QueryClient();
@@ -50,6 +51,7 @@ function Router() {
       <Route path="/sub-placeholder/4/1" component={Diagnostic4_1} />
       <Route path="/sub-placeholder/4/2" component={Diagnostic4_2} />
       <Route path="/sub-placeholder/4/3" component={Diagnostic4_3} />
+      <Route path="/sub-placeholder/1/next" component={ProductAIClarityFunnel} />
       <Route path="/sub-placeholder/:parentId/:id" component={SubPlaceholder} />
       <Route component={NotFound} />
     </Switch>

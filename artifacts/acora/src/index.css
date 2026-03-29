@@ -384,3 +384,43 @@
   background: hsl(220, 14%, 95%);
   border-color: hsl(220, 14%, 78%);
 }
+
+/* Product page */
+.product-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.product-section-title {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: hsl(220, 12%, 52%);
+  margin: 0;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.product-list li {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: hsl(220, 15%, 25%);
+  padding-left: 1rem;
+  position: relative;
+}
+
+.product-list li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: hsl(220, 12%, 60%);
+}
