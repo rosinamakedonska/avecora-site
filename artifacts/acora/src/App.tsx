@@ -1,3 +1,4 @@
+
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
@@ -27,6 +28,14 @@ import ProductAIClarityFunnel from "@/pages/product-ai-clarity-funnel";
 import ProductMentalPrioritySystem from "@/pages/product-mental-priority-system";
 import ProductAIToolNavigator from "@/pages/product-ai-tool-navigator";
 import Product3_70_24 from "@/pages/product-3-70-24";
+import AccessAIClarityFunnel from "@/pages/access-ai-clarity-funnel";
+import AccessMentalPrioritySystem from "@/pages/access-mental-priority-system";
+import AccessAIToolNavigator from "@/pages/access-ai-tool-navigator";
+import Access37024DecisionFrame from "@/pages/access-3-70-24-decision-frame";
+import AccessClarityPriorityBundle from "@/pages/access-clarity-priority-bundle";
+import AccessClarityDecisionBundle from "@/pages/access-clarity-decision-bundle";
+import AccessFullDecisionBundle from "@/pages/access-full-decision-bundle";
+import ThankYouPage from "@/pages/thank-you";
 import SubPlaceholder from "@/pages/sub-placeholder";
 
 const queryClient = new QueryClient();
@@ -58,6 +67,14 @@ function Router() {
       <Route path="/sub-placeholder/2/next" component={ProductMentalPrioritySystem} />
       <Route path="/sub-placeholder/3/next" component={ProductAIToolNavigator} />
       <Route path="/sub-placeholder/4/next" component={Product3_70_24} />
+      <Route path="/access/ai-clarity-funnel" component={AccessAIClarityFunnel} />
+      <Route path="/access/mental-priority-system" component={AccessMentalPrioritySystem} />
+      <Route path="/access/ai-tool-navigator" component={AccessAIToolNavigator} />
+      <Route path="/access/3-70-24-decision-frame" component={Access37024DecisionFrame} />
+      <Route path="/access/clarity-priority-bundle" component={AccessClarityPriorityBundle} />
+      <Route path="/access/clarity-decision-bundle" component={AccessClarityDecisionBundle} />
+      <Route path="/access/full-decision-bundle" component={AccessFullDecisionBundle} />
+      <Route path="/thank-you" component={ThankYouPage} />
       <Route path="/sub-placeholder/:parentId/:id" component={SubPlaceholder} />
       <Route component={NotFound} />
     </Switch>
