@@ -51,12 +51,15 @@ export default function ProductAIClarityFunnel() {
             <button className="back-btn" onClick={() => window.history.back()}>
               ← Back
             </button>
-            <button
+
+            <a
               className="continue-btn"
-              onClick={() => navigate("/checkout/ai-clarity-funnel")}
+              href="https://buy.stripe.com/28E00keej9yE8542In0Fi02"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Buy AI Clarity Funnel
-            </button>
+            </a>
           </div>
         </main>
       </div>
