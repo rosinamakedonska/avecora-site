@@ -51,12 +51,15 @@ export default function ProductMentalPrioritySystem() {
             <button className="back-btn" onClick={() => window.history.back()}>
               ← Back
             </button>
-            <button
+
+            <a
               className="continue-btn"
-              onClick={() => navigate("/checkout/mental-priority-system")}
+              href="https://buy.stripe.com/6oUaEYc6beSYets96L0Fi03"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Buy Mental Priority System
-            </button>
+            </a>
           </div>
         </main>
       </div>
