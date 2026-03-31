@@ -50,12 +50,15 @@ export default function Product3_70_24() {
             <button className="back-btn" onClick={() => window.history.back()}>
               ← Back
             </button>
-            <button
+
+            <a
               className="continue-btn"
-              onClick={() => navigate("/checkout/3-70-24")}
+              href="https://buy.stripe.com/6oUdRa5HNeSYgBAciX0Fi05"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Buy 3–70–24
-            </button>
+              Buy 3–70–24 Decision Frame
+            </a>
           </div>
         </main>
       </div>

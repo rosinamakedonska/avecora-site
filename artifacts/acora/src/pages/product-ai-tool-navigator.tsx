@@ -52,12 +52,15 @@ export default function ProductAIToolNavigator() {
             <button className="back-btn" onClick={() => window.history.back()}>
               ← Back
             </button>
-            <button
+
+            <a
               className="continue-btn"
-              onClick={() => navigate("/checkout/ai-tool-navigator")}
+              href="https://buy.stripe.com/8x2eVeeej4ek854aaP0Fi04"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Buy AI Tool Navigator
-            </button>
+            </a>
           </div>
         </main>
       </div>
