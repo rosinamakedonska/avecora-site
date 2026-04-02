@@ -30,7 +30,7 @@ export default function ProductsAndPackages() {
               Helps make the situation clearer before asking AI for direction.
             </p>
             <Link
-              href="/ai-clarity-funnel"
+              href="/product-ai-clarity-funnel"
               className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
             >
               View Product
@@ -46,7 +46,7 @@ export default function ProductsAndPackages() {
               Helps identify what matters most now when everything feels equally important.
             </p>
             <Link
-              href="/mental-priority-system"
+              href="/product-mental-priority-system"
               className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
             >
               View Product
@@ -62,7 +62,7 @@ export default function ProductsAndPackages() {
               Helps decide which AI tools belong in which role for your work.
             </p>
             <Link
-              href="/ai-tool-navigator"
+              href="/product-ai-tool-navigator"
               className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
             >
               View Product
@@ -78,7 +78,7 @@ export default function ProductsAndPackages() {
               Helps turn multiple possible moves into one clearer next step.
             </p>
             <Link
-              href="/3-70-24-decision-frame"
+              href="/product-3-70-24"
               className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
             >
               View Product
@@ -90,9 +90,7 @@ export default function ProductsAndPackages() {
               <h2 className="text-xl font-medium">Clarity + Priority Package</h2>
               <div className="text-lg font-semibold">€54</div>
             </div>
-            <p className="opacity-80 mb-2">
-              Includes:
-            </p>
+            <p className="opacity-80 mb-2">Includes:</p>
             <ul className="opacity-80 mb-4 space-y-1">
               <li>• AI Clarity Funnel</li>
               <li>• Mental Priority System</li>
@@ -110,9 +108,7 @@ export default function ProductsAndPackages() {
               <h2 className="text-xl font-medium">Clarity + Decision Package</h2>
               <div className="text-lg font-semibold">€47</div>
             </div>
-            <p className="opacity-80 mb-2">
-              Includes:
-            </p>
+            <p className="opacity-80 mb-2">Includes:</p>
             <ul className="opacity-80 mb-4 space-y-1">
               <li>• AI Clarity Funnel</li>
               <li>• 3–70–24 Decision Frame</li>
@@ -130,9 +126,7 @@ export default function ProductsAndPackages() {
               <h2 className="text-xl font-medium">Full Decision Package</h2>
               <div className="text-lg font-semibold">€99</div>
             </div>
-            <p className="opacity-80 mb-2">
-              Includes:
-            </p>
+            <p className="opacity-80 mb-2">Includes:</p>
             <ul className="opacity-80 mb-4 space-y-1">
               <li>• AI Clarity Funnel</li>
               <li>• Mental Priority System</li>

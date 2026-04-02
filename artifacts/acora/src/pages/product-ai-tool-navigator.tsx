@@ -1,4 +1,4 @@
-import { useLocation } from "wouter";
+import { useLocation, Link } from "wouter";
 
 export default function ProductAIToolNavigator() {
   const [, navigate] = useLocation();
@@ -61,6 +61,14 @@ export default function ProductAIToolNavigator() {
             >
               Buy AI Tool Navigator
             </a>
+            <div>
+              <Link
+                href="/products-and-packages"
+                className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
+              >
+                See other products and packages
+              </Link>
+            </div>
           </div>
         </main>
       </div>

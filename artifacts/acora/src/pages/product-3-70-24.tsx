@@ -1,4 +1,4 @@
-import { useLocation } from "wouter";
+import { useLocation, Link } from "wouter";
 
 export default function Product3_70_24() {
   const [, navigate] = useLocation();
@@ -59,6 +59,14 @@ export default function Product3_70_24() {
             >
               Buy 3–70–24 Decision Frame
             </a>
+            <div>
+              <Link
+                href="/products-and-packages"
+                className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
+              >
+                See other products and packages
+              </Link>
+            </div>
           </div>
         </main>
       </div>
