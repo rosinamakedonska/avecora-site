@@ -35,6 +35,7 @@ import Access37024DecisionFrame from "@/pages/access-3-70-24-decision-frame";
 import AccessClarityPriorityBundle from "@/pages/access-clarity-priority-bundle";
 import AccessClarityDecisionBundle from "@/pages/access-clarity-decision-bundle";
 import AccessFullDecisionBundle from "@/pages/access-full-decision-bundle";
+import ProductsAndPackages from "@/pages/products-and-packages";
 import ThankYouPage from "@/pages/thank-you";
 import SubPlaceholder from "@/pages/sub-placeholder";
 
@@ -74,6 +75,7 @@ function Router() {
       <Route path="/access/clarity-priority-bundle" component={AccessClarityPriorityBundle} />
       <Route path="/access/clarity-decision-bundle" component={AccessClarityDecisionBundle} />
       <Route path="/access/full-decision-bundle" component={AccessFullDecisionBundle} />
+      <Route path="/products-and-packages" component={ProductsAndPackages} />
       <Route path="/thank-you" component={ThankYouPage} />
       <Route path="/sub-placeholder/:parentId/:id" component={SubPlaceholder} />
       <Route component={NotFound} />
