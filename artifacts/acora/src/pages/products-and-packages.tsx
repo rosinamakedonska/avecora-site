@@ -30,7 +30,7 @@ export default function ProductsAndPackages() {
               Helps make the situation clearer before asking AI for direction.
             </p>
             <Link
-              href="/product-ai-clarity-funnel"
+              href="/ai-clarity-funnel"
               className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
             >
               View Product
@@ -46,7 +46,7 @@ export default function ProductsAndPackages() {
               Helps identify what matters most now when everything feels equally important.
             </p>
             <Link
-              href="/product-mental-priority-system"
+              href="/mental-priority-system"
               className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
             >
               View Product
@@ -62,7 +62,7 @@ export default function ProductsAndPackages() {
               Helps decide which AI tools belong in which role for your work.
             </p>
             <Link
-              href="/product-ai-tool-navigator"
+              href="/ai-tool-navigator"
               className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
             >
               View Product
@@ -78,7 +78,7 @@ export default function ProductsAndPackages() {
               Helps turn multiple possible moves into one clearer next step.
             </p>
             <Link
-              href="/product-3-70-24"
+              href="/3-70-24-decision-frame"
               className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
             >
               View Product
