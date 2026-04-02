@@ -62,7 +62,7 @@ export default function Product3_70_24() {
             </p>
             <a
               className="continue-btn"
-              href="https://buy.stripe.com/6oUdRa5HNeSYgBAciX0Fi05"
+              href="https://buy.stripe.com/5kQ4gA4DJ8uA0CCdn10Fi09"
               target="_blank"
               rel="noopener noreferrer"
             >
