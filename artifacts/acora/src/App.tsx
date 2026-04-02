@@ -28,6 +28,9 @@ import ProductAIClarityFunnel from "@/pages/product-ai-clarity-funnel";
 import ProductMentalPrioritySystem from "@/pages/product-mental-priority-system";
 import ProductAIToolNavigator from "@/pages/product-ai-tool-navigator";
 import Product3_70_24 from "@/pages/product-3-70-24";
+import ClarityPriorityBundle from "@/pages/clarity-priority-bundle";
+import ClarityDecisionBundle from "@/pages/clarity-decision-bundle";
+import FullDecisionBundle from "@/pages/full-decision-bundle";
 import AccessAIClarityFunnel from "@/pages/access-ai-clarity-funnel";
 import AccessMentalPrioritySystem from "@/pages/access-mental-priority-system";
 import AccessAIToolNavigator from "@/pages/access-ai-tool-navigator";
@@ -71,6 +74,13 @@ function Router() {
       <Route path="/sub-placeholder/2/next" component={ProductMentalPrioritySystem} />
       <Route path="/sub-placeholder/3/next" component={ProductAIToolNavigator} />
       <Route path="/sub-placeholder/4/next" component={Product3_70_24} />
+      <Route path="/ai-clarity-funnel" component={ProductAIClarityFunnel} />
+      <Route path="/mental-priority-system" component={ProductMentalPrioritySystem} />
+      <Route path="/ai-tool-navigator" component={ProductAIToolNavigator} />
+      <Route path="/3-70-24-decision-frame" component={Product3_70_24} />
+      <Route path="/clarity-priority-bundle" component={ClarityPriorityBundle} />
+      <Route path="/clarity-decision-bundle" component={ClarityDecisionBundle} />
+      <Route path="/full-decision-bundle" component={FullDecisionBundle} />
       <Route path="/access/ai-clarity-funnel" component={AccessAIClarityFunnel} />
       <Route path="/access/mental-priority-system" component={AccessMentalPrioritySystem} />
       <Route path="/access/ai-tool-navigator" component={AccessAIToolNavigator} />
