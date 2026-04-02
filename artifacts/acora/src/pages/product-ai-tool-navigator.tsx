@@ -64,7 +64,7 @@ export default function ProductAIToolNavigator() {
             </p>
             <a
               className="continue-btn"
-              href="ТУК_Е_STRIPE_LINK_ЗА_AI_TOOL_NAVIGATOR"
+              href="https://buy.stripe.com/8x2eVeeej4ek854aaP0Fi04"
               target="_blank"
               rel="noopener noreferrer"
             >

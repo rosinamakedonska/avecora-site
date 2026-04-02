@@ -63,7 +63,7 @@ export default function ProductMentalPrioritySystem() {
             </p>
             <a
               className="continue-btn"
-              href="ТУК_Е_STRIPE_LINK_ЗА_MENTAL_PRIORITY_SYSTEM"
+              href="https://buy.stripe.com/6oUaEYc6beSYets96L0Fi03"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -62,7 +62,7 @@ export default function Product3_70_24() {
             </p>
             <a
               className="continue-btn"
-              href="ТУК_Е_STRIPE_LINK_ЗА_3_70_24"
+              href="https://buy.stripe.com/6oUdRa5HNeSYgBAciX0Fi05"
               target="_blank"
               rel="noopener noreferrer"
             >
