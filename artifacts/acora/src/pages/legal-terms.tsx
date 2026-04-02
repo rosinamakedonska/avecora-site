@@ -72,8 +72,19 @@ export default function LegalTerms() {
           </p>
         </section>
 
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold mb-3">5. Refund Policy</h2>
+          <p className="mb-4">All digital product purchases are final.</p>
+          <p className="mb-4">
+            Refunds are not provided once access to digital materials has been granted.
+          </p>
+          <p>
+            This policy does not affect mandatory rights under applicable consumer protection law.
+          </p>
+        </section>
+
         <section className="mb-10">
-          <h2 className="text-xl font-semibold mb-3">5. Contact</h2>
+          <h2 className="text-xl font-semibold mb-3">6. Contact</h2>
           <p>MacTerra Ltd</p>
           <p>71–75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom</p>
           <p>Company Registration Number: 12050922</p>
