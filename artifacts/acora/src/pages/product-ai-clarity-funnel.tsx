@@ -52,13 +52,17 @@ export default function ProductAIClarityFunnel() {
               ← Back
             </button>
 
+            <div className="text-3xl font-semibold mb-2">€27</div>
+            <p className="text-sm opacity-60 mb-8">
+              One payment. Direct access after checkout.
+            </p>
             <a
               className="continue-btn"
               href="https://buy.stripe.com/28E00keej9yE8542In0Fi02"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Buy AI Clarity Funnel
+              Buy Now
             </a>
             <div>
               <Link

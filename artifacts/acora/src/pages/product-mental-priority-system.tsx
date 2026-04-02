@@ -52,13 +52,17 @@ export default function ProductMentalPrioritySystem() {
               ← Back
             </button>
 
+            <div className="text-3xl font-semibold mb-2">€37</div>
+            <p className="text-sm opacity-60 mb-8">
+              One payment. Direct access after checkout.
+            </p>
             <a
               className="continue-btn"
-              href="https://buy.stripe.com/6oUaEYc6beSYets96L0Fi03"
+              href="ТУК_Е_STRIPE_LINK_ЗА_MENTAL_PRIORITY_SYSTEM"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Buy Mental Priority System
+              Buy Now
             </a>
             <div>
               <Link

@@ -51,13 +51,17 @@ export default function Product3_70_24() {
               ← Back
             </button>
 
+            <div className="text-3xl font-semibold mb-2">€27</div>
+            <p className="text-sm opacity-60 mb-8">
+              One payment. Direct access after checkout.
+            </p>
             <a
               className="continue-btn"
-              href="https://buy.stripe.com/6oUdRa5HNeSYgBAciX0Fi05"
+              href="ТУК_Е_STRIPE_LINK_ЗА_3_70_24"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Buy 3–70–24 Decision Frame
+              Buy Now
             </a>
             <div>
               <Link

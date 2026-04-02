@@ -53,13 +53,17 @@ export default function ProductAIToolNavigator() {
               ← Back
             </button>
 
+            <div className="text-3xl font-semibold mb-2">€29</div>
+            <p className="text-sm opacity-60 mb-8">
+              One payment. Direct access after checkout.
+            </p>
             <a
               className="continue-btn"
-              href="https://buy.stripe.com/8x2eVeeej4ek854aaP0Fi04"
+              href="ТУК_Е_STRIPE_LINK_ЗА_AI_TOOL_NAVIGATOR"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Buy AI Tool Navigator
+              Buy Now
             </a>
             <div>
               <Link
