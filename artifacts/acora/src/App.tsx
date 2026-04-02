@@ -36,6 +36,9 @@ import AccessClarityPriorityBundle from "@/pages/access-clarity-priority-bundle"
 import AccessClarityDecisionBundle from "@/pages/access-clarity-decision-bundle";
 import AccessFullDecisionBundle from "@/pages/access-full-decision-bundle";
 import ProductsAndPackages from "@/pages/products-and-packages";
+import LegalTerms from "@/pages/legal-terms";
+import LegalRefund from "@/pages/legal-refund";
+import LegalPrivacy from "@/pages/legal-privacy";
 import ThankYouPage from "@/pages/thank-you";
 import SubPlaceholder from "@/pages/sub-placeholder";
 
@@ -76,6 +79,9 @@ function Router() {
       <Route path="/access/clarity-decision-bundle" component={AccessClarityDecisionBundle} />
       <Route path="/access/full-decision-bundle" component={AccessFullDecisionBundle} />
       <Route path="/products-and-packages" component={ProductsAndPackages} />
+      <Route path="/legal/terms" component={LegalTerms} />
+      <Route path="/legal/refund" component={LegalRefund} />
+      <Route path="/legal/privacy" component={LegalPrivacy} />
       <Route path="/thank-you" component={ThankYouPage} />
       <Route path="/sub-placeholder/:parentId/:id" component={SubPlaceholder} />
       <Route component={NotFound} />

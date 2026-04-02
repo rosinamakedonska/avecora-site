@@ -7,7 +7,12 @@ export default function Diagnostic2_3() {
     <div className="landing-root">
       <div className="landing-container">
         <header className="landing-header">
-          <span className="landing-wordmark">ACORA</span>
+          <span className="flex flex-col leading-none">
+  <span className="landing-wordmark">Avecore</span>
+  <span className="text-[11px] uppercase tracking-[0.22em] opacity-70 mt-1">
+    Decision Systems for AI
+  </span>
+</span>
         </header>
 
         <main className="landing-main">
