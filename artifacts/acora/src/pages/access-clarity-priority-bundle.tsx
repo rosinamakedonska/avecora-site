@@ -32,6 +32,14 @@ export default function AccessClarityPriorityBundle() {
           >
             DOWNLOAD Mental Priority System PDF
           </a>
+
+          <a
+            href="/pdfs/Mental_Priority_System_v3.1.pdf"
+            download="Mental_Priority_System_v3.1.pdf"
+            className="inline-flex w-fit rounded-xl bg-slate-900 px-5 py-3 text-sm font-medium text-white hover:opacity-90"
+          >
+            Download PDF — Mental Priority System
+          </a>
         </div>
 
         <p className="mt-8 text-sm text-slate-500">
