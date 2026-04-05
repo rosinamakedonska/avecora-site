@@ -10,17 +10,17 @@ export default function AccessAIClarityFunnel() {
           AI Clarity Funnel
         </h1>
 
-        <p className="mb-3 text-lg text-slate-700">
-          Your product is ready.
+        <p className="mb-8 text-lg text-slate-700">
+          Your PDF is ready to download.
         </p>
 
-        <p className="mb-8 text-base text-slate-600">
-          Download the file below and save it for future use.
-        </p>
-
-        <button className="rounded-xl bg-slate-900 px-5 py-3 text-sm font-medium text-white hover:opacity-90">
-          Download PDF
-        </button>
+        <a
+          href="/pdfs/AI_Clarity_Funnel_v1.0.pdf"
+          download="AI_Clarity_Funnel_v1.0.pdf"
+          className="inline-flex rounded-xl bg-slate-900 px-5 py-3 text-sm font-medium text-white hover:opacity-90"
+        >
+          Download AI Clarity Funnel PDF
+        </a>
 
         <p className="mt-8 text-sm text-slate-500">
           If you have trouble accessing your file, contact support for access help.

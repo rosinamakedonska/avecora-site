@@ -20,10 +20,11 @@ export default function AccessClarityPriorityBundle() {
 
         <div className="flex flex-col gap-3">
           <a
-            href="/access/ai-clarity-funnel"
+            href="/pdfs/AI_Clarity_Funnel_v1.0.pdf"
+            download="AI_Clarity_Funnel_v1.0.pdf"
             className="inline-flex w-fit rounded-xl bg-slate-900 px-5 py-3 text-sm font-medium text-white hover:opacity-90"
           >
-            DOWNLOAD AI Clarity Funnel PDF
+            Download AI Clarity Funnel PDF
           </a>
 
           <a
