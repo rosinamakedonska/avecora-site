@@ -1,34 +1,44 @@
 export default function AccessMentalPrioritySystem() {
   return (
-    <main className="min-h-screen bg-white px-6 py-16">
-      <div className="mx-auto max-w-2xl">
-        <p className="mb-6 text-sm font-semibold uppercase tracking-[0.3em] text-slate-500">
-          Decision Systems for AI
-        </p>
+    <main className="min-h-screen px-6 py-16">
+      <div className="mx-auto max-w-3xl">
+        <div className="mb-10">
+          <div className="text-sm uppercase tracking-[0.18em] opacity-60 mb-4">
+            Access
+          </div>
+          <h1 className="text-4xl font-semibold mb-3">
+            Mental Priority System™
+          </h1>
+          <p className="text-base opacity-75 max-w-2xl">
+            Your PDF is ready to download.
+          </p>
+        </div>
 
-        <h1 className="mb-4 text-4xl font-semibold tracking-tight text-slate-900">
-          Mental Priority System
-        </h1>
+        <div className="rounded-2xl border p-8">
+          <div className="text-2xl font-semibold mb-2">
+            Download your product
+          </div>
+          <p className="text-sm opacity-60 mb-8">
+            Direct access to the current PDF version.
+          </p>
 
-        <p className="mb-3 text-lg text-slate-700">
-          Your product is ready.
-        </p>
+          <a
+            className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90 mb-6"
+            href="/pdfs/Mental_Priority_System_v3.1.pdf"
+            download
+          >
+            Download PDF
+          </a>
 
-        <p className="mb-8 text-base text-slate-600">
-          Download the file below and save it for future use.
-        </p>
-
-        <a
-          href="/pdfs/Mental_Priority_System_v3.1.pdf"
-          download="Mental_Priority_System_v3.1.pdf"
-          className="inline-flex rounded-xl bg-slate-900 px-5 py-3 text-sm font-medium text-white hover:opacity-90"
-        >
-          Download PDF
-        </a>
-
-        <p className="mt-8 text-sm text-slate-500">
-          If you have trouble accessing your file, contact support for access help.
-        </p>
+          <div>
+            <a
+              href="/products-and-packages"
+              className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
+            >
+              See other products and packages
+            </a>
+          </div>
+        </div>
       </div>
     </main>
   );
