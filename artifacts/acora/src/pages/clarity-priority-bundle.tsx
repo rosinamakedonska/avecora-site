@@ -46,7 +46,7 @@ export default function ClarityPriorityBundle() {
         >
           Buy Bundle
         </a>
-            <p className="text-sm opacity-70 mt-4">Includes a post-purchase bonus: <span className="font-medium">Personal Decision Calibration for ChatGPT</span>.</p>
+            <p className="text-[17px] leading-7 text-black/80 mt-6 mb-10">Includes a post-purchase bonus:<br /><span className="font-semibold">Personal Decision Calibration for ChatGPT</span>.</p>
 
         <div className="border rounded-2xl p-6">
           <h2 className="text-lg font-medium mb-4">This bundle is for you if:</h2>
