@@ -48,6 +48,7 @@ export default function FullDecisionBundle() {
         >
           Buy Bundle
         </a>
+            <p className="text-sm opacity-70 mt-4">Includes a post-purchase bonus: <span className="font-medium">Personal Decision Calibration for ChatGPT</span>.</p>
 
         <div className="border rounded-2xl p-6">
           <h2 className="text-lg font-medium mb-4">This bundle is for you if:</h2>

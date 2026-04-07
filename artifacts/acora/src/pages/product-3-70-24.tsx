@@ -68,6 +68,7 @@ export default function Product3_70_24() {
             >
               Buy Now
             </a>
+            <p className="text-sm opacity-70 mt-4">Includes a post-purchase bonus: <span className="font-medium">Personal Decision Calibration for ChatGPT</span>.</p>
             <div>
               <Link
                 href="/products-and-packages"
