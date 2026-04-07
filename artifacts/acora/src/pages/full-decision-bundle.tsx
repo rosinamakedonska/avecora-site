@@ -1,3 +1,4 @@
+import PurchaseCTABlock from "@/components/purchase-cta-block";
 import { Link } from "wouter";
 
 export default function FullDecisionBundle() {
@@ -40,17 +41,8 @@ export default function FullDecisionBundle() {
           One payment. Direct access after checkout.
         </p>
 
-        <a
-          href="https://buy.stripe.com/aFaeVe8TZ9yEfxwbeT0Fi08"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center rounded-xl px-6 py-3 text-base font-medium border mb-12 hover:opacity-90"
-        >
-          Buy Bundle
-        </a>
-            <p className="text-[17px] leading-7 text-black/80 mt-6 mb-10">Includes a post-purchase bonus:<br /><span className="font-semibold">Personal Decision Calibration for ChatGPT</span>.</p>
-
-        <div className="border rounded-2xl p-6">
+        <PurchaseCTABlock href="https://buy.stripe.com/aFaeVe8TZ9yEfxwbeT0Fi08" label="Buy Bundle" />
+            <div className="border rounded-2xl p-6">
           <h2 className="text-lg font-medium mb-4">This bundle is for you if:</h2>
           <ul className="space-y-3 opacity-90">
             <li>• AI gives you output, but it still feels too generic</li>

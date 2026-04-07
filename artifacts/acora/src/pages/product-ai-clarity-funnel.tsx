@@ -1,3 +1,4 @@
+import PurchaseCTABlock from "@/components/purchase-cta-block";
 import { useLocation, Link } from "wouter";
 
 export default function ProductAIClarityFunnel() {
@@ -61,16 +62,7 @@ export default function ProductAIClarityFunnel() {
             <p className="text-sm opacity-60 mb-8">
               One payment. Direct access after checkout.
             </p>
-            <a
-              className="continue-btn"
-              href="https://buy.stripe.com/28E00keej9yE8542In0Fi02"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Buy Now
-            </a>
-            <p className="text-[17px] leading-7 text-black/80 mt-6 mb-10">Includes a post-purchase bonus:<br /><span className="font-semibold">Personal Decision Calibration for ChatGPT</span>.</p>
-            <div>
+            <PurchaseCTABlock href="https://buy.stripe.com/28E00keej9yE8542In0Fi02" label="Buy Now" /><div>
               <Link
                 href="/products-and-packages"
                 className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
