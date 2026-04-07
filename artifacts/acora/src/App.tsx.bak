@@ -1,3 +1,4 @@
+
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
@@ -44,7 +45,6 @@ import LegalRefund from "@/pages/legal-refund";
 import LegalPrivacy from "@/pages/legal-privacy";
 import ThankYouPage from "@/pages/thank-you";
 import SubPlaceholder from "@/pages/sub-placeholder";
-import AvecoreAffiliateLandingPage from "@/pages/affiliate-landing";
 
 const queryClient = new QueryClient();
 
@@ -88,9 +88,8 @@ function Router() {
       <Route path="/access/3-70-24-decision-frame" component={Access37024DecisionFrame} />
       <Route path="/access/clarity-priority-bundle" component={AccessClarityPriorityBundle} />
       <Route path="/access/clarity-decision-bundle" component={AccessClarityDecisionBundle} />
-      <Route path="/access/full-decision-bundle" component={AccessFullDecisionBundle} />
       <Route path="/clarity-for-beginners" component={ClarityForBeginners} />
-      <Route path="/affiliate-landing" component={AvecoreAffiliateLandingPage} />
+      <Route path="/access/full-decision-bundle" component={AccessFullDecisionBundle} />
       <Route path="/products-and-packages" component={ProductsAndPackages} />
       <Route path="/legal/terms" component={LegalTerms} />
       <Route path="/legal/refund" component={LegalRefund} />

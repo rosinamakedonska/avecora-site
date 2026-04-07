@@ -71,32 +71,75 @@ function Router() {
       <Route path="/sub-placeholder/4/1" component={Diagnostic4_1} />
       <Route path="/sub-placeholder/4/2" component={Diagnostic4_2} />
       <Route path="/sub-placeholder/4/3" component={Diagnostic4_3} />
-      <Route path="/sub-placeholder/1/next" component={ProductAIClarityFunnel} />
-      <Route path="/sub-placeholder/2/next" component={ProductMentalPrioritySystem} />
-      <Route path="/sub-placeholder/3/next" component={ProductAIToolNavigator} />
+      <Route
+        path="/sub-placeholder/1/next"
+        component={ProductAIClarityFunnel}
+      />
+      <Route
+        path="/sub-placeholder/2/next"
+        component={ProductMentalPrioritySystem}
+      />
+      <Route
+        path="/sub-placeholder/3/next"
+        component={ProductAIToolNavigator}
+      />
       <Route path="/sub-placeholder/4/next" component={Product3_70_24} />
       <Route path="/ai-clarity-funnel" component={ProductAIClarityFunnel} />
-      <Route path="/mental-priority-system" component={ProductMentalPrioritySystem} />
+      <Route
+        path="/mental-priority-system"
+        component={ProductMentalPrioritySystem}
+      />
       <Route path="/ai-tool-navigator" component={ProductAIToolNavigator} />
       <Route path="/3-70-24-decision-frame" component={Product3_70_24} />
-      <Route path="/clarity-priority-bundle" component={ClarityPriorityBundle} />
-      <Route path="/clarity-decision-bundle" component={ClarityDecisionBundle} />
+      <Route
+        path="/clarity-priority-bundle"
+        component={ClarityPriorityBundle}
+      />
+      <Route
+        path="/clarity-decision-bundle"
+        component={ClarityDecisionBundle}
+      />
       <Route path="/full-decision-bundle" component={FullDecisionBundle} />
-      <Route path="/access/ai-clarity-funnel" component={AccessAIClarityFunnel} />
-      <Route path="/access/mental-priority-system" component={AccessMentalPrioritySystem} />
-      <Route path="/access/ai-tool-navigator" component={AccessAIToolNavigator} />
-      <Route path="/access/3-70-24-decision-frame" component={Access37024DecisionFrame} />
-      <Route path="/access/clarity-priority-bundle" component={AccessClarityPriorityBundle} />
-      <Route path="/access/clarity-decision-bundle" component={AccessClarityDecisionBundle} />
-      <Route path="/access/full-decision-bundle" component={AccessFullDecisionBundle} />
+      <Route
+        path="/access/ai-clarity-funnel"
+        component={AccessAIClarityFunnel}
+      />
+      <Route
+        path="/access/mental-priority-system"
+        component={AccessMentalPrioritySystem}
+      />
+      <Route
+        path="/access/ai-tool-navigator"
+        component={AccessAIToolNavigator}
+      />
+      <Route
+        path="/access/3-70-24-decision-frame"
+        component={Access37024DecisionFrame}
+      />
+      <Route
+        path="/access/clarity-priority-bundle"
+        component={AccessClarityPriorityBundle}
+      />
+      <Route
+        path="/access/clarity-decision-bundle"
+        component={AccessClarityDecisionBundle}
+      />
       <Route path="/clarity-for-beginners" component={ClarityForBeginners} />
-      <Route path="/affiliate-landing" component={AvecoreAffiliateLandingPage} />
+      <Route
+        path="/access/full-decision-bundle"
+        component={AccessFullDecisionBundle}
+      />
       <Route path="/products-and-packages" component={ProductsAndPackages} />
       <Route path="/legal/terms" component={LegalTerms} />
       <Route path="/legal/refund" component={LegalRefund} />
       <Route path="/legal/privacy" component={LegalPrivacy} />
       <Route path="/thank-you" component={ThankYouPage} />
       <Route path="/sub-placeholder/:parentId/:id" component={SubPlaceholder} />
+      <Route
+        path="/affiliate-landing"
+        component={AvecoreAffiliateLandingPage}
+      />
+      <Route
       <Route component={NotFound} />
     </Switch>
   );
