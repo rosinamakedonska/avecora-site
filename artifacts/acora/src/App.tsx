@@ -39,6 +39,7 @@ import AccessClarityPriorityBundle from "@/pages/access-clarity-priority-bundle"
 import AccessClarityDecisionBundle from "@/pages/access-clarity-decision-bundle";
 import AccessFullDecisionBundle from "@/pages/access-full-decision-bundle";
 import ProductsAndPackages from "@/pages/products-and-packages";
+import ClarityForBeginners from "@/pages/clarity-for-beginners";
 import LegalTerms from "@/pages/legal-terms";
 import LegalRefund from "@/pages/legal-refund";
 import LegalPrivacy from "@/pages/legal-privacy";
@@ -87,6 +88,7 @@ function Router() {
       <Route path="/access/3-70-24-decision-frame" component={Access37024DecisionFrame} />
       <Route path="/access/clarity-priority-bundle" component={AccessClarityPriorityBundle} />
       <Route path="/access/clarity-decision-bundle" component={AccessClarityDecisionBundle} />
+      <Route path="/clarity-for-beginners" component={ClarityForBeginners} />
       <Route path="/access/full-decision-bundle" component={AccessFullDecisionBundle} />
       <Route path="/products-and-packages" component={ProductsAndPackages} />
       <Route path="/legal/terms" component={LegalTerms} />

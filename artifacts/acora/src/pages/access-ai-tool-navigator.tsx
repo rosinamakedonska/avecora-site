@@ -1,3 +1,4 @@
+import BonusCalibrationBlock from "@/components/bonus-calibration-block";
 export default function AccessAIToolNavigator() {
   return (
     <main className="min-h-screen bg-white px-6 py-16">
@@ -26,6 +27,7 @@ export default function AccessAIToolNavigator() {
           Contact support for access help.
         </p>
       </div>
+      <BonusCalibrationBlock />
     </main>
   );
 }

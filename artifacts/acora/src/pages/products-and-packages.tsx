@@ -19,7 +19,14 @@ export default function ProductsAndPackages() {
         <p className="text-lg opacity-80 mb-10">
           Choose a single product or a package, depending on how much support you need right now.
         </p>
-
+        <div className="mb-8">
+          <Link href="/clarity-for-beginners">
+            <span className="underline underline-offset-4 cursor-pointer">
+              Clarity for Beginners
+            </span>
+          </Link>
+        </div>
+        
         <div className="space-y-6">
           <div className="border rounded-2xl p-6">
             <div className="flex items-center justify-between gap-4 mb-3">
