@@ -1,0 +1,92 @@
+Restore the 3-step AI Clarity Funnel flow.
+
+Current problem:
+The page is still behaving like a single product page.
+That is wrong.
+
+Required structure:
+Page 1 → Page 2 branch → Page 3
+
+Do not keep everything on one page.
+Do not skip Page 2.
+Do not just update the existing product page text.
+
+Restore these pages exactly as a flow:
+
+PAGE 1
+Source: diagnostic1.tsx — git commit ba81ee0
+
+ACORA
+AI doesn't understand my situation well enough.
+
+Useful output depends on a clearly defined situation. Without that, the answer remains too general.
+
+Which of these feels closest to your situation?
+
+1  The goal becomes more specific  →
+2  The context becomes clearer     →
+3  The limits become visible       →
+
+← Back
+
+PAGE 2A
+Source: diagnostic1-1.tsx — git commit ba81ee0
+
+ACORA
+The goal becomes more specific
+
+The output changes when the goal becomes precise. That is when the answer starts moving in the right direction.
+
+This is where AI Clarity Funnel begins. It helps define the situation more clearly, so the output becomes more relevant and easier to use.
+
+← Back          Enter AI Clarity Funnel
+
+PAGE 2B
+Source: diagnostic1-2.tsx — git commit ba81ee0
+
+ACORA
+The context becomes clearer
+
+The output changes when the context becomes clear. That is when the answer becomes closer to the real situation.
+
+This is where AI Clarity Funnel begins. It helps define the situation more clearly, so the output becomes more relevant and easier to use.
+
+← Back          Enter AI Clarity Funnel
+
+PAGE 2C
+Source: diagnostic1-3.tsx — git commit ba81ee0
+
+ACORA
+The limits become visible
+
+The output changes when the limits become visible. That is when the answer becomes more accurate.
+
+This is where AI Clarity Funnel begins. It helps define the situation more clearly, so the output becomes more relevant and easier to use.
+
+← Back          Enter AI Clarity Funnel
+
+PAGE 3
+Use the current AI Clarity Funnel product page as the destination page after Page 2.
+Keep the price, checkout logic, refund line, bonus line, and footer on Page 3.
+
+Important:
+Page 3 is the sales page.
+Page 1 and Page 2 are part of the pre-product flow.
+Do not merge them together.
+
+Routing required:
+- Page 1 option 1 → Page 2A
+- Page 1 option 2 → Page 2B
+- Page 1 option 3 → Page 2C
+- each Page 2 branch button “Enter AI Clarity Funnel” → current AI Clarity Funnel product page
+
+Do this first.
+Do not redesign yet.
+Do not rewrite all copy yet.
+Restore the missing flow first.
+
+After restoring it, show me:
+1. the route/path for Page 1
+2. the route/path for Page 2A / 2B / 2C
+3. the route/path for Page 3
+4. screenshots of all restored screens
