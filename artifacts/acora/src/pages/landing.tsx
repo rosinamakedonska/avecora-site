@@ -207,16 +207,16 @@ export default function Landing() {
         <div className="mx-auto max-w-7xl px-6 md:px-8">
           <div className="max-w-3xl rounded-[2rem] border border-[#2e3f38] bg-[#1a2820] px-8 py-10 text-[#f4f1ea] shadow-[0_22px_60px_rgba(0,0,0,0.10)] md:px-10 md:py-12">
             <p className="text-sm uppercase tracking-[0.18em] text-[#b9c4be]">
-              Start where it fits
+              Next step
             </p>
 
             <h2 className="mt-3 max-w-xl text-xl font-medium leading-[1.35] tracking-[-0.015em] md:text-[1.45rem]">
-              Start with the function that fits where you are now.
+              Choose the clearest way in.
             </h2>
 
             <p className="mt-5 max-w-2xl text-base leading-8 text-[#d5ddd8]">
-              Each function addresses a different point in the same process. They are
-              not interchangeable, and they are not meant to be used all at once.
+              Start with the Diagnostic for guided entry, or go directly to Products
+              and Packages if you already know which function you need.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
