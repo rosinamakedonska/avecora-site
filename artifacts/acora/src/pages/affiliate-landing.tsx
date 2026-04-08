@@ -29,12 +29,12 @@ export default function AffiliateLanding() {
               See all products
             </Link>
 
-            <a
-              href="mailto:hello@avecore.com"
-              className="inline-flex items-center justify-center rounded-xl border border-black/15 px-5 py-3 text-sm font-medium hover:bg-black/5"
-            >
-              Contact
-            </a>
+            <Link
+                href="/"
+                className="inline-flex items-center justify-center rounded-xl border border-black/15 px-5 py-3 text-sm font-medium hover:bg-black/5"
+              >
+                Start diagnostic
+              </Link>
           </div>
         </div>
       </div>

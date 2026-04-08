@@ -12,6 +12,12 @@ export default function ProductsAndPackages() {
           Decision Systems for AI
         </div>
 
+        <div className="mb-6">
+          <Link href="/" className="text-sm underline underline-offset-4 hover:opacity-80">
+            Back to diagnostic
+          </Link>
+        </div>
+
         <h1 className="text-4xl font-semibold mb-4">
           Products and Packages
         </h1>
