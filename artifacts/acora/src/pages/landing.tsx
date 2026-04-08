@@ -2,6 +2,7 @@ import { Link } from "wouter";
 
 const functions = [
   {
+    id: "clarity",
     number: "01",
     title: "Clarity Function",
     hookLine1: "AI answered.",
@@ -12,6 +13,7 @@ const functions = [
     slug: "/ai-clarity-funnel",
   },
   {
+    id: "priority",
     number: "02",
     title: "Priority Function",
     hookLine1: "Too many directions.",
@@ -22,6 +24,7 @@ const functions = [
     slug: "/mental-priority-system",
   },
   {
+    id: "tool",
     number: "03",
     title: "Tool Function",
     hookLine1: "Tools available.",
@@ -32,6 +35,7 @@ const functions = [
     slug: "/ai-tool-navigator",
   },
   {
+    id: "execution",
     number: "04",
     title: "Execution Function",
     hookLine1: "Enough thinking.",
@@ -97,12 +101,12 @@ export default function Landing() {
           </div>
 
           <div className="mt-12 md:mt-14">
-            <div className="inline-flex items-center gap-5 rounded-full border border-[#d4c9b8] bg-[#f4ede2] px-7 py-3 shadow-[0_4px_16px_rgba(0,0,0,0.06)]">
-              <p className="shrink-0 text-[10px] font-semibold uppercase tracking-[0.26em] text-[#8a7864]">
+            <div className="inline-flex items-center gap-5 rounded-full border border-[#c4b8a4] bg-[#f4ede2] px-7 py-3 shadow-[0_4px_16px_rgba(0,0,0,0.08)]">
+              <p className="shrink-0 text-[10px] font-bold uppercase tracking-[0.26em] text-[#5c4a38]">
                 Decision quality
               </p>
-              <div className="h-3.5 w-px bg-[#c8bba8]" />
-              <p className="text-sm font-medium text-[#2e2418]">
+              <div className="h-3.5 w-px bg-[#b8a898]" />
+              <p className="text-sm font-semibold text-[#1e140c]">
                 Relief, control, precision
               </p>
             </div>
@@ -112,46 +116,69 @@ export default function Landing() {
 
       <section className="relative">
         <div className="mx-auto max-w-7xl px-6 pb-16 md:px-8 md:pb-20">
-          <div className="max-w-2xl">
+          <div className="max-w-2xl text-center mx-auto">
 
             {/* Parent system block */}
-            <p className="text-[11px] font-semibold uppercase tracking-[0.26em] text-[#6b5c4e]">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.26em] text-[#5c4a38]">
               Avecore
             </p>
-            <p className="mt-4 text-[2rem] font-semibold leading-[1.12] tracking-[-0.03em] text-[#111512] md:text-[2.5rem]">
+            <p className="mt-4 text-[2rem] font-semibold leading-[1.12] tracking-[-0.03em] text-[#0e1210] md:text-[2.5rem]">
               One decision system
             </p>
 
             {/* Four functions — subordinate reveal */}
-            <div className="mt-8 border-l-2 border-[#2d5a45]/25 pl-5">
+            <div className="mt-8">
               <p className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[#2d5a45]">
                 Four functions
               </p>
-              <div className="mt-3 flex flex-wrap gap-2.5">
-                {["Clarity", "Priority", "Tool", "Execution"].map((fn) => (
-                  <span
-                    key={fn}
-                    className="rounded-full border border-[#cdc3b4] bg-[#f4ede2] px-4 py-1.5 text-[13px] font-medium tracking-[-0.005em] text-[#2e2418]"
+              <div className="mt-3 flex flex-wrap justify-center gap-2.5">
+                {[
+                  { label: "Clarity", anchor: "clarity" },
+                  { label: "Priority", anchor: "priority" },
+                  { label: "Tool", anchor: "tool" },
+                  { label: "Execution", anchor: "execution" },
+                ].map(({ label, anchor }) => (
+                  <a
+                    key={anchor}
+                    href={`#${anchor}`}
+                    className="rounded-full border border-[#cdc3b4] bg-[#f4ede2] px-4 py-1.5 text-[13px] font-medium tracking-[-0.005em] text-[#2e2418] transition-colors hover:bg-[#ede2d0] hover:border-[#b8ad9e]"
                   >
-                    {fn}
-                  </span>
+                    {label}
+                  </a>
                 ))}
               </div>
             </div>
 
             {/* Support line */}
-            <p className="mt-7 max-w-lg text-sm leading-7 text-neutral-400">
+            <p className="mt-7 text-base leading-7 text-neutral-500">
               One of these is where movement is currently breaking.
             </p>
 
+          </div>
+
+          {/* Mid-page CTA row */}
+          <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+            <Link
+              href="/clarity-for-beginners"
+              className="inline-flex items-center justify-center rounded-2xl bg-[#2d5a45] px-6 py-3 text-sm font-medium text-[#f4f1ea] transition duration-300 hover:bg-[#1d3d2f]"
+            >
+              Start with the Diagnostic
+            </Link>
+            <Link
+              href="/products-and-packages"
+              className="inline-flex items-center justify-center rounded-2xl border border-[#c8bfb0] px-6 py-3 text-sm font-medium text-[#2e2418] transition duration-300 hover:bg-[#f4ede2]"
+            >
+              See Products and Packages
+            </Link>
           </div>
 
           <div className="mt-14 space-y-8 md:space-y-10">
             {functions.map((item, index) => (
               <article
                 key={item.number}
+                id={item.id}
                 className={
-                  "rounded-[2rem] border px-7 py-7 md:px-9 md:py-8 " +
+                  "scroll-mt-8 rounded-[2rem] border px-7 py-7 md:px-9 md:py-8 " +
                   sequenceStyles[index] +
                   " " +
                   accentStyles[index]
@@ -176,7 +203,6 @@ export default function Landing() {
                   className="mt-5 inline-flex items-center text-sm font-medium text-[#2d5a45] hover:text-[#1d3d2f] transition-colors"
                 >
                   Explore this function
-                  <span className="ml-1.5 opacity-60">→</span>
                 </Link>
               </article>
             ))}
