@@ -4,18 +4,14 @@ export default function ProductsAndPackages() {
   return (
     <div className="min-h-screen bg-background text-foreground px-6 py-12">
       <div className="max-w-3xl mx-auto">
-        <Link href="/" className="inline-block mb-8 text-sm opacity-70 hover:opacity-100">
-          ← Back
-        </Link>
-
-        <div className="text-sm uppercase tracking-wide opacity-60 mb-3">
-          Decision Systems for AI
-        </div>
-
         <div className="mb-6">
           <Link href="/" className="text-sm underline underline-offset-4 hover:opacity-80">
             Back to diagnostic
           </Link>
+        </div>
+
+        <div className="text-sm uppercase tracking-wide opacity-60 mb-3">
+          Decision Systems for AI
         </div>
 
         <h1 className="text-4xl font-semibold mb-4">
@@ -25,6 +21,7 @@ export default function ProductsAndPackages() {
         <p className="text-lg opacity-80 mb-10">
           Choose a single product or a package, depending on how much support you need right now.
         </p>
+
         <div className="mb-8">
           <Link href="/clarity-for-beginners">
             <span className="underline underline-offset-4 cursor-pointer">
@@ -32,7 +29,7 @@ export default function ProductsAndPackages() {
             </span>
           </Link>
         </div>
-        
+
         <div className="space-y-6">
           <div className="border rounded-2xl p-6">
             <div className="flex items-center justify-between gap-4 mb-3">
@@ -153,6 +150,12 @@ export default function ProductsAndPackages() {
               View Package
             </Link>
           </div>
+        </div>
+
+        <div className="mt-12 text-center">
+          <Link href="/" className="text-sm opacity-70 underline underline-offset-4 hover:opacity-100">
+            Not sure where to start? Go to diagnostic
+          </Link>
         </div>
       </div>
     </div>

@@ -1,0 +1,228 @@
+import { Link } from "wouter";
+
+const functions = [
+  {
+    number: "01",
+    title: "Clarity Function",
+    hook: "AI answered. It still did not help.",
+    body: "When the output arrives but nothing becomes clearer, the situation was likely misread before the prompt was written. AI improved the answer — but for the wrong question.",
+    product: "AI Clarity Funnel",
+    result:
+      "It defines what is actually unclear and surfaces the real decision, so any further thinking starts in the right place.",
+  },
+  {
+    number: "02",
+    title: "Priority Function",
+    hook: "Too many directions. No stable ground.",
+    body: "Ideas accumulate. Options multiply. At a certain point, the list itself becomes the obstacle — everything feels relevant, and nothing clearly comes first.",
+    product: "Mental Priority System",
+    result:
+      "It applies a structured ranking to competing directions so attention can settle and movement can begin.",
+  },
+  {
+    number: "03",
+    title: "Tool Function",
+    hook: "Tools available. No logic for how to use them.",
+    body: "The tools are there. What is missing is a clear role for each one. Without that, the workflow fills with overlap, inconsistency, and output that takes more effort to fix than it saved.",
+    product: "AI Tool Navigator",
+    result:
+      "It maps specific tools to specific roles so your workflow has structure, not just options.",
+  },
+  {
+    number: "04",
+    title: "Execution Function",
+    hook: "Enough thinking. Still no next move.",
+    body: "The context is there. The output is there. A general direction may even exist. What is still missing is a defined action — specific, time-bound, and usable now.",
+    product: "3–70–24 Decision Frame",
+    result:
+      "It turns what is already known into one committed move with a clear time structure, so the thinking phase ends and the work begins.",
+  },
+];
+
+export default function Landing() {
+  return (
+    <main className="relative min-h-screen overflow-hidden bg-[linear-gradient(to_bottom,_#fcfbf8,_#f6f1e8_45%,_#ffffff_100%)] text-neutral-900">
+      <div className="pointer-events-none absolute inset-0 overflow-hidden">
+        <div className="absolute left-[-6rem] top-[-5rem] h-[18rem] w-[18rem] rounded-full bg-[#efe5d4] blur-3xl opacity-70" />
+        <div className="absolute right-[-7rem] top-[8rem] h-[20rem] w-[20rem] rounded-full bg-[#f3eadc] blur-3xl opacity-70" />
+        <div className="absolute bottom-[-7rem] left-[28%] h-[16rem] w-[16rem] rounded-full bg-[#ece6db] blur-3xl opacity-60" />
+      </div>
+
+      <section className="relative z-10">
+        <div className="mx-auto max-w-7xl px-6 pb-20 pt-10 md:px-8 md:pb-28 md:pt-16">
+          <div className="grid gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:items-end">
+            <div className="max-w-4xl">
+              <div className="inline-flex items-center rounded-full border border-black/10 bg-white/75 px-4 py-2 text-xs uppercase tracking-[0.22em] text-neutral-600 backdrop-blur">
+                Avecore
+                <span className="mx-2 opacity-30">•</span>
+                <span className="normal-case tracking-normal text-neutral-500">
+                  Decision Systems for AI
+                </span>
+              </div>
+
+              <h1 className="mt-8 max-w-5xl text-5xl font-semibold leading-[1.02] tracking-[-0.04em] md:text-7xl">
+                Avecore Adds the Decision Layer That Makes AI Output Useful
+              </h1>
+
+              <p className="mt-6 text-xl text-neutral-700 md:text-2xl">
+                AI gives you answers. Avecore gives you decisions.
+              </p>
+
+              <p className="mt-8 max-w-2xl text-base leading-8 text-neutral-600 md:text-lg">
+                AI can give you more output than ever. What still takes structure is
+                knowing what to do with it — which direction matters, which tool
+                fits, what comes first, and when it is time to stop thinking and move.
+              </p>
+
+              <p className="mt-6 max-w-2xl text-base leading-8 text-neutral-600 md:text-lg">
+                Avecore handles that layer.
+              </p>
+
+              <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+                <Link href="/clarity-for-beginners">
+                  <a className="inline-flex items-center justify-center rounded-2xl bg-neutral-900 px-6 py-3.5 text-sm font-medium text-white shadow-[0_10px_30px_rgba(0,0,0,0.12)] transition duration-300 hover:-translate-y-0.5 hover:opacity-95">
+                    Start with the Diagnostic
+                  </a>
+                </Link>
+
+                <Link href="/products-and-packages">
+                  <a className="inline-flex items-center justify-center rounded-2xl border border-neutral-300 bg-white/80 px-6 py-3.5 text-sm font-medium text-neutral-900 backdrop-blur transition duration-300 hover:-translate-y-0.5 hover:bg-white">
+                    See Products and Packages
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+            <div className="relative">
+              <div className="rounded-[2rem] border border-white/70 bg-white/75 p-6 shadow-[0_20px_70px_rgba(0,0,0,0.08)] backdrop-blur-xl">
+                <p className="text-xs uppercase tracking-[0.18em] text-neutral-500">
+                  One system
+                </p>
+                <h2 className="mt-4 text-2xl font-semibold leading-tight">
+                  Four decision functions.
+                </h2>
+                <p className="mt-4 text-sm leading-7 text-neutral-600">
+                  Each function handles a different point where movement slows down:
+                  clarity, priority, tools, or execution.
+                </p>
+
+                <div className="mt-6 space-y-3">
+                  {functions.map((item) => (
+                    <div
+                      key={item.number}
+                      className="rounded-2xl border border-neutral-200 bg-white/90 px-4 py-4 transition duration-300 hover:-translate-y-0.5 hover:shadow-md"
+                    >
+                      <div className="flex items-start justify-between gap-4">
+                        <div>
+                          <p className="text-xs uppercase tracking-[0.18em] text-neutral-500">
+                            {item.number}
+                          </p>
+                          <p className="mt-2 text-sm font-medium text-neutral-900">
+                            {item.title}
+                          </p>
+                        </div>
+                        <div className="rounded-full bg-neutral-100 px-3 py-1 text-xs text-neutral-600">
+                          {item.product}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="absolute -bottom-6 -left-6 hidden rounded-[1.75rem] border border-black/5 bg-[#f4ede2] px-5 py-4 shadow-[0_12px_30px_rgba(0,0,0,0.06)] md:block">
+                <p className="text-xs uppercase tracking-[0.18em] text-neutral-500">
+                  Decision quality
+                </p>
+                <p className="mt-2 text-sm font-medium text-neutral-800">
+                  Relief, control, precision.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="relative z-10 border-t border-black/5 bg-white/55 backdrop-blur">
+        <div className="mx-auto max-w-7xl px-6 py-20 md:px-8 md:py-24">
+          <div className="max-w-3xl">
+            <p className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
+              The system
+            </p>
+            <h2 className="mt-4 text-3xl font-semibold leading-tight tracking-[-0.03em] md:text-5xl">
+              One function matches where movement is currently breaking.
+            </h2>
+            <p className="mt-6 text-base leading-8 text-neutral-600 md:text-lg">
+              It is one decision system, structured around four functions. Each one
+              addresses a different point where AI users stop moving.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-2">
+            {functions.map((item, index) => (
+              <article
+                key={item.number}
+                className={
+                  "group rounded-[2rem] border border-black/5 p-8 shadow-[0_12px_40px_rgba(0,0,0,0.04)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] " +
+                  (index % 2 === 0 ? "bg-[#fbfaf7]" : "bg-white")
+                }
+              >
+                <p className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
+                  {item.number} — {item.title}
+                </p>
+
+                <h3 className="mt-5 text-2xl font-semibold leading-snug tracking-[-0.02em]">
+                  {item.hook}
+                </h3>
+
+                <p className="mt-5 text-base leading-8 text-neutral-600">
+                  {item.body}
+                </p>
+
+                <div className="mt-6 h-px w-full bg-neutral-200" />
+
+                <p className="mt-6 text-base leading-8 text-neutral-800">
+                  <span className="font-semibold">{item.product}</span> runs this
+                  function. {item.result}
+                </p>
+              </article>
+            ))}
+          </div>
+
+          <div className="mt-14 grid gap-8 rounded-[2rem] border border-black/5 bg-neutral-900 px-8 py-10 text-white shadow-[0_20px_60px_rgba(0,0,0,0.12)] md:grid-cols-[1fr_auto] md:items-end">
+            <div className="max-w-2xl">
+              <p className="text-sm uppercase tracking-[0.18em] text-white/60">
+                Start where it fits
+              </p>
+              <p className="mt-4 text-2xl font-semibold leading-tight md:text-3xl">
+                Start with the function that fits where you are now.
+              </p>
+              <p className="mt-4 text-base leading-8 text-white/70">
+                Each function addresses a different point in the same process.
+                They are not interchangeable, and they are not meant to be used all at once.
+              </p>
+            </div>
+
+            <div className="flex flex-col gap-4 sm:flex-row md:flex-col">
+              <Link href="/clarity-for-beginners">
+                <a className="inline-flex items-center justify-center rounded-2xl bg-white px-6 py-3.5 text-sm font-medium text-neutral-900 transition duration-300 hover:-translate-y-0.5">
+                  Start with the Diagnostic
+                </a>
+              </Link>
+
+              <Link href="/products-and-packages">
+                <a className="inline-flex items-center justify-center rounded-2xl border border-white/20 px-6 py-3.5 text-sm font-medium text-white transition duration-300 hover:-translate-y-0.5 hover:bg-white/5">
+                  See Products and Packages
+                </a>
+              </Link>
+            </div>
+          </div>
+
+          <p className="mt-8 text-sm text-neutral-500">
+            Avecore — Decision Systems for AI
+          </p>
+        </div>
+      </section>
+    </main>
+  );
+}
