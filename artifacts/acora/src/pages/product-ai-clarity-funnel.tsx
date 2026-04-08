@@ -1,79 +1,102 @@
 import PurchaseCTABlock from "@/components/purchase-cta-block";
-import { useLocation, Link } from "wouter";
+import { Link } from "wouter";
 import SiteFooter from "@/components/site-footer";
 
 export default function ProductAIClarityFunnel() {
-  const [, navigate] = useLocation();
-
   return (
     <>
-    <div className="landing-root">
-      <div className="landing-container">
-        <header className="landing-header">
-          <span className="flex flex-col leading-none">
-  <span className="landing-wordmark">Avecore</span>
-  <span className="text-[11px] uppercase tracking-[0.22em] opacity-70 mt-1">
-    Decision Systems for AI
-  </span>
-</span>
-        </header>
+    <div className="min-h-screen bg-[#f8f5ef] text-[#1e1e1e] px-6 py-10 md:px-10">
+      <div className="max-w-2xl mx-auto">
 
-        <main className="landing-main">
-          <div className="diag-heading-block">
-            <p className="diag-title">AI Clarity Funnel</p>
-            <p className="diag-body">
-              AI Clarity Funnel helps define the situation more clearly, so the
-              output becomes more relevant, more specific, and easier to use.
-            </p>
-          </div>
+        <div className="mb-10">
+          <Link
+            href="/products-and-packages"
+            className="text-sm text-[#8a7d6e] hover:text-[#3a3530] transition-colors"
+          >
+            ← Back to Products and Packages
+          </Link>
+        </div>
 
-          <div className="product-section">
-            <p className="product-section-title">What this helps you do</p>
-            <ul className="product-list">
-              <li>make the situation clearer</li>
-              <li>make the goal more precise</li>
-              <li>make the context clearer</li>
-              <li>make the limits visible</li>
-              <li>get more relevant AI output</li>
-            </ul>
-          </div>
+        <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#8a7d6e] mb-4">
+          Clarity Function
+        </p>
 
-          <div className="product-section">
-            <p className="product-section-title">Who this is for</p>
-            <p className="diag-body">
-              For people who feel that AI output is still too general and not
-              close enough to the real situation.
-            </p>
-          </div>
+        <h1 className="text-[clamp(1.75rem,4vw,2.5rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-6">
+          Turn unclear situations into usable AI direction.
+        </h1>
 
-          <div className="product-section">
-            <p className="product-section-title">What you get</p>
-            <ul className="product-list">
-              <li>a structured way to define the situation</li>
-              <li>a clearer starting point for better AI output</li>
-              <li>a more relevant and easier-to-use result</li>
-            </ul>
-          </div>
+        <p className="text-base leading-8 text-[#4a4540] mb-12">
+          AI works better when the situation is defined clearly enough to guide the output.
+          AI Clarity Funnel helps structure the goal, the context, and the constraints so
+          the answer becomes more specific, more relevant, and easier to use.
+        </p>
 
-          <div className="diag-action-row">
-            <button className="back-btn" onClick={() => window.history.back()}>
-              ← Back
-            </button>
+        <div className="border-l-2 border-[#c4b8a4] pl-5 mb-14">
+          <p className="text-sm leading-7 text-[#6b6058]">
+            AI Clarity Funnel runs the Clarity function inside Avecore.
+          </p>
+          <p className="text-sm leading-7 text-[#6b6058]">
+            It is designed for moments when the answer stays broad because the situation is still too loose.
+          </p>
+        </div>
 
-            <div className="text-3xl font-semibold mb-2">€27</div>
-            <p className="text-sm opacity-60 mb-8">
-              One payment. Direct access after checkout.
-            </p>
-            <PurchaseCTABlock href="https://buy.stripe.com/28E00keej9yE8542In0Fi02" label="Buy Now" /><div>
-              <Link
-                href="/products-and-packages"
-                className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
-              >
-                See other products and packages
-              </Link>
+        <div className="mb-14">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#8a7d6e] mb-7">
+            What this function helps clarify
+          </p>
+          <div className="space-y-6">
+            <div className="flex gap-5 items-start">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#a09080] mt-1 w-24 shrink-0">
+                Goal
+              </span>
+              <p className="text-base text-[#3a3530] leading-7">
+                Define what the output actually needs to help with.
+              </p>
+            </div>
+            <div className="flex gap-5 items-start">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#a09080] mt-1 w-24 shrink-0">
+                Context
+              </span>
+              <p className="text-base text-[#3a3530] leading-7">
+                Surface the situation around the decision.
+              </p>
+            </div>
+            <div className="flex gap-5 items-start">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#a09080] mt-1 w-24 shrink-0">
+                Constraints
+              </span>
+              <p className="text-base text-[#3a3530] leading-7">
+                Make limits visible before asking for direction.
+              </p>
             </div>
           </div>
-        </main>
+        </div>
+
+        <div className="bg-[#ede8df] rounded-xl px-6 py-5 mb-14">
+          <p className="text-sm leading-7 text-[#4a4540]">
+            When the situation becomes clearer, AI output becomes easier to trust, compare, and act on.
+          </p>
+        </div>
+
+        <div className="border-t border-[#d8d0c5] pt-8">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mb-3">
+            AI Clarity Funnel
+          </p>
+          <div className="text-3xl font-semibold text-[#1a1814] mb-1">€27</div>
+          <p className="text-sm text-[#8a7d6e] mb-7">
+            One payment. Direct access after checkout.
+          </p>
+          <PurchaseCTABlock href="https://buy.stripe.com/28E00keej9yE8542In0Fi02" label="Buy Now" />
+          <div className="mt-5">
+            <Link
+              href="/products-and-packages"
+              className="text-sm text-[#8a7d6e] hover:text-[#3a3530] underline underline-offset-4 transition-colors"
+            >
+              See other products and packages
+            </Link>
+          </div>
+        </div>
+
       </div>
     </div>
     <SiteFooter />

@@ -1,0 +1,86 @@
+Update the Mental Priority System page so it clearly reads as the Priority function inside the Avecore system.
+
+Reference direction:
+This page should not feel like a random standalone digital product page.
+It should feel like:
+Avecore → Priority function → Mental Priority System
+
+Keep unchanged:
+- pricing
+- Stripe link
+- route / slug
+- footer
+- working CTA / purchase logic
+- the product name
+- the existing subtitle if already present and correct
+
+Important:
+Mental Priority System should stay aligned with its current creator / revenue direction.
+Do not generalize it into a broad life-clarity product.
+Keep it specific and controlled.
+
+Add / adjust the page with this structure:
+
+1. Top back link
+- add a small back link at the top:
+  ← Back to Products and Packages
+- link target:
+  /products-and-packages
+
+2. Function label
+Use a small upper label above the main headline:
+PRIORITY FUNCTION
+
+3. Main product heading
+Keep the product identity visible:
+Mental Priority System™
+
+If a headline needs to be strengthened, use this direction:
+Choose the revenue direction that deserves your energy now.
+
+4. Supporting copy
+Use supporting copy in this direction:
+When too many ideas compete for attention, progress slows down. Mental Priority System helps narrow the field, compare what actually matters, and identify the direction that is strongest enough to move forward.
+
+5. Short system bridge
+Add a short bridge block that makes the system logic visible without over-explaining it:
+Mental Priority System runs the Priority function inside Avecore.
+It is designed for moments when multiple options feel possible, but the next move is still not clear enough to commit to.
+
+6. Core outcome section
+Create a clean section showing what this function helps prioritize.
+Use 3 points:
+- signal
+- direction
+- next move
+
+Each point should have one short sentence, not a long paragraph.
+
+Suggested direction:
+- Signal — separate what feels urgent from what is actually worth pursuing
+- Direction — identify the revenue path with the strongest real potential
+- Next move — turn the chosen direction into a concrete immediate step
+
+7. Why this matters section
+Add one short section explaining the shift:
+Once the right direction becomes visible, decision pressure drops and execution becomes easier to sustain.
+
+8. Purchase area
+Keep the existing purchase area, price, and CTA logic.
+Do not redesign the checkout structure unless needed for visual consistency only.
+
+9. Visual direction
+- premium, calm, controlled
+- aligned with current Avecore palette
+- no pure black
+- no “course seller” feel
+- no generic motivational language
+- no wall of text
+- this page should feel drier and more decisive than inspirational
+
+Goal:
+The page should sell one function clearly and elegantly:
+the Priority function.
+Not the whole system.
+Not a generic self-help reset.
+Not a random PDF page.
