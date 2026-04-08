@@ -1,80 +1,110 @@
 import PurchaseCTABlock from "@/components/purchase-cta-block";
-import { useLocation, Link } from "wouter";
+import { Link } from "wouter";
 import SiteFooter from "@/components/site-footer";
 
 export default function ProductAIToolNavigator() {
-  const [, navigate] = useLocation();
-
   return (
     <>
-    <div className="landing-root">
-      <div className="landing-container">
-        <header className="landing-header">
-          <span className="flex flex-col leading-none">
-  <span className="landing-wordmark">Avecore</span>
-  <span className="text-[11px] uppercase tracking-[0.22em] opacity-70 mt-1">
-    Decision Systems for AI
-  </span>
-</span>
-        </header>
+    <div className="min-h-screen bg-[#f8f5ef] text-[#1e1e1e] px-6 py-10 md:px-10">
+      <div className="max-w-2xl mx-auto">
 
-        <main className="landing-main">
-          <div className="diag-heading-block">
-            <p className="diag-title">AI Tool Navigator</p>
-            <p className="diag-body">
-              AI Tool Navigator shows how the right tools work together, so the
-              bundle fits the real work more closely.
-            </p>
-          </div>
+        <div className="mb-10">
+          <Link
+            href="/products-and-packages"
+            className="text-sm text-[#8a7d6e] hover:text-[#3a3530] transition-colors"
+          >
+            ← Back to Products and Packages
+          </Link>
+        </div>
 
-          <div className="product-section">
-            <p className="product-section-title">What this helps you do</p>
-            <ul className="product-list">
-              <li>see which tool should do what</li>
-              <li>understand which tool should be primary</li>
-              <li>identify which tools work better as support layers</li>
-              <li>choose a more practical tool combination</li>
-              <li>build a bundle that fits the real work</li>
-            </ul>
-          </div>
+        <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#8a7d6e] mb-4">
+          Tool Function
+        </p>
 
-          <div className="product-section">
-            <p className="product-section-title">Who this is for</p>
-            <p className="diag-body">
-              For people who feel that there are too many AI tools, too many
-              promises, and not enough clarity about which combination actually
-              fits their work.
-            </p>
-          </div>
+        <h1 className="text-[clamp(1.75rem,4vw,2.5rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-6">
+          Use AI tools with clearer roles, not more noise.
+        </h1>
 
-          <div className="product-section">
-            <p className="product-section-title">What you get</p>
-            <ul className="product-list">
-              <li>a clearer view of tool roles</li>
-              <li>a more practical tool combination</li>
-              <li>a better starting point for real work</li>
-            </ul>
-          </div>
+        <p className="text-base leading-8 text-[#4a4540] mb-12">
+          More AI tools do not automatically create better outcomes. AI Tool Navigator
+          helps define what each tool should do, when one tool is enough, when a switch
+          improves the result, and how to handle output with more control.
+        </p>
 
-          <div className="diag-action-row">
-            <button className="back-btn" onClick={() => window.history.back()}>
-              ← Back
-            </button>
+        <div className="border-l-2 border-[#c4b8a4] pl-5 mb-14">
+          <p className="text-sm leading-7 text-[#6b6058]">
+            AI Tool Navigator runs the Tool function inside Avecore.
+          </p>
+          <p className="text-sm leading-7 text-[#6b6058]">
+            It is designed for moments when access to AI is no longer the issue, but decision control inside the stack still is.
+          </p>
+        </div>
 
-            <div className="text-3xl font-semibold mb-2">€29</div>
-            <p className="text-sm opacity-60 mb-8">
-              One payment. Direct access after checkout.
-            </p>
-            <PurchaseCTABlock href="https://buy.stripe.com/8x2eVeeej4ek854aaP0Fi04" label="Buy Now" /><div>
-              <Link
-                href="/products-and-packages"
-                className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
-              >
-                See other products and packages
-              </Link>
+        <div className="mb-14">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#8a7d6e] mb-7">
+            What this function helps organize
+          </p>
+          <div className="space-y-6">
+            <div className="flex gap-5 items-start">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#a09080] mt-1 w-28 shrink-0">
+                Roles
+              </span>
+              <p className="text-base text-[#3a3530] leading-7">
+                Assign each tool a clear function instead of using everything for everything.
+              </p>
+            </div>
+            <div className="flex gap-5 items-start">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#a09080] mt-1 w-28 shrink-0">
+                Switching
+              </span>
+              <p className="text-base text-[#3a3530] leading-7">
+                Change tools only when role fit improves.
+              </p>
+            </div>
+            <div className="flex gap-5 items-start">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#a09080] mt-1 w-28 shrink-0">
+                Trust
+              </span>
+              <p className="text-base text-[#3a3530] leading-7">
+                Judge output by decision usefulness, not by polish.
+              </p>
+            </div>
+            <div className="flex gap-5 items-start">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#a09080] mt-1 w-28 shrink-0">
+                Disagreement
+              </span>
+              <p className="text-base text-[#3a3530] leading-7">
+                Compare conflicting outputs by constraint fit and action value.
+              </p>
             </div>
           </div>
-        </main>
+        </div>
+
+        <div className="bg-[#ede8df] rounded-xl px-6 py-5 mb-14">
+          <p className="text-sm leading-7 text-[#4a4540]">
+            When tools have clearer roles, the stack becomes easier to trust, easier to manage, and more useful in real work.
+          </p>
+        </div>
+
+        <div className="border-t border-[#d8d0c5] pt-8">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mb-3">
+            AI Tool Navigator
+          </p>
+          <div className="text-3xl font-semibold text-[#1a1814] mb-1">€29</div>
+          <p className="text-sm text-[#8a7d6e] mb-7">
+            One payment. Direct access after checkout.
+          </p>
+          <PurchaseCTABlock href="https://buy.stripe.com/8x2eVeeej4ek854aaP0Fi04" label="Buy Now" />
+          <div className="mt-5">
+            <Link
+              href="/products-and-packages"
+              className="text-sm text-[#8a7d6e] hover:text-[#3a3530] underline underline-offset-4 transition-colors"
+            >
+              See other products and packages
+            </Link>
+          </div>
+        </div>
+
       </div>
     </div>
     <SiteFooter />
