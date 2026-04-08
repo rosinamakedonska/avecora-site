@@ -113,18 +113,37 @@ export default function Landing() {
       <section className="relative">
         <div className="mx-auto max-w-7xl px-6 pb-16 md:px-8 md:pb-20">
           <div className="max-w-2xl">
-            <p className="text-[11px] uppercase tracking-[0.26em] text-neutral-400">
+
+            {/* Parent system block */}
+            <p className="text-[11px] font-semibold uppercase tracking-[0.26em] text-[#6b5c4e]">
               Avecore
             </p>
-            <p className="mt-5 text-[2rem] font-semibold leading-[1.12] tracking-[-0.03em] text-[#111512] md:text-[2.5rem]">
+            <p className="mt-4 text-[2rem] font-semibold leading-[1.12] tracking-[-0.03em] text-[#111512] md:text-[2.5rem]">
               One decision system
             </p>
-            <p className="mt-4 text-lg font-semibold tracking-[-0.01em] text-[#2d5a45] md:text-xl">
-              Four functions
-            </p>
-            <p className="mt-5 max-w-lg text-base leading-7 text-neutral-500">
+
+            {/* Four functions — subordinate reveal */}
+            <div className="mt-8 border-l-2 border-[#2d5a45]/25 pl-5">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[#2d5a45]">
+                Four functions
+              </p>
+              <div className="mt-3 flex flex-wrap gap-2.5">
+                {["Clarity", "Priority", "Tool", "Execution"].map((fn) => (
+                  <span
+                    key={fn}
+                    className="rounded-full border border-[#cdc3b4] bg-[#f4ede2] px-4 py-1.5 text-[13px] font-medium tracking-[-0.005em] text-[#2e2418]"
+                  >
+                    {fn}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Support line */}
+            <p className="mt-7 max-w-lg text-sm leading-7 text-neutral-400">
               One of these is where movement is currently breaking.
             </p>
+
           </div>
 
           <div className="mt-14 space-y-8 md:space-y-10">

@@ -1,0 +1,73 @@
+Edit only the Home page system-reveal section. Leave the rest of the page untouched.
+
+The current result is still wrong.
+It reads like 3 weak text lines, not like the conceptual core of the page.
+
+Important:
+This section must now be treated as a visual hierarchy reveal, not as plain text.
+
+Goal:
+Make it instantly clear that:
+Avecore = the parent system
+and the four functions = connected parts of that system.
+
+Do not make this a dry corporate org chart.
+Do not make it tiny.
+Do not make “Avecore” pale or partially invisible.
+Do not treat this like a caption.
+
+Use a premium editorial system-map approach.
+
+New design direction:
+Create one strong parent block for Avecore, and beneath it a refined visual reveal of the four connected functions.
+
+Structure:
+1. Parent system block
+- Avecore
+- One decision system
+
+2. Subordinate function reveal beneath it
+- Clarity
+- Priority
+- Tool
+- Execution
+
+3. Support line below
+- One of these is where movement is currently breaking.
+
+Design requirements:
+- Keep the whole section left-aligned with the page
+- “Avecore” must be clearly readable
+- “One decision system” should be the dominant line in this section
+- The four functions should be visually grouped as subordinate parts of the parent system
+- Use subtle spatial connection or refined connector logic if helpful
+- The section should feel visual, structured, and elegant
+- It should feel like a soft hierarchy map, not a slogan stack
+- It should not look like a company organization chart
+- It should not look pale, timid, or secondary
+- It should have stronger visual impact than it has now
+
+Visual guidance:
+- Think like an award-winning editorial / brand designer, not a generic web builder
+- Use hierarchy, contrast, spacing, grouping, and shape to create immediate understanding
+- A parent block + four connected child blocks / pills / linked bands is acceptable
+- The four subordinate items should feel integrated into one system
+- Keep the palette premium: graphite-emerald / beige / soft neutrals
+- Avoid anything too schematic or too technical
+
+Typography guidance:
+- “Avecore” should be small but clearly visible
+- “One decision system” should be large enough to anchor the section
+- The four function labels should be smaller than the parent line, but still visually strong
+- The support line should be lighter and clearly supportive, not competing headline text
+
+Content guidance:
+In this section, use only short labels.
+Do not add long explanatory paragraphs here.
+This section is for structure and visual understanding, not for detailed explanation.
+
+Workflow:
+1. Inspect the current system-reveal section
+2. Replace it with a visually structured parent-child reveal
+3. Leave the rest of the page unchanged
+4. Summarize exactly what changed
