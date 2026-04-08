@@ -1,0 +1,68 @@
+Edit only the Home page “system reveal” section. Leave the rest of the page untouched.
+
+The current result failed.
+This block is supposed to be the core structural reveal of the page, but it currently feels too small, too weak, and too secondary.
+It should become a clear visual center of gravity.
+
+Goal:
+Make it immediately obvious that:
+Avecore = the parent system
+and the four functions = subordinate parts of that system.
+
+Do NOT make this into a dry corporate diagram.
+Do NOT make it tiny.
+Do NOT make it pale or decorative.
+
+Rebuild the section with this exact hierarchy:
+
+1. Small brand/system label
+Avecore
+
+2. Main structural line
+One decision system
+
+3. Strong subordinate line
+Four functions
+
+4. Support line
+One of these is where movement is currently breaking.
+
+Design requirements:
+- This block should feel like the conceptual core of the page
+- It must be substantially stronger and more visually anchored than it is now
+- “One decision system” should be the dominant line in this section
+- “Four functions” should be clearly visible and important, not pale, not timid
+- The support line should be smaller, but still readable and integrated
+- Keep the hierarchy premium, calm, and controlled
+- Do not use dot separators
+- Do not make it look like a slogan stack
+- Do not make it look like body text pretending to be structure
+
+Preferred visual direction:
+Create a soft hierarchy reveal with one parent level and four child signals.
+It can be done as:
+- one anchored central block with subtle connected function cues below
+or
+- one strong parent heading with a refined subordinate reveal directly under it
+
+Important:
+This section should read as the system core before the function teasers start.
+It should not feel like a caption.
+
+Typography guidance:
+- larger than it is now
+- clearer than it is now
+- more contrast than it has now
+- still below the main hero headline in hierarchy
+- but clearly strong enough to act as the page’s structural center
+
+Color guidance:
+- premium, refined, visible
+- no pale weak text for “Four functions”
+- keep the graphite-emerald / beige palette direction
+
+Workflow:
+1. Inspect the current system reveal section
+2. Rebuild only that section so it becomes the page’s conceptual core
+3. Leave the rest of the page unchanged
+4. Summarize exactly what changed

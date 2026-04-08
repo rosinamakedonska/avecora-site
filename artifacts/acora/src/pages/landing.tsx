@@ -111,17 +111,17 @@ export default function Landing() {
 
       <section className="relative">
         <div className="mx-auto max-w-7xl px-6 pb-16 md:px-8 md:pb-20">
-          <div className="max-w-xl">
-            <p className="text-[10px] uppercase tracking-[0.28em] text-neutral-400">
+          <div className="max-w-2xl">
+            <p className="text-[11px] uppercase tracking-[0.26em] text-neutral-400">
               Avecore
             </p>
-            <p className="mt-3 text-2xl font-semibold leading-[1.2] tracking-[-0.025em] text-[#111512] md:text-[1.75rem]">
+            <p className="mt-5 text-[2rem] font-semibold leading-[1.12] tracking-[-0.03em] text-[#111512] md:text-[2.5rem]">
               One decision system
             </p>
-            <p className="mt-2.5 text-base font-semibold tracking-[-0.01em] text-[#2d5a45] md:text-[1.1rem]">
+            <p className="mt-4 text-lg font-semibold tracking-[-0.01em] text-[#2d5a45] md:text-xl">
               Four functions
             </p>
-            <p className="mt-4 text-sm leading-7 text-neutral-500">
+            <p className="mt-5 max-w-lg text-base leading-7 text-neutral-500">
               One of these is where movement is currently breaking.
             </p>
           </div>
