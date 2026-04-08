@@ -1,0 +1,68 @@
+Update the AI Clarity Funnel page.
+
+Goal:
+Make the page feel clearly like the Clarity function inside the Avecore system, while keeping it premium, calm, and controlled.
+
+Keep unchanged:
+- pricing
+- Stripe link
+- route / slug
+- footer
+- working purchase logic
+
+Add or refine the page in this direction:
+
+1. Top back link
+Add:
+← Back to Products and Packages
+Link target:
+/products-and-packages
+
+2. Function framing
+Make it clear that this page represents the Clarity function inside the Avecore system.
+Do this lightly, without turning the page into a full system explanation.
+
+3. Main text direction
+Use this exact Clarity sequence:
+
+Useful output depends on a clearly defined situation. Without that, the answer remains too general.
+
+Clarity usually improves when the situation is narrowed in one of three directions:
+- the goal becomes more specific
+- the context becomes clearer
+- the constraints become more visible
+
+Which of these feels closest to your situation?
+
+That is the beginning of AI Clarity Funnel. It helps turn a broad situation into a clearer working frame, so the output becomes more specific and more useful.
+
+4. Page structure
+Build the page so this text sits naturally inside a premium product page, not like pasted notes.
+Suggested flow:
+- back link
+- small function label
+- product name / headline area
+- the exact Clarity sequence above
+- purchase area
+- footer
+
+5. Tone and visual rules
+- premium
+- calm
+- clear
+- controlled
+- no pure black
+- aligned with current Avecore palette
+- no wall of text
+- no course-seller feel
+- no generic productivity language
+
+6. Important constraint
+Do not pull in unrelated routing logic or experimental system logic from other work.
+This page should stay focused only on AI Clarity Funnel as the Clarity function.
+
+7. Product positioning feel
+The page should communicate that this product helps define the situation first, so AI output becomes more usable, more relevant, and easier to act on.
+
+Do not over-explain.
+Do not redesign working checkout elements unless needed for visual consistency only.

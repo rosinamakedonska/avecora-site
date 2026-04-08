@@ -18,67 +18,48 @@ export default function ProductAIClarityFunnel() {
         </div>
 
         <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#8a7d6e] mb-4">
-          Clarity Function
+          Clarity Function · Avecore
         </p>
 
-        <h1 className="text-[clamp(1.75rem,4vw,2.5rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-6">
-          Turn unclear situations into usable AI direction.
+        <h1 className="text-[clamp(1.75rem,4vw,2.5rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-12">
+          AI Clarity Funnel
         </h1>
 
-        <p className="text-base leading-8 text-[#4a4540] mb-12">
-          AI works better when the situation is defined clearly enough to guide the output.
-          AI Clarity Funnel helps structure the goal, the context, and the constraints so
-          the answer becomes more specific, more relevant, and easier to use.
-        </p>
+        <div className="space-y-6 mb-10">
+          <p className="text-base leading-8 text-[#3a3530]">
+            Useful output depends on a clearly defined situation. Without that, the answer remains too general.
+          </p>
 
-        <div className="border-l-2 border-[#c4b8a4] pl-5 mb-14">
-          <p className="text-sm leading-7 text-[#6b6058]">
-            AI Clarity Funnel runs the Clarity function inside Avecore.
-          </p>
-          <p className="text-sm leading-7 text-[#6b6058]">
-            It is designed for moments when the answer stays broad because the situation is still too loose.
-          </p>
-        </div>
-
-        <div className="mb-14">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#8a7d6e] mb-7">
-            What this function helps clarify
-          </p>
-          <div className="space-y-6">
-            <div className="flex gap-5 items-start">
-              <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#a09080] mt-1 w-24 shrink-0">
-                Goal
-              </span>
-              <p className="text-base text-[#3a3530] leading-7">
-                Define what the output actually needs to help with.
-              </p>
-            </div>
-            <div className="flex gap-5 items-start">
-              <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#a09080] mt-1 w-24 shrink-0">
-                Context
-              </span>
-              <p className="text-base text-[#3a3530] leading-7">
-                Surface the situation around the decision.
-              </p>
-            </div>
-            <div className="flex gap-5 items-start">
-              <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#a09080] mt-1 w-24 shrink-0">
-                Constraints
-              </span>
-              <p className="text-base text-[#3a3530] leading-7">
-                Make limits visible before asking for direction.
-              </p>
-            </div>
+          <div>
+            <p className="text-base leading-8 text-[#3a3530] mb-4">
+              Clarity usually improves when the situation is narrowed in one of three directions:
+            </p>
+            <ul className="space-y-2 pl-1">
+              <li className="flex gap-3 items-start text-base leading-7 text-[#4a4540]">
+                <span className="mt-2.5 w-1 h-1 rounded-full bg-[#b0a090] shrink-0" />
+                the goal becomes more specific
+              </li>
+              <li className="flex gap-3 items-start text-base leading-7 text-[#4a4540]">
+                <span className="mt-2.5 w-1 h-1 rounded-full bg-[#b0a090] shrink-0" />
+                the context becomes clearer
+              </li>
+              <li className="flex gap-3 items-start text-base leading-7 text-[#4a4540]">
+                <span className="mt-2.5 w-1 h-1 rounded-full bg-[#b0a090] shrink-0" />
+                the constraints become more visible
+              </li>
+            </ul>
           </div>
-        </div>
 
-        <div className="bg-[#ede8df] rounded-xl px-6 py-5 mb-14">
-          <p className="text-sm leading-7 text-[#4a4540]">
-            When the situation becomes clearer, AI output becomes easier to trust, compare, and act on.
+          <p className="text-base leading-8 text-[#6b6058] italic">
+            Which of these feels closest to your situation?
+          </p>
+
+          <p className="text-base leading-8 text-[#3a3530]">
+            That is the beginning of AI Clarity Funnel. It helps turn a broad situation into a clearer working frame, so the output becomes more specific and more useful.
           </p>
         </div>
 
-        <div className="border-t border-[#d8d0c5] pt-8">
+        <div className="border-t border-[#d8d0c5] pt-10 mt-14">
           <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mb-3">
             AI Clarity Funnel
           </p>
