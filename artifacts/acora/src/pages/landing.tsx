@@ -97,11 +97,12 @@ export default function Landing() {
           </div>
 
           <div className="mt-12 md:mt-14">
-            <div className="inline-block rounded-2xl border border-[#d8cfc2] bg-[#f4ede2] px-5 py-4 shadow-[0_8px_24px_rgba(0,0,0,0.05)]">
-              <p className="text-[10px] uppercase tracking-[0.22em] text-neutral-400">
+            <div className="inline-flex items-center gap-5 rounded-full border border-[#d4c9b8] bg-[#f4ede2] px-7 py-3 shadow-[0_4px_16px_rgba(0,0,0,0.06)]">
+              <p className="shrink-0 text-[10px] font-semibold uppercase tracking-[0.26em] text-[#8a7864]">
                 Decision quality
               </p>
-              <p className="mt-2 text-sm font-medium text-neutral-700">
+              <div className="h-3.5 w-px bg-[#c8bba8]" />
+              <p className="text-sm font-medium text-[#2e2418]">
                 Relief, control, precision
               </p>
             </div>
