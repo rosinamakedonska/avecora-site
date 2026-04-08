@@ -47,7 +47,7 @@ export default function ProductAIClarityFunnel() {
         </h1>
 
         <p className="text-base leading-8 text-[#3a3530] mb-5">
-          Use a 6+1 step instruction framework that makes AI respond the way you want.
+          Use a 6-step instruction framework that makes AI respond the way you want.
         </p>
 
         {/* CTA label */}
@@ -65,15 +65,47 @@ export default function ProductAIClarityFunnel() {
         </div>
 
         {/* SHIFT */}
-        <div className="border-l-2 border-[#c4b8a4] pl-5 mb-14">
+        <div className="border-l-2 border-[#c4b8a4] pl-5 mb-10">
           <p className="text-sm leading-7 text-[#6b6058]">
-            Fill in the 6+1 steps.
+            Fill in the 6 steps.
           </p>
           <p className="text-sm leading-7 text-[#6b6058]">
             Your AI will start responding the way you want — for your exact goal.
           </p>
           <p className="text-sm leading-7 text-[#6b6058]">
             AI Clarity Funnel™ gives you the structure.
+          </p>
+        </div>
+
+        {/* Framework labels */}
+        <div className="mb-6">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mb-5">
+            The 6 steps
+          </p>
+          <div className="space-y-3">
+            {[
+              { n: "1", label: "Act as" },
+              { n: "2", label: "Task" },
+              { n: "3", label: "Key Details" },
+              { n: "4", label: "Constraints" },
+              { n: "5", label: "Output Format" },
+              { n: "6", label: "Quality Criteria" },
+            ].map(({ n, label }) => (
+              <div key={n} className="flex items-center gap-4">
+                <span className="text-[11px] font-semibold text-[#a09080] w-4 shrink-0">{n}</span>
+                <span className="text-base text-[#3a3530]">{label}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Execution Lock */}
+        <div className="bg-[#ede8df] rounded-xl px-6 py-5 mb-14">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mb-2">
+            Execution Lock
+          </p>
+          <p className="text-sm leading-7 text-[#4a4540]">
+            A separate mandatory block. Not a step. Locks in the instruction before AI responds.
           </p>
         </div>
 
