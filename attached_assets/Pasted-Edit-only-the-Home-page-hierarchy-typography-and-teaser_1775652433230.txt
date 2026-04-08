@@ -1,0 +1,56 @@
+Edit only the Home page hierarchy, typography, and teaser structure. Do not rewrite the page. Do not change routes, imports, slugs, product names, or CTA destinations.
+
+Important design update:
+Home is no longer meant to carry the full explanation text for each function.
+Home should now show shorter teaser versions only.
+The fuller explanation belongs on the deeper function pages.
+So recalibrate typography, spacing, and visual hierarchy for a lighter Home page with teaser content, not dense explanatory content.
+
+Make these exact corrections:
+
+1. System hierarchy block:
+The current block does not clearly show that Avecore is one system with four functions.
+Fix that visually.
+Make “one system / four functions” feel like a real parent-child relationship, not just pale text above another large heading.
+
+2. Typography hierarchy:
+Reduce the size and visual weight of all headline-style text that comes after the main hero headline.
+Right now the secondary headings are too large and too close in scale to the main headline.
+They should clearly sit below it in hierarchy.
+
+3. System intro block:
+The current text:
+ONE SYSTEM / FOUR FUNCTIONS
+One of these is where movement is currently breaking.
+does not yet read clearly enough as a system signal.
+Keep the meaning, but improve the visual hierarchy and clarity so the system relationship is immediately understood.
+
+4. Color and visibility:
+Do not make the system signal too pale.
+It currently feels visually weak.
+It should still be refined and premium, but easier to register immediately.
+
+5. Home content structure:
+Home should feel like:
+hero → system reveal → function teasers → CTA → footer
+not like a page trying to explain everything at once.
+
+6. Function teaser blocks:
+Keep them shorter and lighter.
+They should tease the function, not fully explain it.
+Keep the CTA label:
+Explore this function
+
+7. Keep these locked decisions:
+- beige floating block stays
+- floating block text stays:
+  DECISION QUALITY
+  Relief, control, precision
+- dark accents stay in graphite-emerald, not black
+- main headline stays, but remains calmer, left-aligned, and visually rhythmic
+- second sentence in each hook stays fully on a new line
+
+Workflow:
+First inspect the current Home page.
+Then make only these hierarchy and teaser adjustments.
+Then summarize exactly what changed.

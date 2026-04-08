@@ -110,12 +110,19 @@ export default function Landing() {
       </section>
 
       <section className="relative">
-        <div className="mx-auto max-w-7xl px-6 pb-18 md:px-8 md:pb-24">
+        <div className="mx-auto max-w-7xl px-6 pb-16 md:px-8 md:pb-20">
           <div className="max-w-2xl">
-            <p className="text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
-              One system / four functions
-            </p>
-            <h2 className="mt-4 max-w-2xl text-3xl font-semibold leading-tight tracking-[-0.03em] text-[#141915] md:text-[2.7rem]">
+            <div className="flex items-center gap-2.5">
+              <div className="h-px w-5 bg-[#2d5a45] opacity-70" />
+              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#2d5a45]">
+                Avecore — one system
+              </p>
+              <span className="text-neutral-300 text-xs">·</span>
+              <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-neutral-400">
+                four functions
+              </p>
+            </div>
+            <h2 className="mt-4 max-w-2xl text-xl font-medium leading-[1.35] tracking-[-0.015em] text-[#1a1f1c] md:text-[1.5rem]">
               One of these is where movement is currently breaking.
             </h2>
           </div>
@@ -135,19 +142,14 @@ export default function Landing() {
                   {item.number} — {item.title}
                 </p>
 
-                <h3 className="mt-4 max-w-xl text-xl font-semibold leading-[1.35] tracking-[-0.015em] text-[#161b17] md:text-[1.65rem]">
+                <h3 className="mt-4 max-w-xl text-lg font-semibold leading-[1.4] tracking-[-0.01em] text-[#161b17] md:text-[1.45rem]">
                   {item.hookLine1}
                   <br />
                   {item.hookLine2}
                 </h3>
 
-                <p className="mt-5 max-w-xl text-base leading-8 text-neutral-600">
+                <p className="mt-4 max-w-xl text-sm leading-7 text-neutral-500">
                   {item.body}
-                </p>
-
-                <p className="mt-4 max-w-xl text-base leading-8 text-neutral-800">
-                  <span className="font-semibold">{item.product}</span> runs this function.{" "}
-                  {item.result}
                 </p>
 
                 <Link
@@ -170,7 +172,7 @@ export default function Landing() {
               Start where it fits
             </p>
 
-            <h2 className="mt-4 max-w-2xl text-3xl font-semibold leading-tight tracking-[-0.03em] md:text-[2.4rem]">
+            <h2 className="mt-3 max-w-xl text-xl font-medium leading-[1.35] tracking-[-0.015em] md:text-[1.45rem]">
               Start with the function that fits where you are now.
             </h2>
 
