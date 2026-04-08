@@ -67,8 +67,8 @@ export default function Landing() {
           <div className="absolute bottom-[-8rem] left-[26%] h-[16rem] w-[16rem] rounded-full bg-[#ece7df] blur-3xl opacity-65" />
         </div>
 
-        <div className="relative mx-auto max-w-7xl px-6 pb-20 pt-10 md:px-8 md:pb-28 md:pt-16">
-          <div className="max-w-4xl">
+        <div className="relative mx-auto max-w-7xl px-6 pb-16 pt-10 md:px-8 md:pb-20 md:pt-14">
+          <div className="max-w-3xl">
             <div className="inline-flex items-center rounded-full border border-black/10 bg-white/75 px-4 py-2 text-[11px] uppercase tracking-[0.22em] text-neutral-600 backdrop-blur">
               Avecore
               <span className="mx-2 opacity-30">•</span>
@@ -77,15 +77,15 @@ export default function Landing() {
               </span>
             </div>
 
-            <h1 className="mt-8 max-w-3xl text-[clamp(2.8rem,6vw,5.2rem)] font-semibold leading-[1.04] tracking-[-0.045em] text-[#111512]">
+            <h1 className="mt-10 max-w-2xl text-[clamp(1.9rem,3.4vw,3rem)] font-medium leading-[1.18] tracking-[-0.025em] text-[#111512]">
               Avecore Adds the Decision Layer That Makes AI Output Useful
             </h1>
 
-            <p className="mt-6 max-w-2xl text-xl leading-8 text-neutral-700 md:text-2xl">
+            <p className="mt-7 max-w-xl text-lg leading-8 text-neutral-600">
               AI gives you answers. Avecore gives you decisions.
             </p>
 
-            <div className="mt-10 max-w-2xl space-y-6 text-base leading-8 text-neutral-600 md:text-lg">
+            <div className="mt-8 max-w-xl space-y-5 text-base leading-8 text-neutral-500">
               <p>
                 AI can give you more output than ever. What still takes structure is
                 knowing what to do with it — which direction matters, which tool fits,
@@ -96,13 +96,13 @@ export default function Landing() {
             </div>
           </div>
 
-          <div className="mt-10 md:mt-12">
-            <div className="inline-block rounded-[1.8rem] border border-[#d8cfc2] bg-[#f4ede2] px-5 py-5 shadow-[0_12px_32px_rgba(0,0,0,0.06)]">
-              <p className="text-[11px] uppercase tracking-[0.18em] text-neutral-500">
+          <div className="mt-12 md:mt-14">
+            <div className="inline-block rounded-2xl border border-[#d8cfc2] bg-[#f4ede2] px-5 py-4 shadow-[0_8px_24px_rgba(0,0,0,0.05)]">
+              <p className="text-[10px] uppercase tracking-[0.22em] text-neutral-400">
                 Decision quality
               </p>
-              <p className="mt-3 max-w-[16rem] text-sm leading-7 text-neutral-700">
-                Relief, control, precision — without turning the whole page into a lecture.
+              <p className="mt-2 text-sm font-medium text-neutral-700">
+                Relief, control, precision
               </p>
             </div>
           </div>
@@ -135,7 +135,7 @@ export default function Landing() {
                   {item.number} — {item.title}
                 </p>
 
-                <h3 className="mt-4 max-w-xl text-2xl font-semibold leading-snug tracking-[-0.02em] text-[#161b17] md:text-[2rem]">
+                <h3 className="mt-4 max-w-xl text-xl font-semibold leading-[1.35] tracking-[-0.015em] text-[#161b17] md:text-[1.65rem]">
                   {item.hookLine1}
                   <br />
                   {item.hookLine2}
