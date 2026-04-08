@@ -79,53 +79,56 @@ export default function ProductAIClarityFunnel() {
 
         {/* Funnel preview graphic */}
         <div className="mb-14">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mb-6">
-            How it works
+          {/* FROM label */}
+          <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mb-4">
+            From vague input
           </p>
 
-          {/* START label */}
-          <div className="flex items-center gap-3 mb-3">
-            <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#b0a090]">Start</span>
-            <span className="text-sm text-[#8a7d6e]">From vague input to clear instruction</span>
-          </div>
-
-          {/* Funnel stages — each step narrows by increasing horizontal margin */}
+          {/* Funnel stages */}
           {[
-            { n: "1", q: "What is happening?",            sub: "Start with the real situation, not the first wording that comes to mind.", indent: 0 },
-            { n: "2", q: "What needs to happen?",          sub: "Define the outcome clearly enough to guide the response.",              indent: 1 },
-            { n: "3", q: "What must stay true?",           sub: "Bring in limits, conditions, and non-negotiables.",                     indent: 2 },
-            { n: "4", q: "What does AI need to understand?", sub: "Add the context that prevents generic output.",                       indent: 3 },
-            { n: "5", q: "What should the answer look like?", sub: "Make the response easier to use by shaping the output.",             indent: 4 },
-          ].map(({ n, q, sub, indent }) => (
-            <div key={n} style={{ marginLeft: `${indent * 18}px`, marginRight: `${indent * 18}px` }}>
-              <div className="border border-[#d8d0c5] bg-[#faf8f4] rounded-lg px-5 py-4">
-                <div className="flex items-start gap-3">
-                  <span className="text-[10px] font-semibold text-[#b0a090] mt-[3px] w-3 shrink-0">{n}</span>
-                  <div>
-                    <p className="text-sm font-medium text-[#2a2420] leading-snug mb-1">{q}</p>
-                    <p className="text-xs leading-5 text-[#8a7d6e]">{sub}</p>
-                  </div>
-                </div>
+            { label: "Situation", indent: 0 },
+            { label: "Goal",      indent: 1 },
+            { label: "Limits",    indent: 2 },
+            { label: "Context",   indent: 3 },
+            { label: "Format",    indent: 4 },
+          ].map(({ label, indent }, i) => (
+            <div key={label}>
+              <div
+                className="bg-[#1e2d26] rounded-md py-3 px-5 flex items-center"
+                style={{ marginLeft: `${indent * 20}px`, marginRight: `${indent * 20}px` }}
+              >
+                <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#7aab8a]">
+                  {label}
+                </span>
               </div>
-              {/* Arrow connector — skip after last stage */}
-              {indent < 4 && (
-                <div className="flex justify-center my-1">
-                  <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 0v10M1 7l5 6 5-6" stroke="#c4b8a4" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
-              )}
+              <div
+                className="flex justify-center my-[3px]"
+                style={{ marginLeft: `${indent * 20}px`, marginRight: `${indent * 20}px` }}
+              >
+                <svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 0v8M1 6l4 5 4-5" stroke="#3d5c48" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
             </div>
           ))}
 
-          {/* END label */}
+          {/* TO label — narrowest, matches last indent */}
           <div
-            className="mt-3 bg-[#1a2820] rounded-lg px-5 py-4 flex items-center gap-3"
-            style={{ marginLeft: `${4 * 18}px`, marginRight: `${4 * 18}px` }}
+            className="bg-[#0f1c15] rounded-md py-3 px-5 flex items-center"
+            style={{ marginLeft: `${4 * 20}px`, marginRight: `${4 * 20}px` }}
           >
-            <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#7a9a80]">End</span>
-            <span className="text-sm text-[#d8cfc4]">One clear instruction</span>
+            <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#a8d4b4]">
+              One clear instruction
+            </span>
           </div>
+
+          {/* TO label caption */}
+          <p
+            className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mt-4"
+            style={{ marginLeft: `${4 * 20}px` }}
+          >
+            To one clear instruction
+          </p>
         </div>
 
         {/* Supporting product language */}
