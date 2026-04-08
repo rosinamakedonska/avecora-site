@@ -1,146 +1,77 @@
 import { Link } from "wouter";
 
+const routes = [
+  {
+    label: "Clarity",
+    symptom: "The output arrived. Nothing became clearer.",
+    product: "AI Clarity Funnel",
+    slug: "/ai-clarity-funnel",
+  },
+  {
+    label: "Priority",
+    symptom: "Too many directions are competing. No stable ground.",
+    product: "Mental Priority System",
+    slug: "/mental-priority-system",
+  },
+  {
+    label: "Tool",
+    symptom: "The tools are there. No logic for which one or when.",
+    product: "AI Tool Navigator",
+    slug: "/ai-tool-navigator",
+  },
+  {
+    label: "Execution",
+    symptom: "The direction exists. Still no defined next move.",
+    product: "3–70–24 Decision Frame",
+    slug: "/3-70-24-decision-frame",
+  },
+];
+
 export default function ClarityForBeginners() {
   return (
-    <main className="min-h-screen bg-[#f8f6f2] text-[#2f2f2f] px-6 py-16">
-      <div className="max-w-3xl mx-auto">
-        <div className="mb-12">
-          <div className="mb-6">
-            <div className="text-sm tracking-[0.2em] uppercase opacity-60">Avecore</div>
-            <div className="text-sm opacity-70">Decision Systems for AI</div>
-          </div>
+    <main className="min-h-screen bg-[#f8f6f2] text-[#2f2f2f] px-6 py-12 md:py-16">
+      <div className="max-w-2xl mx-auto">
 
-          <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-4">
-            Clarity for Beginners
+        <Link
+          href="/"
+          className="text-sm text-[#6b6058] hover:text-[#1f1f1f] transition-colors"
+        >
+          ← Back to home
+        </Link>
+
+        <div className="mt-10 mb-12">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#5c4a38]">
+            Avecore
+          </p>
+          <h1 className="mt-4 text-2xl font-semibold leading-[1.2] tracking-[-0.02em] text-[#111512] md:text-[1.75rem]">
+            Where is movement breaking?
           </h1>
-          <p className="text-lg md:text-xl italic opacity-80">
-            Before the tool, the situation.
+          <p className="mt-4 text-base leading-7 text-[#6b6058]">
+            Locate the point where things are stuck. Each function addresses a
+            different problem. Find the one that fits your situation.
           </p>
         </div>
 
-        <div className="space-y-10 text-[17px] leading-8">
-          <section>
-            <p>
-              When you are new to working with AI tools, frameworks, or decision
-              systems, it is easy to end up with too many options and too little
-              direction. Many things seem helpful. Fewer things make the next
-              step clear.
-            </p>
-            <p className="mt-6">
-              The shift usually begins there: not with choosing a tool, but with
-              understanding what the situation actually needs.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">
-              Start with the problem in front of you
-            </h2>
-            <p>
-              Some situations need more clarity. Some need stronger priority.
-              Some need a decision tested before action. Others need structure,
-              especially when several tools are already in play without a clear
-              role.
-            </p>
-            <p className="mt-6">
-              When the problem becomes clearer, the next step usually does too.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">
-              Work with one thing at a time
-            </h2>
-            <p>
-              The clearest first results usually come from focused use.
-            </p>
-            <p className="mt-6">
-              Take one real situation. Use one tool or one framework. Move
-              through it slowly enough to stay specific, and let that process
-              show you what becomes clearer, what still feels unresolved, and
-              what needs attention next.
-            </p>
-            <p className="mt-6">
-              Trying to solve everything at once usually creates more noise than
-              progress.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">
-              Let clarity carry more of the work
-            </h2>
-            <p>
-              Useful output rarely depends on complexity alone. It depends on
-              understanding what is happening and what kind of result would
-              actually help.
-            </p>
-            <p className="mt-6">
-              Simple language is often enough. A well-defined situation will
-              take you further than polished phrasing.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">
-              What a good first result looks like
-            </h2>
-            <p>
-              A good first pass does not need to solve everything.
-            </p>
-            <p className="mt-6">
-              It only needs to do one thing well: make the situation clearer,
-              narrow the next step, or show you the right question to ask next.
-              That is often enough to move forward.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">
-              If you are using the Avecore tools
-            </h2>
-
-            <div className="space-y-4">
-              <p>
-                <Link href="/ai-clarity-funnel">
-                  <span className="underline underline-offset-4 cursor-pointer">
-                    AI Clarity Funnel™
-                  </span>
-                </Link>{" "}
-                — helps when the situation still feels too broad or difficult to
-                explain.
+        <div className="space-y-4">
+          {routes.map((item) => (
+            <Link
+              key={item.slug}
+              href={item.slug}
+              className="group block rounded-2xl border border-[#e2d9cc] bg-[#faf7f2] px-6 py-5 shadow-[0_4px_16px_rgba(0,0,0,0.05)] transition-all duration-200 hover:border-[#c8bfb0] hover:bg-[#f4ede2] hover:shadow-[0_6px_20px_rgba(0,0,0,0.07)]"
+            >
+              <p className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[#2d5a45]">
+                {item.label}
               </p>
-
-              <p>
-                <Link href="/mental-priority-system">
-                  <span className="underline underline-offset-4 cursor-pointer">
-                    Mental Priority System™
-                  </span>
-                </Link>{" "}
-                — helps when several directions are competing for your attention.
+              <p className="mt-2 text-base font-medium leading-[1.4] text-[#1a1f1c]">
+                {item.symptom}
               </p>
-
-              <p>
-                <Link href="/3-70-24-decision-frame">
-                  <span className="underline underline-offset-4 cursor-pointer">
-                    3–70–24 Decision Frame™
-                  </span>
-                </Link>{" "}
-                — helps when a decision needs to be tested before action.
+              <p className="mt-2.5 text-sm text-[#6b6058] group-hover:text-[#2d5a45] transition-colors">
+                {item.product} →
               </p>
-
-              <p>
-                <Link href="/ai-tool-navigator">
-                  <span className="underline underline-offset-4 cursor-pointer">
-                    AI Tool Navigator™
-                  </span>
-                </Link>{" "}
-                — helps when the question is no longer only what to ask, but
-                what to use, when, and why.
-              </p>
-            </div>
-          </section>
+            </Link>
+          ))}
         </div>
+
       </div>
     </main>
   );
