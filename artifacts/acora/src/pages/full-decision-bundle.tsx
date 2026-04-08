@@ -4,6 +4,7 @@ import SiteFooter from "@/components/site-footer";
 
 export default function FullDecisionBundle() {
   return (
+    <>
     <div className="min-h-screen bg-background text-foreground px-6 py-12">
       <div className="max-w-2xl mx-auto">
         <Link href="/" className="inline-block mb-8 text-sm opacity-70 hover:opacity-100">
@@ -57,7 +58,8 @@ export default function FullDecisionBundle() {
           Clarity, prioritization, tool selection, and next-step definition — in one bundle.
         </p>
       </div>
-      <SiteFooter />
     </div>
+    <SiteFooter />
+    </>
   );
 }

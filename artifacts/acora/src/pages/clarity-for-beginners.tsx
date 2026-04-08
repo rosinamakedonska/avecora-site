@@ -30,6 +30,7 @@ const routes = [
 
 export default function ClarityForBeginners() {
   return (
+    <>
     <main className="min-h-screen bg-[#f8f6f2] text-[#2f2f2f] px-6 py-12 md:py-16">
       <div className="max-w-2xl mx-auto">
 
@@ -74,7 +75,8 @@ export default function ClarityForBeginners() {
         </div>
 
       </div>
-      <SiteFooter />
     </main>
+    <SiteFooter />
+    </>
   );
 }

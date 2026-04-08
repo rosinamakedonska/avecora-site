@@ -2,6 +2,7 @@ import BonusCalibrationBlock from "@/components/bonus-calibration-block";
 import SiteFooter from "@/components/site-footer";
 export default function AccessClarityPriorityBundle() {
   return (
+    <>
     <main className="min-h-screen bg-white px-6 py-16">
       <div className="mx-auto max-w-2xl">
         <p className="mb-6 text-sm font-semibold uppercase tracking-[0.3em] text-slate-500">
@@ -43,7 +44,8 @@ export default function AccessClarityPriorityBundle() {
         </p>
       </div>
       <BonusCalibrationBlock />
-      <SiteFooter />
     </main>
+    <SiteFooter />
+    </>
   );
 }

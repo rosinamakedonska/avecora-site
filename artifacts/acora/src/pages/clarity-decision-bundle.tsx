@@ -4,6 +4,7 @@ import SiteFooter from "@/components/site-footer";
 
 export default function ClarityDecisionBundle() {
   return (
+    <>
     <div className="min-h-screen bg-background text-foreground px-6 py-12">
       <div className="max-w-2xl mx-auto">
         <Link href="/" className="inline-block mb-8 text-sm opacity-70 hover:opacity-100">
@@ -55,7 +56,8 @@ export default function ClarityDecisionBundle() {
           First narrow the situation. Then define the next move.
         </p>
       </div>
-      <SiteFooter />
     </div>
+    <SiteFooter />
+    </>
   );
 }

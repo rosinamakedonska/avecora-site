@@ -2,6 +2,7 @@ import BonusCalibrationBlock from "@/components/bonus-calibration-block";
 import SiteFooter from "@/components/site-footer";
 export default function AccessMentalPrioritySystem() {
   return (
+    <>
     <main className="min-h-screen px-6 py-16">
       <div className="mx-auto max-w-3xl">
         <div className="mb-10">
@@ -43,7 +44,8 @@ export default function AccessMentalPrioritySystem() {
         </div>
       </div>
       <BonusCalibrationBlock />
-      <SiteFooter />
     </main>
+    <SiteFooter />
+    </>
   );
 }

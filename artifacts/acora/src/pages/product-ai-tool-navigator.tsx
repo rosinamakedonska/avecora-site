@@ -6,6 +6,7 @@ export default function ProductAIToolNavigator() {
   const [, navigate] = useLocation();
 
   return (
+    <>
     <div className="landing-root">
       <div className="landing-container">
         <header className="landing-header">
@@ -75,7 +76,8 @@ export default function ProductAIToolNavigator() {
           </div>
         </main>
       </div>
-      <SiteFooter />
     </div>
+    <SiteFooter />
+    </>
   );
 }

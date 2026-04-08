@@ -3,6 +3,7 @@ import SiteFooter from "@/components/site-footer";
 
 export default function Contact() {
   return (
+    <>
     <main className="min-h-screen px-6 py-10 md:px-10 bg-[#f7f4ed] text-[#1f1f1f]">
       <div className="max-w-2xl mx-auto">
         <button
@@ -41,7 +42,8 @@ export default function Contact() {
           </p>
         </div>
       </div>
-      <SiteFooter />
     </main>
+    <SiteFooter />
+    </>
   );
 }

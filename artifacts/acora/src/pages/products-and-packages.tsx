@@ -3,6 +3,7 @@ import SiteFooter from "@/components/site-footer";
 
 export default function ProductsAndPackages() {
   return (
+    <>
     <div className="min-h-screen bg-background text-foreground px-6 py-12">
       <div className="max-w-3xl mx-auto">
         <div className="mb-6">
@@ -159,7 +160,8 @@ export default function ProductsAndPackages() {
           </Link>
         </div>
       </div>
-      <SiteFooter />
     </div>
+    <SiteFooter />
+    </>
   );
 }

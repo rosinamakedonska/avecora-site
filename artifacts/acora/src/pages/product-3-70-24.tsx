@@ -6,6 +6,7 @@ export default function Product3_70_24() {
   const [, navigate] = useLocation();
 
   return (
+    <>
     <div className="landing-root">
       <div className="landing-container">
         <header className="landing-header">
@@ -73,7 +74,8 @@ export default function Product3_70_24() {
           </div>
         </main>
       </div>
-      <SiteFooter />
     </div>
+    <SiteFooter />
+    </>
   );
 }

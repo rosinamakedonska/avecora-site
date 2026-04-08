@@ -6,6 +6,7 @@ export default function ProductAIClarityFunnel() {
   const [, navigate] = useLocation();
 
   return (
+    <>
     <div className="landing-root">
       <div className="landing-container">
         <header className="landing-header">
@@ -74,7 +75,8 @@ export default function ProductAIClarityFunnel() {
           </div>
         </main>
       </div>
-      <SiteFooter />
     </div>
+    <SiteFooter />
+    </>
   );
 }
