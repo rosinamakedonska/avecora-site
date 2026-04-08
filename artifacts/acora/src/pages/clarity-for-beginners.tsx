@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import SiteFooter from "@/components/site-footer";
 
 const routes = [
   {
@@ -73,6 +74,7 @@ export default function ClarityForBeginners() {
         </div>
 
       </div>
+      <SiteFooter />
     </main>
   );
 }

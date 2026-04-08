@@ -1,5 +1,6 @@
 import PurchaseCTABlock from "@/components/purchase-cta-block";
 import { useLocation, Link } from "wouter";
+import SiteFooter from "@/components/site-footer";
 
 export default function ProductMentalPrioritySystem() {
   const [, navigate] = useLocation();
@@ -73,6 +74,7 @@ export default function ProductMentalPrioritySystem() {
           </div>
         </main>
       </div>
+      <SiteFooter />
     </div>
   );
 }

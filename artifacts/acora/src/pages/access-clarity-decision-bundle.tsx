@@ -1,4 +1,5 @@
 import BonusCalibrationBlock from "@/components/bonus-calibration-block";
+import SiteFooter from "@/components/site-footer";
 export default function AccessClarityDecisionBundle() {
   return (
     <main className="min-h-screen bg-white px-6 py-16">
@@ -41,6 +42,7 @@ export default function AccessClarityDecisionBundle() {
         </p>
       </div>
       <BonusCalibrationBlock />
+      <SiteFooter />
     </main>
   );
 }

@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import SiteFooter from "@/components/site-footer";
 
 export default function Contact() {
   return (
@@ -40,6 +41,7 @@ export default function Contact() {
           </p>
         </div>
       </div>
+      <SiteFooter />
     </main>
   );
 }

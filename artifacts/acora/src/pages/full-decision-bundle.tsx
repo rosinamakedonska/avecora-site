@@ -1,5 +1,6 @@
 import PurchaseCTABlock from "@/components/purchase-cta-block";
 import { Link } from "wouter";
+import SiteFooter from "@/components/site-footer";
 
 export default function FullDecisionBundle() {
   return (
@@ -56,6 +57,7 @@ export default function FullDecisionBundle() {
           Clarity, prioritization, tool selection, and next-step definition — in one bundle.
         </p>
       </div>
+      <SiteFooter />
     </div>
   );
 }

@@ -1,3 +1,5 @@
+import SiteFooter from "@/components/site-footer";
+
 export default function LegalTerms() {
   return (
     <main className="min-h-screen px-6 py-10 md:px-10 bg-[#f7f4ed] text-[#1f1f1f]">
@@ -98,6 +100,7 @@ export default function LegalTerms() {
           Back to products and packages
         </a>
       </div>
+      <SiteFooter />
     </main>
   );
 }

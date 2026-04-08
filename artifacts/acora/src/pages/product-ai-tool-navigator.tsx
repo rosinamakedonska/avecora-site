@@ -1,5 +1,6 @@
 import PurchaseCTABlock from "@/components/purchase-cta-block";
 import { useLocation, Link } from "wouter";
+import SiteFooter from "@/components/site-footer";
 
 export default function ProductAIToolNavigator() {
   const [, navigate] = useLocation();
@@ -74,6 +75,7 @@ export default function ProductAIToolNavigator() {
           </div>
         </main>
       </div>
+      <SiteFooter />
     </div>
   );
 }

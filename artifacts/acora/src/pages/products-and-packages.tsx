@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import SiteFooter from "@/components/site-footer";
 
 export default function ProductsAndPackages() {
   return (
@@ -158,6 +159,7 @@ export default function ProductsAndPackages() {
           </Link>
         </div>
       </div>
+      <SiteFooter />
     </div>
   );
 }

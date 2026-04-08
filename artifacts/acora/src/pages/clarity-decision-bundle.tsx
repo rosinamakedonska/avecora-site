@@ -1,5 +1,6 @@
 import PurchaseCTABlock from "@/components/purchase-cta-block";
 import { Link } from "wouter";
+import SiteFooter from "@/components/site-footer";
 
 export default function ClarityDecisionBundle() {
   return (
@@ -54,6 +55,7 @@ export default function ClarityDecisionBundle() {
           First narrow the situation. Then define the next move.
         </p>
       </div>
+      <SiteFooter />
     </div>
   );
 }

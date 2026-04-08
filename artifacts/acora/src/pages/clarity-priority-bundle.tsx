@@ -1,5 +1,6 @@
 import PurchaseCTABlock from "@/components/purchase-cta-block";
 import { Link } from "wouter";
+import SiteFooter from "@/components/site-footer";
 
 export default function ClarityPriorityBundle() {
   return (
@@ -54,6 +55,7 @@ export default function ClarityPriorityBundle() {
           First make the situation clearer. Then make the priority clearer.
         </p>
       </div>
+      <SiteFooter />
     </div>
   );
 }

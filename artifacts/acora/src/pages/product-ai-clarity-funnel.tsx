@@ -1,5 +1,6 @@
 import PurchaseCTABlock from "@/components/purchase-cta-block";
 import { useLocation, Link } from "wouter";
+import SiteFooter from "@/components/site-footer";
 
 export default function ProductAIClarityFunnel() {
   const [, navigate] = useLocation();
@@ -73,6 +74,7 @@ export default function ProductAIClarityFunnel() {
           </div>
         </main>
       </div>
+      <SiteFooter />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import PurchaseCTABlock from "@/components/purchase-cta-block";
 import { useLocation, Link } from "wouter";
+import SiteFooter from "@/components/site-footer";
 
 export default function Product3_70_24() {
   const [, navigate] = useLocation();
@@ -72,6 +73,7 @@ export default function Product3_70_24() {
           </div>
         </main>
       </div>
+      <SiteFooter />
     </div>
   );
 }
