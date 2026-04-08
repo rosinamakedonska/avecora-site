@@ -55,10 +55,10 @@ const sequenceStyles = [
 ];
 
 const accentStyles = [
-  "bg-transparent border-transparent",
-  "bg-[#f4efe6] border-[#e6ddd0]",
-  "bg-transparent border-transparent",
-  "bg-[#eef0eb] border-[#d9dfd8]",
+  "bg-[#faf7f2] border-[#e2d9cc]",
+  "bg-[#f4ede2] border-[#d8cfc2]",
+  "bg-[#f7f4ef] border-[#dfd6c9]",
+  "bg-[#f4ede2] border-[#d8cfc2]",
 ];
 
 export default function Landing() {
@@ -178,7 +178,7 @@ export default function Landing() {
                 key={item.number}
                 id={item.id}
                 className={
-                  "scroll-mt-8 rounded-[2rem] border px-7 py-7 md:px-9 md:py-8 " +
+                  "scroll-mt-8 rounded-[2rem] border px-7 py-7 md:px-9 md:py-8 shadow-[0_4px_16px_rgba(0,0,0,0.06)] " +
                   sequenceStyles[index] +
                   " " +
                   accentStyles[index]
@@ -197,13 +197,6 @@ export default function Landing() {
                 <p className="mt-4 max-w-xl text-sm leading-7 text-neutral-500">
                   {item.body}
                 </p>
-
-                <Link
-                  href={item.slug}
-                  className="mt-5 inline-flex items-center text-sm font-medium text-[#2d5a45] hover:text-[#1d3d2f] transition-colors"
-                >
-                  Explore this function
-                </Link>
               </article>
             ))}
           </div>
@@ -263,6 +256,7 @@ export default function Landing() {
             <Link href="/legal/terms" className="hover:text-neutral-800 transition-colors">Terms</Link>
             <Link href="/legal/refund" className="hover:text-neutral-800 transition-colors">Refund</Link>
             <Link href="/legal/privacy" className="hover:text-neutral-800 transition-colors">Privacy</Link>
+            <Link href="/contact" className="hover:text-neutral-800 transition-colors">Contact</Link>
           </div>
         </div>
       </footer>

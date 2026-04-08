@@ -1,0 +1,72 @@
+Edit only the 4 lower function teaser blocks, the footer navigation, and add a simple Contact page if it does not already exist. Leave everything else unchanged.
+
+Do not rewrite the page.
+Do not change routes, imports, slugs, product names, system-reveal section, hero section, or CTA destinations except for adding a new Contact page route if needed.
+
+Make these exact corrections:
+
+1. Lower function CTA text
+Remove the CTA text:
+Explore this function
+
+Do not replace it with another CTA inside these lower teaser blocks.
+Just remove it.
+
+2. Fourth block color
+Change the pale green background on the 4th block to beige so it aligns better with the rest of the page palette.
+
+3. All 4 lower teaser blocks
+Give all four blocks:
+- a visible border/outline
+- the same shadow language used on the DECISION QUALITY block
+
+Requirements:
+- all 4 blocks should feel like one refined family
+- keep subtle variation in tone if helpful, but make them feel visually consistent
+- use premium, soft borders
+- use the same soft shadow style as the DECISION QUALITY strip/block
+- do not make them heavy or clumsy
+- do not make them look like generic cards
+- keep the palette refined: beige / soft neutrals / muted graphite-emerald accents
+
+4. Footer navigation
+Do not make “MacTerra Ltd” clickable.
+Keep it as text.
+
+Instead, add a clean “Contact” link in the footer navigation next to:
+Terms
+Refund
+Privacy
+
+Result:
+Terms · Refund · Privacy · Contact
+
+5. Contact page
+If a Contact page does not already exist, create a simple clean Contact page and add a route for it.
+
+Requirements for the Contact page:
+- premium and minimal
+- visually consistent with the Avecore site
+- no heavy design
+- include a clear heading
+- include a short contact line
+- include the business name MacTerra Ltd
+- include one contact email placeholder only if no real contact email is already present in the project
+- keep it simple and dry, not salesy
+
+Use route:
+/contact
+
+6. Keep these locked decisions
+- main hero stays left-aligned
+- beige floating accent stays
+- dark accents stay graphite-emerald, not black
+- page must communicate one system with four functions
+- lower sections stay teaser-style, not dense explanation blocks
+
+Workflow:
+1. Inspect the current Home page footer and routes
+2. Apply only these targeted corrections
+3. Add the Contact page only if needed
+4. Leave everything else untouched
+5. Summarize exactly what changed

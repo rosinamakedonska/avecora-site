@@ -45,6 +45,7 @@ import LegalPrivacy from "@/pages/legal-privacy";
 import ThankYouPage from "@/pages/thank-you";
 import SubPlaceholder from "@/pages/sub-placeholder";
 import AvecoreAffiliateLandingPage from "@/pages/affiliate-landing";
+import Contact from "@/pages/contact";
 
 const queryClient = new QueryClient();
 
@@ -95,6 +96,7 @@ function Router() {
       <Route path="/legal/terms" component={LegalTerms} />
       <Route path="/legal/refund" component={LegalRefund} />
       <Route path="/legal/privacy" component={LegalPrivacy} />
+      <Route path="/contact" component={Contact} />
       <Route path="/thank-you" component={ThankYouPage} />
       <Route path="/sub-placeholder/:parentId/:id" component={SubPlaceholder} />
       <Route component={NotFound} />
