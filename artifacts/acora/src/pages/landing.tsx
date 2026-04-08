@@ -11,7 +11,7 @@ const functions = [
     body: "When output arrives but nothing becomes clearer, the situation was likely misread before the prompt was written.",
     product: "AI Clarity Funnel",
     result: "It surfaces the real decision so any further thinking starts in the right place.",
-    slug: "/ai-clarity-funnel",
+    slug: "/placeholder/1",
   },
   {
     id: "priority",
