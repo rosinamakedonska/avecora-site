@@ -78,8 +78,8 @@ export default function ProductAIClarityFunnel() {
         </div>
 
         {/* Funnel preview graphic */}
-        <div className="mb-14 max-w-xs mx-auto">
-          <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#b0a090] text-center mb-3">
+        <div className="mb-14 max-w-[300px] mx-auto">
+          <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#b0a090] text-center mb-5">
             From vague input
           </p>
 
@@ -90,33 +90,29 @@ export default function ProductAIClarityFunnel() {
           ].map(({ label, indent }) => (
             <div key={label}>
               <div
-                className="border border-[#d8d0c5] bg-[#faf8f4] rounded-md py-2 flex items-center justify-center"
-                style={{ marginLeft: `${indent * 22}px`, marginRight: `${indent * 22}px` }}
+                className="border border-[#d8d0c5] bg-[#faf8f4] rounded-md py-[10px] flex items-center justify-center"
+                style={{ marginLeft: `${indent * 16}px`, marginRight: `${indent * 16}px` }}
               >
-                <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#6b6058]">
+                <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[#7a6e64]">
                   {label}
                 </span>
               </div>
-              <div className="flex justify-center my-[3px]">
-                <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 0v7M1.5 5.5l3.5 4.5 3.5-4.5" stroke="#c4b8a4" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round"/>
+              <div className="flex justify-center my-[5px]">
+                <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 0v7M1 5.5l3 4 3-4" stroke="#c4b8a4" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
             </div>
           ))}
 
           <div
-            className="bg-[#2e3d34] rounded-md py-2 flex items-center justify-center"
-            style={{ marginLeft: `${3 * 22}px`, marginRight: `${3 * 22}px` }}
+            className="border border-[#b0a090] bg-[#ede8df] rounded-md py-[10px] flex items-center justify-center"
+            style={{ marginLeft: `${3 * 16}px`, marginRight: `${3 * 16}px` }}
           >
-            <span className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[#c8d8c4]">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#3a3530] whitespace-nowrap">
               One clear instruction
             </span>
           </div>
-
-          <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#b0a090] text-center mt-3">
-            To one clear decision
-          </p>
         </div>
 
         {/* Supporting product language */}
