@@ -78,56 +78,44 @@ export default function ProductAIClarityFunnel() {
         </div>
 
         {/* Funnel preview graphic */}
-        <div className="mb-14">
-          {/* FROM label */}
-          <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mb-4">
+        <div className="mb-14 max-w-xs mx-auto">
+          <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#b0a090] text-center mb-3">
             From vague input
           </p>
 
-          {/* Funnel stages */}
           {[
-            { label: "Situation", indent: 0 },
-            { label: "Goal",      indent: 1 },
-            { label: "Limits",    indent: 2 },
-            { label: "Context",   indent: 3 },
-            { label: "Format",    indent: 4 },
-          ].map(({ label, indent }, i) => (
+            { label: "Situation",        indent: 0 },
+            { label: "Goal",             indent: 1 },
+            { label: "Context + Limits", indent: 2 },
+          ].map(({ label, indent }) => (
             <div key={label}>
               <div
-                className="bg-[#1e2d26] rounded-md py-3 px-5 flex items-center"
-                style={{ marginLeft: `${indent * 20}px`, marginRight: `${indent * 20}px` }}
+                className="border border-[#d8d0c5] bg-[#faf8f4] rounded-md py-2 flex items-center justify-center"
+                style={{ marginLeft: `${indent * 22}px`, marginRight: `${indent * 22}px` }}
               >
-                <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#7aab8a]">
+                <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#6b6058]">
                   {label}
                 </span>
               </div>
-              <div
-                className="flex justify-center my-[3px]"
-                style={{ marginLeft: `${indent * 20}px`, marginRight: `${indent * 20}px` }}
-              >
-                <svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 0v8M1 6l4 5 4-5" stroke="#3d5c48" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
+              <div className="flex justify-center my-[3px]">
+                <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 0v7M1.5 5.5l3.5 4.5 3.5-4.5" stroke="#c4b8a4" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
             </div>
           ))}
 
-          {/* TO label — narrowest, matches last indent */}
           <div
-            className="bg-[#0f1c15] rounded-md py-3 px-5 flex items-center"
-            style={{ marginLeft: `${4 * 20}px`, marginRight: `${4 * 20}px` }}
+            className="bg-[#2e3d34] rounded-md py-2 flex items-center justify-center"
+            style={{ marginLeft: `${3 * 22}px`, marginRight: `${3 * 22}px` }}
           >
-            <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#a8d4b4]">
+            <span className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[#c8d8c4]">
               One clear instruction
             </span>
           </div>
 
-          {/* TO label caption */}
-          <p
-            className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mt-4"
-            style={{ marginLeft: `${4 * 20}px` }}
-          >
-            To one clear instruction
+          <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#b0a090] text-center mt-3">
+            To one clear decision
           </p>
         </div>
 
