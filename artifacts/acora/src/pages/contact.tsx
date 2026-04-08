@@ -4,6 +4,19 @@ export default function Contact() {
   return (
     <main className="min-h-screen px-6 py-10 md:px-10 bg-[#f7f4ed] text-[#1f1f1f]">
       <div className="max-w-2xl mx-auto">
+        <button
+          onClick={() => {
+            if (window.history.length > 1) {
+              window.history.back();
+            } else {
+              window.location.href = "/";
+            }
+          }}
+          className="mb-8 text-sm text-[#6b6058] hover:text-[#1f1f1f] transition-colors"
+        >
+          ← Back
+        </button>
+
         <div className="mb-10">
           <Link href="/" className="flex flex-col leading-none w-fit">
             <span className="text-base font-semibold tracking-[-0.01em]">Avecore</span>
