@@ -2,7 +2,7 @@ import { Link } from "wouter";
 
 export default function SiteFooter() {
   return (
-    <footer className="border-t border-neutral-200 bg-[#fcfbf8] px-6 py-12 md:px-8">
+    <footer className="mt-16 md:mt-24 border-t border-neutral-200 bg-[#fcfbf8] px-6 py-12 md:px-8">
       <div className="mx-auto max-w-7xl flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
         <div>
           <p className="text-sm font-semibold tracking-[-0.01em] text-neutral-900">
