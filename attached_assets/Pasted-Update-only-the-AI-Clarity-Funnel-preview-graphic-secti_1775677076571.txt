@@ -1,0 +1,68 @@
+Update only the AI Clarity Funnel preview graphic section.
+
+Do not use the exact product step names.
+Do not present it as a full method.
+Do not make it look like the user already got the product.
+
+This section must show a PROCESS, not a list of 6 steps.
+
+Goal:
+Turn the current stacked boxes into a visual funnel that shows how a vague situation becomes a clear AI instruction.
+
+Use a narrowing flow with arrows between stages.
+The wording must feel like a guided thinking process, not like the actual framework inside the paid product.
+
+Use this process wording:
+
+START
+From vague input to clear instruction
+
+1
+What is happening?
+Start with the real situation, not the first wording that comes to mind.
+
+2
+What needs to happen?
+Define the outcome clearly enough to guide the response.
+
+3
+What must stay true?
+Bring in limits, conditions, and non-negotiables.
+
+4
+What does AI need to understand?
+Add the context that prevents generic output.
+
+5
+What should the answer look like?
+Make the response easier to use by shaping the output.
+
+END
+One clear instruction
+
+Design requirements:
+- make the whole section read visually as a funnel
+- use arrows or directional flow between stages
+- make each stage narrower or more focused than the one above
+- the final point should visually feel like compression into one usable instruction
+- keep the premium, calm visual style
+- preserve the soft color feeling if it already fits the page
+- do not make it too technical
+- do not make it look childish
+- do not use the exact internal framework labels from the product PDF
+
+Important boundary:
+This is preview logic only.
+It should help the user understand the transformation, but it must not replace the product itself.
+
+Do not change:
+- the full product content below
+- pricing
+- Stripe
+- footer
+- other page sections
+
+After editing, return only:
+1. file changed
+2. confirmation that the graphic now shows a process, not a step list
+3. confirmation that the preview wording is paraphrased and not identical to the product

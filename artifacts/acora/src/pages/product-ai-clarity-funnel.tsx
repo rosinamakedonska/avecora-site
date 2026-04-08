@@ -77,36 +77,55 @@ export default function ProductAIClarityFunnel() {
           </p>
         </div>
 
-        {/* Framework labels */}
-        <div className="mb-6">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mb-5">
-            The 6 steps
+        {/* Funnel preview graphic */}
+        <div className="mb-14">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mb-6">
+            How it works
           </p>
-          <div className="space-y-3">
-            {[
-              { n: "1", label: "Act as" },
-              { n: "2", label: "Task" },
-              { n: "3", label: "Key Details" },
-              { n: "4", label: "Constraints" },
-              { n: "5", label: "Output Format" },
-              { n: "6", label: "Quality Criteria" },
-            ].map(({ n, label }) => (
-              <div key={n} className="flex items-center gap-4">
-                <span className="text-[11px] font-semibold text-[#a09080] w-4 shrink-0">{n}</span>
-                <span className="text-base text-[#3a3530]">{label}</span>
-              </div>
-            ))}
-          </div>
-        </div>
 
-        {/* Execution Lock */}
-        <div className="bg-[#ede8df] rounded-xl px-6 py-5 mb-14">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mb-2">
-            Execution Lock
-          </p>
-          <p className="text-sm leading-7 text-[#4a4540]">
-            A separate mandatory block. Not a step. Locks in the instruction before AI responds.
-          </p>
+          {/* START label */}
+          <div className="flex items-center gap-3 mb-3">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#b0a090]">Start</span>
+            <span className="text-sm text-[#8a7d6e]">From vague input to clear instruction</span>
+          </div>
+
+          {/* Funnel stages — each step narrows by increasing horizontal margin */}
+          {[
+            { n: "1", q: "What is happening?",            sub: "Start with the real situation, not the first wording that comes to mind.", indent: 0 },
+            { n: "2", q: "What needs to happen?",          sub: "Define the outcome clearly enough to guide the response.",              indent: 1 },
+            { n: "3", q: "What must stay true?",           sub: "Bring in limits, conditions, and non-negotiables.",                     indent: 2 },
+            { n: "4", q: "What does AI need to understand?", sub: "Add the context that prevents generic output.",                       indent: 3 },
+            { n: "5", q: "What should the answer look like?", sub: "Make the response easier to use by shaping the output.",             indent: 4 },
+          ].map(({ n, q, sub, indent }) => (
+            <div key={n} style={{ marginLeft: `${indent * 18}px`, marginRight: `${indent * 18}px` }}>
+              <div className="border border-[#d8d0c5] bg-[#faf8f4] rounded-lg px-5 py-4">
+                <div className="flex items-start gap-3">
+                  <span className="text-[10px] font-semibold text-[#b0a090] mt-[3px] w-3 shrink-0">{n}</span>
+                  <div>
+                    <p className="text-sm font-medium text-[#2a2420] leading-snug mb-1">{q}</p>
+                    <p className="text-xs leading-5 text-[#8a7d6e]">{sub}</p>
+                  </div>
+                </div>
+              </div>
+              {/* Arrow connector — skip after last stage */}
+              {indent < 4 && (
+                <div className="flex justify-center my-1">
+                  <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 0v10M1 7l5 6 5-6" stroke="#c4b8a4" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
+              )}
+            </div>
+          ))}
+
+          {/* END label */}
+          <div
+            className="mt-3 bg-[#1a2820] rounded-lg px-5 py-4 flex items-center gap-3"
+            style={{ marginLeft: `${4 * 18}px`, marginRight: `${4 * 18}px` }}
+          >
+            <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#7a9a80]">End</span>
+            <span className="text-sm text-[#d8cfc4]">One clear instruction</span>
+          </div>
         </div>
 
         {/* Supporting product language */}
