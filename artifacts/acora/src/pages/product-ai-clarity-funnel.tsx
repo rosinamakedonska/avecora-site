@@ -79,7 +79,7 @@ export default function ProductAIClarityFunnel() {
 
         {/* Funnel preview graphic */}
         <div className="mb-14 max-w-[300px] mx-auto">
-          <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#b0a090] text-center mb-5">
+          <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#1a2820] text-center mb-5">
             From vague input
           </p>
 
@@ -106,10 +106,10 @@ export default function ProductAIClarityFunnel() {
           ))}
 
           <div
-            className="border border-[#b0a090] bg-[#ede8df] rounded-md py-[10px] flex items-center justify-center"
+            className="bg-[#1a2820] rounded-md py-[10px] flex items-center justify-center"
             style={{ marginLeft: `${3 * 16}px`, marginRight: `${3 * 16}px` }}
           >
-            <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#3a3530] whitespace-nowrap">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#a8c4a8] whitespace-nowrap">
               One clear instruction
             </span>
           </div>
