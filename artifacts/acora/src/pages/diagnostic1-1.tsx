@@ -38,7 +38,7 @@ export default function Diagnostic1_1() {
         </div>
 
         <button
-          onClick={() => navigate("/sub-placeholder/1/next")}
+          onClick={() => navigate("/sub-placeholder/1/next?from=1")}
           className="inline-block bg-[#1a2820] text-white text-sm font-medium px-7 py-3.5 rounded-full hover:bg-[#243830] transition-colors"
         >
           Enter AI Clarity Funnel

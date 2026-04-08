@@ -1,21 +1,41 @@
 import PurchaseCTABlock from "@/components/purchase-cta-block";
-import { Link } from "wouter";
+import { Link, useSearch } from "wouter";
 import SiteFooter from "@/components/site-footer";
 
+const fromMap: Record<string, { label: string; route: string }> = {
+  "1": { label: "The goal becomes more specific", route: "/sub-placeholder/1/1" },
+  "2": { label: "The context becomes clearer",    route: "/sub-placeholder/1/2" },
+  "3": { label: "The limits become visible",      route: "/sub-placeholder/1/3" },
+};
+
 export default function ProductAIClarityFunnel() {
+  const search = useSearch();
+  const params = new URLSearchParams(search);
+  const from = params.get("from");
+  const context = from ? fromMap[from] : null;
+
+  const backHref  = context ? context.route : "/products-and-packages";
+  const backLabel = context ? "← Back" : "← Back to Products and Packages";
+
   return (
     <>
     <div className="min-h-screen bg-[#f8f5ef] text-[#1e1e1e] px-6 py-10 md:px-10">
       <div className="max-w-2xl mx-auto">
 
-        <div className="mb-10">
+        <div className="mb-6">
           <Link
-            href="/products-and-packages"
+            href={backHref}
             className="text-sm text-[#8a7d6e] hover:text-[#3a3530] transition-colors"
           >
-            ← Back to Products and Packages
+            {backLabel}
           </Link>
         </div>
+
+        {context && (
+          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#b0a090] mb-4">
+            You selected: {context.label}
+          </p>
+        )}
 
         <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#8a7d6e] mb-4">
           Clarity Function · Avecore
