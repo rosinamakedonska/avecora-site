@@ -41,11 +41,44 @@ export default function ProductAIClarityFunnel() {
           Clarity Function · Avecore
         </p>
 
-        <h1 className="text-[clamp(1.75rem,4vw,2.5rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-12">
-          AI Clarity Funnel
+        {/* HERO */}
+        <h1 className="text-[clamp(1.75rem,4vw,2.5rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-5">
+          Stop getting generic AI answers.
         </h1>
 
-        <div className="space-y-6 mb-10">
+        <p className="text-base leading-8 text-[#3a3530] mb-5">
+          Use a 6+1 step instruction framework that makes AI respond the way you want.
+        </p>
+
+        {/* CTA label */}
+        <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mb-12">
+          Get AI Clarity Funnel™ — €19
+        </p>
+
+        {/* PROBLEM */}
+        <div className="space-y-2 mb-12">
+          <p className="text-base leading-8 text-[#3a3530]">You use AI every day.</p>
+          <p className="text-base leading-8 text-[#3a3530]">But the results feel inconsistent.</p>
+          <p className="text-base leading-8 text-[#3a3530]">Rarely exactly what you expect.</p>
+          <p className="text-base leading-8 text-[#4a4540] mt-4">Give AI structured instructions.</p>
+          <p className="text-base leading-8 text-[#4a4540]">Use the tool.</p>
+        </div>
+
+        {/* SHIFT */}
+        <div className="border-l-2 border-[#c4b8a4] pl-5 mb-14">
+          <p className="text-sm leading-7 text-[#6b6058]">
+            Fill in the 6+1 steps.
+          </p>
+          <p className="text-sm leading-7 text-[#6b6058]">
+            Your AI will start responding the way you want — for your exact goal.
+          </p>
+          <p className="text-sm leading-7 text-[#6b6058]">
+            AI Clarity Funnel™ gives you the structure.
+          </p>
+        </div>
+
+        {/* Supporting product language */}
+        <div className="space-y-6 mb-14">
           <p className="text-base leading-8 text-[#3a3530]">
             Useful output depends on a clearly defined situation. Without that, the answer remains too general.
           </p>
@@ -65,20 +98,17 @@ export default function ProductAIClarityFunnel() {
               </li>
               <li className="flex gap-3 items-start text-base leading-7 text-[#4a4540]">
                 <span className="mt-2.5 w-1 h-1 rounded-full bg-[#b0a090] shrink-0" />
-                the constraints become more visible
+                the limits become visible
               </li>
             </ul>
           </div>
 
-          <p className="text-base leading-8 text-[#6b6058] italic">
-            Which of these feels closest to your situation?
-          </p>
-
           <p className="text-base leading-8 text-[#3a3530]">
-            That is the beginning of AI Clarity Funnel. It helps turn a broad situation into a clearer working frame, so the output becomes more specific and more useful.
+            This is where AI Clarity Funnel begins. It helps define the situation more clearly, so the output becomes more relevant and easier to use.
           </p>
         </div>
 
+        {/* Purchase block — unchanged */}
         <div className="border-t border-[#d8d0c5] pt-10 mt-14">
           <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mb-3">
             AI Clarity Funnel
