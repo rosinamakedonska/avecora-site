@@ -1,3 +1,4 @@
+import BrandLockup from "@/components/brand-lockup";
 import { Link } from "wouter";
 import { useLocation } from "wouter";
 import SiteFooter from "@/components/site-footer";
@@ -18,6 +19,8 @@ export default function Diagnostic1_2() {
             ← Back
           </Link>
         </div>
+
+          <BrandLockup className="mb-7" />
 
         <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#8a7d6e] mb-4">
           Clarity Function · Avecore

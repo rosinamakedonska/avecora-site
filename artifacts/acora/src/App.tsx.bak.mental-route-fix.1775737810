@@ -7,7 +7,6 @@ import Landing from "@/pages/landing";
 import Placeholder from "@/pages/placeholder";
 import Diagnostic1 from "@/pages/diagnostic1";
 import Diagnostic2 from "@/pages/diagnostic2";
-import Placeholder2 from "@/pages/placeholder-2";
 import Diagnostic3 from "@/pages/diagnostic3";
 import Diagnostic4 from "@/pages/diagnostic4";
 import Diagnostic1_1 from "@/pages/diagnostic1-1";

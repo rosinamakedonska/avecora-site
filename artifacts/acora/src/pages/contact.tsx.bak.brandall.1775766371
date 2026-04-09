@@ -1,4 +1,3 @@
-import BrandLockup from "@/components/brand-lockup";
 import { Link } from "wouter";
 import SiteFooter from "@/components/site-footer";
 
@@ -28,8 +27,6 @@ export default function Contact() {
             </span>
           </Link>
         </div>
-
-          <BrandLockup className="mb-7" />
 
         <h1 className="text-3xl font-semibold mb-8">Contact</h1>
 

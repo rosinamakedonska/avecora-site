@@ -12,7 +12,7 @@ const routes = [
     label: "Priority",
     symptom: "Too much information is coming in. I can't see what matters.",
     product: "Mental Priority System",
-    slug: "/placeholder/2",
+    slug: "/mental-priority-system",
   },
   {
     label: "Tool",

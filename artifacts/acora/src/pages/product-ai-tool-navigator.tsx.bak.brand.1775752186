@@ -1,7 +1,6 @@
 import PurchaseCTABlock from "@/components/purchase-cta-block";
 import { Link } from "wouter";
 import SiteFooter from "@/components/site-footer";
-import BrandLockup from "@/components/brand-lockup";
 
 export default function ProductAIToolNavigator() {
   return (

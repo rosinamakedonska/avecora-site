@@ -1,9 +1,8 @@
-import BrandLockup from "@/components/brand-lockup";
 import { Link } from "wouter";
 import { useLocation } from "wouter";
 import SiteFooter from "@/components/site-footer";
 
-export default function Diagnostic1_1() {
+export default function Diagnostic1_3() {
   const [, navigate] = useLocation();
 
   return (
@@ -27,11 +26,11 @@ export default function Diagnostic1_1() {
         </p>
 
         <h1 className="text-[clamp(1.5rem,3.5vw,2.25rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-5">
-          The goal becomes more specific
+          The limits become visible
         </h1>
 
         <p className="text-base leading-8 text-[#4a4540] mb-12">
-          The output starts moving in the right direction when the goal becomes precise.
+          The output changes when the limits become visible. That is when the answer becomes more accurate.
         </p>
 
         <div className="border-l-2 border-[#c4b8a4] pl-5 mb-14">
@@ -41,7 +40,7 @@ export default function Diagnostic1_1() {
         </div>
 
         <button
-          onClick={() => navigate("/ai-clarity-funnel")}
+          onClick={() => navigate("/sub-placeholder/1/next?from=3")}
           className="inline-block bg-[#1a2820] text-white text-sm font-medium px-7 py-3.5 rounded-full hover:bg-[#243830] transition-colors"
         >
           Enter AI Clarity Funnel

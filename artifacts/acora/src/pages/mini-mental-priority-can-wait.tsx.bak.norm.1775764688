@@ -1,0 +1,38 @@
+import { Link } from "wouter";
+import BrandLockup from "@/components/brand-lockup";
+
+export default function MiniMentalPriorityCanWait() {
+  return (
+    <div className="min-h-screen bg-[#f7f3ee] text-[#1f1f1b] px-6 py-10">
+      <div className="max-w-5xl mx-auto">
+        <Link href="/placeholder/2">
+          <a className="text-sm opacity-70 hover:opacity-100 transition">← Back</a>
+        </Link>
+
+        
+
+        <BrandLockup className="mt-8 mb-7" />
+
+        <h1 className="text-[34px] md:text-[46px] font-semibold leading-[1.12] tracking-[-0.02em] mb-10 max-w-4xl">
+          What can wait
+        </h1>
+
+        <p className="text-[18px] md:text-[20px] leading-[1.9] text-black/68 mb-16 max-w-4xl">
+          Once it is clear what can wait, the right priority becomes easier to see.
+        </p>
+
+        <div className="border-l-[4px] border-[#cfc3b2] pl-8 mb-16 max-w-5xl">
+          <p className="text-[18px] md:text-[20px] leading-[1.9] text-black/55 max-w-5xl">
+            This is where Mental Priority System begins. It brings the right priority into focus, so the right next step becomes visible.
+          </p>
+        </div>
+
+        <Link href="/mental-priority-system">
+          <a className="inline-flex items-center rounded-full bg-[#173126] px-9 py-5 text-[17px] text-white shadow-[0_10px_24px_rgba(23,49,38,0.16)] hover:opacity-95 transition">
+            Enter Mental Priority System
+          </a>
+        </Link>
+      </div>
+    </div>
+  );
+}

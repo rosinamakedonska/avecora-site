@@ -1,0 +1,47 @@
+import SiteFooter from "@/components/site-footer";
+
+export default function LegalRefund() {
+  return (
+    <>
+    <main className="min-h-screen px-6 py-10 md:px-10 bg-[#f7f4ed] text-[#1f1f1f]">
+      <div className="max-w-3xl mx-auto">
+        <div className="mb-10">
+          <span className="flex flex-col leading-none">
+            <span className="landing-wordmark">Avecore</span>
+            <span className="text-[11px] uppercase tracking-[0.22em] opacity-70 mt-1">
+              Decision Systems for AI
+            </span>
+          </span>
+        </div>
+
+        <h1 className="text-3xl font-semibold mb-3">Refund Policy</h1>
+        <p className="text-sm opacity-70 mb-8">Effective date: April 2, 2026</p>
+
+        <p className="mb-4">All digital product purchases are final.</p>
+        <p className="mb-4">
+          Refunds are not provided once access to digital materials has been granted.
+        </p>
+        <p className="mb-8">
+          This policy does not affect mandatory rights under applicable consumer protection law.
+        </p>
+
+        <section className="mb-10">
+          <h2 className="text-xl font-semibold mb-3">Contact</h2>
+          <p>MacTerra Ltd</p>
+          <p>71–75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom</p>
+          <p>Company Registration Number: 12050922</p>
+          <p>Email: sales@macterra.co.uk</p>
+        </section>
+
+        <a
+          href="/products-and-packages"
+          className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
+        >
+          Back to products and packages
+        </a>
+      </div>
+    </main>
+    <SiteFooter />
+    </>
+  );
+}
