@@ -18,7 +18,7 @@ export default function Diagnostic1() {
 
         <div className="mb-10">
           <Link
-            href="/"
+            href="/diagnostic"
             className="text-sm text-[#8a7d6e] hover:text-[#3a3530] transition-colors"
           >
             ← Back

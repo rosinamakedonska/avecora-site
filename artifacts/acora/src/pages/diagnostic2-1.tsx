@@ -36,7 +36,7 @@ export default function Diagnostic2_1() {
             </button>
             <button
               className="continue-btn"
-              onClick={() => navigate("/sub-placeholder/2/next")}
+              onClick={() => navigate("/placeholder/2")}
             >
               Enter Mental Priority System
             </button>

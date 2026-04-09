@@ -46,6 +46,9 @@ import ThankYouPage from "@/pages/thank-you";
 import SubPlaceholder from "@/pages/sub-placeholder";
 import AvecoreAffiliateLandingPage from "@/pages/affiliate-landing";
 import Contact from "@/pages/contact";
+import MiniMentalPriorityMattersNow from "@/pages/mini-mental-priority-matters-now";
+import MiniMentalPriorityCanWait from "@/pages/mini-mental-priority-can-wait";
+import MiniMentalPriorityPressure from "@/pages/mini-mental-priority-pressure";
 
 const queryClient = new QueryClient();
 
@@ -55,15 +58,15 @@ function Router() {
       <Route path="/" component={Landing} />
       <Route path="/placeholder/1" component={Diagnostic1} />
       <Route path="/placeholder/2" component={Diagnostic2} />
+      <Route path="/mini-mental-priority-matters-now" component={MiniMentalPriorityMattersNow} />
+      <Route path="/mini-mental-priority-can-wait" component={MiniMentalPriorityCanWait} />
+      <Route path="/mini-mental-priority-pressure" component={MiniMentalPriorityPressure} />
       <Route path="/placeholder/3" component={Diagnostic3} />
       <Route path="/placeholder/4" component={Diagnostic4} />
       <Route path="/placeholder/:id" component={Placeholder} />
       <Route path="/sub-placeholder/1/1" component={Diagnostic1_1} />
       <Route path="/sub-placeholder/1/2" component={Diagnostic1_2} />
       <Route path="/sub-placeholder/1/3" component={Diagnostic1_3} />
-      <Route path="/sub-placeholder/2/1" component={Diagnostic2_1} />
-      <Route path="/sub-placeholder/2/2" component={Diagnostic2_2} />
-      <Route path="/sub-placeholder/2/3" component={Diagnostic2_3} />
       <Route path="/sub-placeholder/3/1" component={Diagnostic3_1} />
       <Route path="/sub-placeholder/3/2" component={Diagnostic3_2} />
       <Route path="/sub-placeholder/3/3" component={Diagnostic3_3} />
@@ -73,7 +76,6 @@ function Router() {
       <Route path="/sub-placeholder/4/2" component={Diagnostic4_2} />
       <Route path="/sub-placeholder/4/3" component={Diagnostic4_3} />
       <Route path="/sub-placeholder/1/next" component={ProductAIClarityFunnel} />
-      <Route path="/sub-placeholder/2/next" component={ProductMentalPrioritySystem} />
       <Route path="/sub-placeholder/3/next" component={ProductAIToolNavigator} />
       <Route path="/sub-placeholder/4/next" component={Product3_70_24} />
       <Route path="/ai-clarity-funnel" component={ProductAIClarityFunnel} />
