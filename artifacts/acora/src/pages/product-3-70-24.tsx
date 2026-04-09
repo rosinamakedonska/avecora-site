@@ -55,7 +55,7 @@ export default function Product3_70_24() {
           </div>
 
           <div className="diag-action-row">
-            <button className="back-btn" onClick={() => window.history.back()}>
+            <button className="back-btn" onClick={() => window.location.href="/placeholder/4"}>
               ← Back
             </button>
 
@@ -66,7 +66,7 @@ export default function Product3_70_24() {
             <PurchaseCTABlock href="https://buy.stripe.com/5kQ4gA4DJ8uA0CCdn10Fi09" label="Buy Now" /><div>
               <Link
                 href="/products-and-packages"
-                className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
+                className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-lg font-medium border hover:opacity-90"
               >
                 See other products and packages
               </Link>

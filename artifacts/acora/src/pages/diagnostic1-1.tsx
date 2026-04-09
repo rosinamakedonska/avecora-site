@@ -12,7 +12,7 @@ export default function Diagnostic1_1() {
 
         <div className="mb-10">
           <Link
-            href="/placeholder/1"
+            href="/diagnostic"
             className="text-sm text-[#8a7d6e] hover:text-[#3a3530] transition-colors"
           >
             ← Back
@@ -32,13 +32,13 @@ export default function Diagnostic1_1() {
         </p>
 
         <div className="border-l-2 border-[#c4b8a4] pl-5 mb-14">
-          <p className="text-[1.3rem] font-medium leading-8 tracking-tight text-[#6b6058]">
+          <p className="text-sm leading-7 text-[#6b6058]">
             This is where AI Clarity Funnel begins. It helps define the situation more clearly, so the output becomes more relevant and easier to use.
           </p>
         </div>
 
         <button
-          onClick={() => navigate("/sub-placeholder/1/next?from=1")}
+          onClick={() => navigate("/ai-clarity-funnel")}
           className="inline-block bg-[#1a2820] text-white text-sm font-medium px-7 py-3.5 rounded-full hover:bg-[#243830] transition-colors"
         >
           Enter AI Clarity Funnel

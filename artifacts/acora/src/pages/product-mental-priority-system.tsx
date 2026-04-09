@@ -10,10 +10,10 @@ export default function ProductMentalPrioritySystem() {
 
         <div className="mb-10">
           <Link
-            href="/products-and-packages"
+            href="/placeholder/2"
             className="text-sm text-[#8a7d6e] hover:text-[#3a3530] transition-colors"
           >
-            ← Back to Products and Packages
+            ← Back
           </Link>
         </div>
 
@@ -94,7 +94,7 @@ export default function ProductMentalPrioritySystem() {
           <div className="mt-5">
             <Link
               href="/products-and-packages"
-              className="text-sm text-[#8a7d6e] hover:text-[#3a3530] underline underline-offset-4 transition-colors"
+              className="text-base font-medium text-[#8a7d6e] hover:text-[#3a3530] underline underline-offset-4 transition-colors"
             >
               See other products and packages
             </Link>

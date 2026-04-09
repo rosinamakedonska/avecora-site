@@ -14,8 +14,8 @@ export default function ProductAIClarityFunnel() {
   const from = params.get("from");
   const context = from ? fromMap[from] : null;
 
-  const backHref  = context ? context.route : "/products-and-packages";
-  const backLabel = context ? "← Back" : "← Back to Products and Packages";
+  const backHref  = "/placeholder/1";
+  const backLabel = "← Back";
 
   return (
     <>
@@ -111,7 +111,7 @@ export default function ProductAIClarityFunnel() {
           <div className="mt-5">
             <Link
               href="/products-and-packages"
-              className="text-sm text-[#8a7d6e] hover:text-[#3a3530] underline underline-offset-4 transition-colors"
+              className="text-base font-medium text-[#8a7d6e] hover:text-[#3a3530] underline underline-offset-4 transition-colors"
             >
               See other products and packages
             </Link>

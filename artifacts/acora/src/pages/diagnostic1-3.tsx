@@ -12,7 +12,7 @@ export default function Diagnostic1_3() {
 
         <div className="mb-10">
           <Link
-            href="/placeholder/1"
+            href="/diagnostic"
             className="text-sm text-[#8a7d6e] hover:text-[#3a3530] transition-colors"
           >
             ← Back

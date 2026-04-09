@@ -3,10 +3,9 @@ import { useLocation } from "wouter";
 import SiteFooter from "@/components/site-footer";
 
 const options = [
-  { id: 1, text: "AI doesn't understand my situation well enough." },
-  { id: 2, text: "Too much information is coming in. I can't see what matters." },
-  { id: 3, text: "Too many AI promises. I need the right combination for my work." },
-  { id: 4, text: "I have several possible next moves, but I can't choose one." },
+  { id: 1, text: "the goal becomes more specific" },
+  { id: 2, text: "the context becomes clearer" },
+  { id: 3, text: "the limits become visible" },
 ];
 
 export default function Diagnostic1() {
@@ -34,9 +33,10 @@ export default function Diagnostic1() {
           AI doesn't understand my situation well enough.
         </h1>
 
-        <p className="text-base leading-8 text-[#4a4540] mb-12">
-          Most people think the problem is the AI. Often, the real issue starts earlier — something in the situation is still unclear. Without that clarity, even the best AI response may leave you without a real answer or clear direction.
-        </p>
+        <p className="text-base leading-8 text-[#4a4540] mb-8">Most people think the problem is the AI. Often, the real issue starts earlier — something in the situation is still unclear. Without that clarity, even the best AI response may leave you without a real answer or clear direction.
+
+Clarity usually improves when the situation is narrowed in one of three directions:</p>
+
 
         <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e] mb-5">
           Which of these feels closest to your situation?

@@ -90,7 +90,6 @@ function Router() {
       <Route path="/access/clarity-priority-bundle" component={AccessClarityPriorityBundle} />
       <Route path="/access/clarity-decision-bundle" component={AccessClarityDecisionBundle} />
       <Route path="/access/full-decision-bundle" component={AccessFullDecisionBundle} />
-      <Route path="/diagnostic" component={ClarityForBeginners} />
       <Route path="/clarity-for-beginners" component={ClarityForBeginners} />
       <Route path="/affiliate-landing" component={AvecoreAffiliateLandingPage} />
       <Route path="/products-and-packages" component={ProductsAndPackages} />
