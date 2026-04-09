@@ -4,25 +4,25 @@ import SiteFooter from "@/components/site-footer";
 const routes = [
   {
     label: "Clarity",
-    symptom: "The output arrived. Nothing became clearer.",
+    symptom: "AI doesn't understand my situation well enough.",
     product: "AI Clarity Funnel",
     slug: "/ai-clarity-funnel",
   },
   {
     label: "Priority",
-    symptom: "Too many directions are competing. No stable ground.",
+    symptom: "Too much information is coming in. I can't see what matters.",
     product: "Mental Priority System",
     slug: "/mental-priority-system",
   },
   {
     label: "Tool",
-    symptom: "The tools are there. No logic for which one or when.",
+    symptom: "Too many AI promises. I need the right combination for my work.",
     product: "AI Tool Navigator",
     slug: "/ai-tool-navigator",
   },
   {
     label: "Execution",
-    symptom: "The direction exists. Still no defined next move.",
+    symptom: "I have several possible next moves, but I can't choose one.",
     product: "3–70–24 Decision Frame",
     slug: "/3-70-24-decision-frame",
   },
