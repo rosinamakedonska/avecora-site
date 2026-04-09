@@ -27,7 +27,7 @@ export default function Diagnostic1_1() {
           The goal becomes more specific
         </h1>
 
-        <p className="text-[1.15rem] font-semibold leading-8 text-[#4a4540] mb-12">
+        <p className="text-[1.4rem] font-medium leading-9 text-[#4a4540] mb-12">
           The output starts moving in the right direction when the goal becomes precise.
         </p>
 
