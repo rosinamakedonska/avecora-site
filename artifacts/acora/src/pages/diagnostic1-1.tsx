@@ -27,8 +27,8 @@ export default function Diagnostic1_1() {
           The goal becomes more specific
         </h1>
 
-        <p className="text-base leading-8 text-[#4a4540] mb-12">
-          The output changes when the goal becomes precise. That is when the answer starts moving in the right direction.
+        <p className="text-[1.15rem] font-semibold leading-8 text-[#4a4540] mb-12">
+          The output starts moving in the right direction when the goal becomes precise.
         </p>
 
         <div className="border-l-2 border-[#c4b8a4] pl-5 mb-14">
