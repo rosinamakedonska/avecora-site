@@ -6,7 +6,7 @@ const routes = [
     label: "Clarity",
     symptom: "AI doesn't understand my situation well enough.",
     product: "AI Clarity Funnel",
-    slug: "/ai-clarity-funnel",
+    slug: "/placeholder/1",
   },
   {
     label: "Priority",
