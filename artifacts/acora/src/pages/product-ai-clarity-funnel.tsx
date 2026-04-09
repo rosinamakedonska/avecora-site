@@ -41,31 +41,19 @@ export default function ProductAIClarityFunnel() {
           Clarity Function · Avecore
         </p>
 
-        <h1 className="text-[clamp(1.75rem,4vw,2.5rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-4">
+        <h1 className="text-[clamp(1.75rem,4vw,2.5rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-8">
           Stop getting generic AI answers.
         </h1>
 
-        <p className="text-base leading-8 text-[#3a3530] mb-8">
-          Use a 6-step instruction framework that makes AI respond the way you want.
-        </p>
-
-        <div className="space-y-2 mb-8">
+        <div className="space-y-2 mb-10">
           <p className="text-base leading-8 text-[#3a3530]">You use AI every day.</p>
           <p className="text-base leading-8 text-[#3a3530]">But the results feel inconsistent.</p>
           <p className="text-base leading-8 text-[#3a3530]">Rarely exactly what you expect.</p>
-          <p className="text-base leading-8 text-[#4a4540] pt-3">Give AI structured instructions.</p>
-          <p className="text-base leading-8 text-[#4a4540]">Use the tool.</p>
-        </div>
-
-        <div className="border-l-2 border-[#c4b8a4] pl-5 mb-12">
-          <p className="text-sm leading-7 text-[#6b6058]">Fill in the 6 steps.</p>
-          <p className="text-sm leading-7 text-[#6b6058]">Your AI will start responding the way you want — for your exact goal.</p>
-          <p className="text-sm leading-7 text-[#6b6058]">AI Clarity Funnel™ gives you the structure.</p>
         </div>
 
         {/* ── FUNNEL PREVIEW ───────────────────────── */}
 
-        <div className="mb-12 max-w-[300px] mx-auto">
+        <div className="mb-12 max-w-[340px] mx-auto">
           <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#1a2820] text-center mb-5">
             From vague input
           </p>
@@ -97,16 +85,17 @@ export default function ProductAIClarityFunnel() {
             style={{ marginLeft: `${3 * 16}px`, marginRight: `${3 * 16}px` }}
           >
             <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#a8c4a8] whitespace-nowrap">
-              One clear instruction
+              One clear instruction / decision
             </span>
           </div>
         </div>
 
         {/* ── TRANSITION ───────────────────────────── */}
 
-        <p className="text-base leading-8 text-[#3a3530] mb-12">
-          This is where AI Clarity Funnel begins.
-        </p>
+        <div className="mb-12">
+          <p className="text-base leading-8 text-[#3a3530]">Turn a vague request into one clear instruction.</p>
+          <p className="text-base leading-8 text-[#3a3530]">This is where AI Clarity Funnel begins.</p>
+        </div>
 
         {/* ── PRODUCT SECTION ──────────────────────── */}
 
