@@ -97,34 +97,6 @@ export default function ProductAIClarityFunnel() {
           <p className="text-base leading-8 text-[#3a3530]">This is where AI Clarity Funnel begins.</p>
         </div>
 
-        {/* ── PRODUCT SECTION ──────────────────────── */}
-
-        <div className="space-y-6 mb-16">
-          <p className="text-base leading-8 text-[#3a3530]">
-            Useful output depends on a clearly defined situation. Without that, the answer remains too general.
-          </p>
-
-          <div>
-            <p className="text-base leading-8 text-[#3a3530] mb-4">
-              Clarity usually improves when the situation is narrowed in one of three directions:
-            </p>
-            <ul className="space-y-2 pl-1">
-              <li className="flex gap-3 items-start text-base leading-7 text-[#4a4540]">
-                <span className="mt-2.5 w-1 h-1 rounded-full bg-[#b0a090] shrink-0" />
-                the goal becomes more specific
-              </li>
-              <li className="flex gap-3 items-start text-base leading-7 text-[#4a4540]">
-                <span className="mt-2.5 w-1 h-1 rounded-full bg-[#b0a090] shrink-0" />
-                the context becomes clearer
-              </li>
-              <li className="flex gap-3 items-start text-base leading-7 text-[#4a4540]">
-                <span className="mt-2.5 w-1 h-1 rounded-full bg-[#b0a090] shrink-0" />
-                the limits become visible
-              </li>
-            </ul>
-          </div>
-        </div>
-
         {/* ── PURCHASE ─────────────────────────────── */}
 
         <div className="border-t border-[#d8d0c5] pt-10">
