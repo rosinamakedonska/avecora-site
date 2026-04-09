@@ -27,12 +27,12 @@ export default function Diagnostic1_1() {
           The goal becomes more specific
         </h1>
 
-        <p className="text-[1.65rem] font-medium leading-snug tracking-tight text-[#4a4540] mb-12">
+        <p className="text-base leading-8 text-[#4a4540] mb-12">
           The output starts moving in the right direction when the goal becomes precise.
         </p>
 
         <div className="border-l-2 border-[#c4b8a4] pl-5 mb-14">
-          <p className="text-sm leading-7 text-[#6b6058]">
+          <p className="text-[1.3rem] font-medium leading-8 tracking-tight text-[#6b6058]">
             This is where AI Clarity Funnel begins. It helps define the situation more clearly, so the output becomes more relevant and easier to use.
           </p>
         </div>
