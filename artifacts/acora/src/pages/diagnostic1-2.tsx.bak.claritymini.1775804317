@@ -13,7 +13,7 @@ export default function Diagnostic1_2() {
 
         <div className="mb-10">
           <Link
-            href="/placeholder/1"
+            href="/diagnostic"
             className="text-sm text-[#8a7d6e] hover:text-[#3a3530] transition-colors"
           >
             ← Back
@@ -21,7 +21,12 @@ export default function Diagnostic1_2() {
         </div>
 
           <BrandLockup className="mb-7" />
-<h1 className="text-[clamp(1.5rem,3.5vw,2.25rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-5">
+
+        <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#8a7d6e] mb-4">
+          Clarity Function · Avecore
+        </p>
+
+        <h1 className="text-[clamp(1.5rem,3.5vw,2.25rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-5">
           The context becomes clearer
         </h1>
 

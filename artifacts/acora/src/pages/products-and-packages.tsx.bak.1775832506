@@ -25,7 +25,7 @@ export default function ProductsAndPackages() {
         </p>
 
         <div className="mb-8">
-          <Link href="/diagnostic">
+          <Link href="/clarity-for-beginners">
             <span className="underline underline-offset-4 cursor-pointer">
               Clarity for Beginners
             </span>

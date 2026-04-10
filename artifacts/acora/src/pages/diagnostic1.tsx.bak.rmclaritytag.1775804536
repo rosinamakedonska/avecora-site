@@ -27,7 +27,12 @@ export default function Diagnostic1() {
         </div>
 
           <BrandLockup className="mb-7" />
-<h1 className="text-[clamp(1.5rem,3.5vw,2.25rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-5">
+
+        <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#8a7d6e] mb-4">
+          Clarity Function · Avecore
+        </p>
+
+        <h1 className="text-[clamp(1.5rem,3.5vw,2.25rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-5">
           AI doesn't understand my situation well enough.
         </h1>
 

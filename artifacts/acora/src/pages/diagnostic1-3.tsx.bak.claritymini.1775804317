@@ -3,7 +3,7 @@ import { Link } from "wouter";
 import { useLocation } from "wouter";
 import SiteFooter from "@/components/site-footer";
 
-export default function Diagnostic1_2() {
+export default function Diagnostic1_3() {
   const [, navigate] = useLocation();
 
   return (
@@ -13,7 +13,7 @@ export default function Diagnostic1_2() {
 
         <div className="mb-10">
           <Link
-            href="/placeholder/1"
+            href="/diagnostic"
             className="text-sm text-[#8a7d6e] hover:text-[#3a3530] transition-colors"
           >
             ← Back
@@ -21,12 +21,17 @@ export default function Diagnostic1_2() {
         </div>
 
           <BrandLockup className="mb-7" />
-<h1 className="text-[clamp(1.5rem,3.5vw,2.25rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-5">
-          The context becomes clearer
+
+        <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#8a7d6e] mb-4">
+          Clarity Function · Avecore
+        </p>
+
+        <h1 className="text-[clamp(1.5rem,3.5vw,2.25rem)] font-semibold leading-tight tracking-tight text-[#1a1814] mb-5">
+          The limits become visible
         </h1>
 
         <p className="text-base leading-8 text-[#4a4540] mb-12">
-          The output changes when the context becomes clear. That is when the answer becomes closer to the real situation.
+          The output changes when the limits become visible. That is when the answer becomes more accurate.
         </p>
 
         <div className="border-l-2 border-[#c4b8a4] pl-5 mb-14">
@@ -36,7 +41,7 @@ export default function Diagnostic1_2() {
         </div>
 
         <button
-          onClick={() => navigate("/sub-placeholder/1/next?from=2")}
+          onClick={() => navigate("/sub-placeholder/1/next?from=3")}
           className="inline-block bg-[#1a2820] text-white text-sm font-medium px-7 py-3.5 rounded-full hover:bg-[#243830] transition-colors"
         >
           Enter AI Clarity Funnel

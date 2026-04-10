@@ -22,7 +22,7 @@ const functions = [
     body: "Ideas accumulate. Options multiply. At a certain point, the list itself becomes the obstacle.",
     product: "Mental Priority System",
     result: "It applies a structured ranking to competing directions so attention can settle and movement can begin.",
-    slug: "/mental-priority-system",
+    slug: "/placeholder/2",
   },
   {
     id: "tool",

@@ -25,7 +25,7 @@ export default function ProductsAndPackages() {
         </p>
 
         <div className="mb-8">
-          <Link href="/clarity-for-beginners">
+          <Link href="/diagnostic">
             <span className="underline underline-offset-4 cursor-pointer">
               Clarity for Beginners
             </span>
@@ -90,7 +90,7 @@ export default function ProductsAndPackages() {
               Helps turn multiple possible moves into one clearer next step.
             </p>
             <Link
-              href="/3-70-24-decision-frame"
+              href="/placeholder/4"
               className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
             >
               View Product

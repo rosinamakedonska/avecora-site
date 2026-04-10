@@ -90,7 +90,7 @@ export default function ProductsAndPackages() {
               Helps turn multiple possible moves into one clearer next step.
             </p>
             <Link
-              href="/placeholder/4"
+              href="/3-70-24-decision-frame"
               className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
             >
               View Product

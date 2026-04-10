@@ -25,7 +25,7 @@ const routes = [
     label: "Execution",
     symptom: "I have several possible next moves, but I can't choose one.",
     product: "3–70–24 Decision Frame",
-    slug: "/placeholder/4",
+    slug: "/3-70-24-decision-frame",
   },
 ];
 
