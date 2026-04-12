@@ -1,167 +1,180 @@
 import { Link } from "wouter";
+import BrandLockup from "@/components/brand-lockup";
 import SiteFooter from "@/components/site-footer";
+
+const products = [
+  {
+    title: "AI Clarity Funnel™",
+    type: "Clarity Function",
+    description:
+      "Turn a vague request into one clear instruction, so AI responds with more relevance and control.",
+    price: "€27",
+    href: "/ai-clarity-funnel",
+  },
+  {
+    title: "Mental Priority System™",
+    type: "Priority Function",
+    description:
+      "See what matters now, what can wait, and where your attention creates the strongest next move.",
+    price: "€37",
+    href: "/mental-priority-system",
+  },
+  {
+    title: "AI Tool Navigator",
+    type: "Tool Function",
+    description:
+      "Use AI tools with clearer roles, better switching logic, and less noise in your workflow.",
+    price: "€29",
+    href: "/ai-tool-navigator",
+  },
+  {
+    title: "3–70–24 Decision Frame",
+    type: "Execution Function",
+    description:
+      "Choose the next move with a clearer decision frame when several possible directions compete.",
+    price: "€27",
+    href: "/3-70-24-decision-frame",
+  },
+];
+
+const packages = [
+  {
+    title: "Clarity + Priority",
+    description:
+      "For situations where the request needs structure and the direction still needs sorting.",
+    price: "€54",
+    href: "/clarity-priority-bundle",
+  },
+  {
+    title: "Clarity + Decision",
+    description:
+      "For situations where the input needs sharpening and one next move needs to be chosen.",
+    price: "€47",
+    href: "/clarity-decision-bundle",
+  },
+  {
+    title: "Full Decision Bundle",
+    description:
+      "For broader decision pressure across input clarity, priority, tool choice, and next-step execution.",
+    price: "€99",
+    href: "/full-decision-bundle",
+  },
+];
 
 export default function ProductsAndPackages() {
   return (
-    <>
-    <div className="min-h-screen bg-background text-foreground px-6 py-12">
-      <div className="max-w-3xl mx-auto">
-        <div className="mb-6">
-          <Link href="/" className="text-sm underline underline-offset-4 hover:opacity-80">
-            Back to diagnostic
-          </Link>
+    <div className="min-h-screen bg-[#f6f1e8] text-[#1f1a17]">
+      <main className="max-w-6xl mx-auto px-6 py-8 md:px-8 md:py-10">
+        <div className="mb-10">
+          <BrandLockup />
         </div>
 
-        <div className="text-sm uppercase tracking-wide opacity-60 mb-3">
-          Decision Systems for AI
-        </div>
-
-        <h1 className="text-4xl font-semibold mb-4">
-          Products and Packages
-        </h1>
-
-        <p className="text-lg opacity-80 mb-10">
-          Choose a single product or a package, depending on how much support you need right now.
-        </p>
-
-        <div className="mb-8">
+        <div className="flex flex-col gap-3 mb-12 text-sm md:flex-row md:items-center md:justify-between">
           <Link href="/diagnostic">
-            <span className="underline underline-offset-4 cursor-pointer">
-              Clarity for Beginners
-            </span>
-          </Link>
-        </div>
+            <a className="inline-flex items-center text-[#2f5a49] hover:opacity-80 transition-opacity">
+              ← Back to diagnostic
+            </a>
+          </Link>        </div>
 
-        <div className="space-y-6">
-          <div className="border rounded-2xl p-6">
-            <div className="flex items-center justify-between gap-4 mb-3">
-              <h2 className="text-xl font-medium">AI Clarity Funnel</h2>
-              <div className="text-lg font-semibold">€27</div>
+        <section className="mb-16 max-w-3xl">
+
+          <h1 className="text-4xl md:text-5xl font-semibold leading-tight mb-6">
+            Products and Packages
+          </h1>
+
+          <p className="text-lg leading-8 text-[#4a4540]">
+            Start with the function that fits where you are now. Each product
+            gives access to one part of the Avecore decision system. Packages
+            combine functions when the situation needs more than one layer.
+          </p>
+        </section>
+
+        <section className="mb-16">
+          <div className="flex items-end justify-between mb-6">
+            <div>
+              <p className="text-[11px] uppercase tracking-[0.22em] text-[#6f665f] mb-2">
+                Single products
+              </p>
+              <h2 className="text-2xl md:text-3xl font-semibold">
+                One function at a time
+              </h2>
             </div>
-            <p className="opacity-80 mb-4">
-              Helps make the situation clearer before asking AI for direction.
-            </p>
-            <Link
-              href="/ai-clarity-funnel"
-              className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
-            >
-              View Product
-            </Link>
           </div>
 
-          <div className="border rounded-2xl p-6">
-            <div className="flex items-center justify-between gap-4 mb-3">
-              <h2 className="text-xl font-medium">Mental Priority System</h2>
-              <div className="text-lg font-semibold">€37</div>
+          <div className="grid gap-5 md:grid-cols-2">
+            {products.map((item) => (
+              <div
+                key={item.title}
+                className="rounded-[28px] border border-[#ddd2c2] bg-[#fbf7f0] p-7 shadow-[0_10px_30px_rgba(0,0,0,0.04)]"
+              >
+                <p className="text-[11px] uppercase tracking-[0.2em] text-[#6f665f] mb-3">
+                  {item.type}
+                </p>
+
+                <h3 className="text-2xl font-semibold leading-tight mb-4">
+                  {item.title}
+                </h3>
+
+                <p className="text-base leading-7 text-[#4a4540] mb-6">
+                  {item.description}
+                </p>
+
+                <div className="flex items-center justify-between gap-4">
+                  <span className="text-lg font-medium">{item.price}</span>
+
+                  <Link href={item.href}>
+                    <a className="inline-flex items-center justify-center rounded-full bg-[#263f35] px-5 py-3 text-sm font-medium text-white hover:opacity-90 transition-opacity">
+                      Open product
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-20">
+          <div className="flex items-end justify-between mb-6">
+            <div>
+              <p className="text-[11px] uppercase tracking-[0.22em] text-[#6f665f] mb-2">
+                Packages
+              </p>
+              <h2 className="text-2xl md:text-3xl font-semibold">
+                Combined support
+              </h2>
             </div>
-            <p className="opacity-80 mb-4">
-              Helps identify what matters most now when everything feels equally important.
-            </p>
-            <Link
-              href="/mental-priority-system"
-              className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
-            >
-              View Product
-            </Link>
           </div>
 
-          <div className="border rounded-2xl p-6">
-            <div className="flex items-center justify-between gap-4 mb-3">
-              <h2 className="text-xl font-medium">AI Tool Navigator</h2>
-              <div className="text-lg font-semibold">€29</div>
-            </div>
-            <p className="opacity-80 mb-4">
-              Helps decide which AI tools belong in which role for your work.
-            </p>
-            <Link
-              href="/ai-tool-navigator"
-              className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
-            >
-              View Product
-            </Link>
-          </div>
+          <div className="grid gap-5 md:grid-cols-3">
+            {packages.map((item) => (
+              <div
+                key={item.title}
+                className="rounded-[28px] border border-[#d7cfbf] bg-[#efe5d6] p-7 shadow-[0_10px_30px_rgba(0,0,0,0.05)]"
+              >
+                <h3 className="text-2xl font-semibold leading-tight mb-4">
+                  {item.title}
+                </h3>
 
-          <div className="border rounded-2xl p-6">
-            <div className="flex items-center justify-between gap-4 mb-3">
-              <h2 className="text-xl font-medium">3–70–24 Decision Frame</h2>
-              <div className="text-lg font-semibold">€27</div>
-            </div>
-            <p className="opacity-80 mb-4">
-              Helps turn multiple possible moves into one clearer next step.
-            </p>
-            <Link
-              href="/placeholder/4"
-              className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
-            >
-              View Product
-            </Link>
-          </div>
+                <p className="text-base leading-7 text-[#4a4540] mb-6">
+                  {item.description}
+                </p>
 
-          <div className="border rounded-2xl p-6">
-            <div className="flex items-center justify-between gap-4 mb-3">
-              <h2 className="text-xl font-medium">Clarity + Priority Package</h2>
-              <div className="text-lg font-semibold">€54</div>
-            </div>
-            <p className="opacity-80 mb-2">Includes:</p>
-            <ul className="opacity-80 mb-4 space-y-1">
-              <li>• AI Clarity Funnel</li>
-              <li>• Mental Priority System</li>
-            </ul>
-            <Link
-              href="/clarity-priority-bundle"
-              className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
-            >
-              View Package
-            </Link>
-          </div>
+                <div className="flex items-center justify-between gap-4">
+                  <span className="text-lg font-medium">{item.price}</span>
 
-          <div className="border rounded-2xl p-6">
-            <div className="flex items-center justify-between gap-4 mb-3">
-              <h2 className="text-xl font-medium">Clarity + Decision Package</h2>
-              <div className="text-lg font-semibold">€47</div>
-            </div>
-            <p className="opacity-80 mb-2">Includes:</p>
-            <ul className="opacity-80 mb-4 space-y-1">
-              <li>• AI Clarity Funnel</li>
-              <li>• 3–70–24 Decision Frame</li>
-            </ul>
-            <Link
-              href="/clarity-decision-bundle"
-              className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
-            >
-              View Package
-            </Link>
+                  <Link href={item.href}>
+                    <a className="inline-flex items-center justify-center rounded-full border border-[#263f35] px-5 py-3 text-sm font-medium text-[#263f35] hover:bg-[#263f35] hover:text-white transition-colors">
+                      Open package
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            ))}
           </div>
+        </section>
+      </main>
 
-          <div className="border rounded-2xl p-6">
-            <div className="flex items-center justify-between gap-4 mb-3">
-              <h2 className="text-xl font-medium">Full Decision Package</h2>
-              <div className="text-lg font-semibold">€99</div>
-            </div>
-            <p className="opacity-80 mb-2">Includes:</p>
-            <ul className="opacity-80 mb-4 space-y-1">
-              <li>• AI Clarity Funnel</li>
-              <li>• Mental Priority System</li>
-              <li>• AI Tool Navigator</li>
-              <li>• 3–70–24 Decision Frame</li>
-            </ul>
-            <Link
-              href="/full-decision-bundle"
-              className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
-            >
-              View Package
-            </Link>
-          </div>
-        </div>
-
-        <div className="mt-12 text-center">
-          <Link href="/" className="text-sm opacity-70 underline underline-offset-4 hover:opacity-100">
-            Not sure where to start? Go to diagnostic
-          </Link>
-        </div>
-      </div>
+      <SiteFooter />
     </div>
-    <SiteFooter />
-    </>
   );
 }

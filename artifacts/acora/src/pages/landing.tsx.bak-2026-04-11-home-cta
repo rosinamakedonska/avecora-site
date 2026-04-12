@@ -120,16 +120,7 @@ export default function Landing() {
             </div>
           </div>
         </div>
-
-          <div className="mt-6 flex justify-center">
-  <Link
-              href="/clarity-for-beginners"
-              className="inline-flex items-center justify-center rounded-full border border-[#d8cec2] bg-white/80 px-6 py-3 text-sm font-medium text-[#2a2a26] shadow-[0_10px_26px_rgba(60,52,46,0.08)] transition-colors hover:bg-white"
-            >
-    <Link href="/clarity-for-beginners" className="inline-flex items-center justify-center rounded-full border border-[#d8cec2] bg-white/80 px-6 py-3 text-sm font-medium text-[#2a2a26] shadow-[0_10px_26px_rgba(60,52,46,0.08)] transition-colors hover:bg-white">New to AI? Start with Clarity for Beginners</Link>
-  </Link>
-</div>
-        </section>
+      </section>
 
       <section className="relative">
         <div className="mx-auto max-w-7xl px-6 pb-16 md:px-8 md:pb-20">
@@ -180,15 +171,6 @@ export default function Landing() {
               className="inline-flex items-center justify-center rounded-2xl border border-[#c8bfb0] px-6 py-3 text-sm font-medium text-[#2e2418] transition duration-300 hover:bg-[#f4ede2]"
             >
               See Products and Packages
-            </Link>
-          </div>
-
-          <div className="mt-6 text-center">
-            <Link
-              href="/clarity-for-beginners"
-              className="inline-flex items-center text-sm text-[#5c554d] transition-colors hover:text-[#1f1f1b]"
-            >
-              <Link href="/clarity-for-beginners" className="inline-flex items-center justify-center rounded-full border border-[#d8cec2] bg-white/80 px-6 py-3 text-sm font-medium text-[#2a2a26] shadow-[0_10px_26px_rgba(60,52,46,0.08)] transition-colors hover:bg-white">New to AI? Start with Clarity for Beginners</Link>
             </Link>
           </div>
 

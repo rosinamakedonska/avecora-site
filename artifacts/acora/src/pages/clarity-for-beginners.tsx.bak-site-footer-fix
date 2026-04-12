@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import BrandLockup from "@/components/brand-lockup";
-import SiteFooter from "@/components/site-footer";
+import Footer from "@/components/footer";
 
 export default function ClarityForBeginners() {
   return (
@@ -94,7 +94,7 @@ export default function ClarityForBeginners() {
         </section>
       </main>
 
-      <SiteFooter />
+      <Footer />
     </div>
   );
 }
