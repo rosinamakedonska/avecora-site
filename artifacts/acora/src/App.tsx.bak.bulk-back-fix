@@ -40,7 +40,6 @@ import AccessClarityDecisionBundle from "@/pages/access-clarity-decision-bundle"
 import AccessFullDecisionBundle from "@/pages/access-full-decision-bundle";
 import ProductsAndPackages from "@/pages/products-and-packages";
 import ClarityForBeginners from "@/pages/clarity-for-beginners";
-import Insights from "@/pages/insights";
 import LegalTerms from "@/pages/legal-terms";
 import LegalRefund from "@/pages/legal-refund";
 import LegalPrivacy from "@/pages/legal-privacy";
@@ -96,7 +95,6 @@ function Router() {
       <Route path="/access/full-decision-bundle" component={AccessFullDecisionBundle} />
       <Route path="/diagnostic" component={Placeholder} />
       <Route path="/clarity-for-beginners" component={ClarityForBeginners} />
-      <Route path="/insights" component={Insights} />
       <Route path="/affiliate-landing" component={AvecoreAffiliateLandingPage} />
       <Route path="/products-and-packages" component={ProductsAndPackages} />
       <Route path="/legal/terms" component={LegalTerms} />

@@ -51,7 +51,7 @@ export default function Diagnostic3() {
             ))}
           </div>
 
-          <button className="back-btn" onClick={() => navigate("/diagnostic")}>
+          <button className="back-btn" onClick={() => navigate("/")}>
             ← Back
           </button>
         </main>

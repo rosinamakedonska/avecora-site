@@ -1,7 +1,6 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import SiteFooter from "@/components/site-footer";
-import SiteHeader from "@/components/site-header";
 
 const functions = [
   {
@@ -120,7 +119,7 @@ const softRise = {
 
 export default function Landing() {
   return (
-    <><SiteHeader /><main className="min-h-screen overflow-hidden bg-[linear-gradient(to_bottom,_#fcfbf8_0%,_#f7f2e9_38%,_#ffffff_100%)] text-neutral-900">
+    <main className="min-h-screen overflow-hidden bg-[linear-gradient(to_bottom,_#fcfbf8_0%,_#f7f2e9_38%,_#ffffff_100%)] text-neutral-900">
       <section className="relative">
         <div className="pointer-events-none absolute inset-0 overflow-hidden">
           <div className="absolute left-[-8rem] top-[-7rem] h-[19rem] w-[19rem] rounded-full bg-[#efe6d8] blur-3xl opacity-80" />
@@ -246,13 +245,6 @@ export default function Landing() {
             >
               Start Diagnostic
             </Link>
-
-            <Link
-              href="/products-and-packages"
-              className="inline-flex items-center justify-center rounded-2xl border border-[#cdc3b4] bg-white/80 px-6 py-3 text-sm font-medium text-[#1f241f] transition duration-300 hover:bg-white"
-            >
-              See Products and Packages
-            </Link>
           </motion.div>
 
           <motion.div variants={fadeUp} className="mt-6 text-center">
@@ -367,6 +359,5 @@ export default function Landing() {
 
       <SiteFooter />
     </main>
-    </>
   );
 }
