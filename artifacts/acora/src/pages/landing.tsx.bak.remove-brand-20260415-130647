@@ -134,10 +134,21 @@ export default function Landing() {
           initial="hidden"
           animate="visible"
         >
-          <div className="flex max-w-4xl flex-col rounded-[2rem] border border-[#2e3f38] bg-[#1a2820] px-8 py-8 shadow-[0_18px_50px_rgba(26,48,41,0.22)] md:px-10 md:py-10">
+          <div className="flex max-w-4xl flex-col">
+            <motion.div
+              variants={fadeUp}
+              className="inline-flex items-center rounded-full border border-black/10 bg-white/75 px-4 py-2 text-[11px] uppercase tracking-[0.22em] text-neutral-600 backdrop-blur"
+            >
+              Avecore
+              <span className="mx-2 opacity-30">•</span>
+              <span className="normal-case tracking-normal text-neutral-500">
+                Decision Systems for AI
+              </span>
+            </motion.div>
+
             <motion.h1
               variants={fadeUp}
-              className="order-2 mt-5 max-w-4xl leading-none text-[#f4f1ea]"
+              className="order-2 mt-4 max-w-4xl leading-none text-[#111512]"
             >
               <span className="block text-[clamp(2.4rem,5.1vw,4.25rem)] font-semibold uppercase tracking-[-0.045em]">
                 The Intelligence Filter
@@ -149,17 +160,23 @@ export default function Landing() {
 
             <motion.p
               variants={fadeUp}
-              className="order-1 max-w-3xl text-lg leading-8 text-[#d7ddd8]"
+              className="order-1 max-w-xl text-lg leading-8 text-neutral-600"
             >
               AI gives you answers. Avecore gives you decisions.
             </motion.p>
 
             <motion.div
               variants={fadeUp}
-              className="order-3 mt-8 max-w-3xl space-y-5 text-base leading-8 text-[#d7ddd8]"
+              className="order-3 mt-8 max-w-xl space-y-5 text-base leading-8 text-neutral-500"
             >
               <p>
-                Today, AI is everywhere. There are more tools, more answers, more options, and more output than ever before. What was supposed to make things easier often creates a different kind of difficulty - too much information, too many directions, and no clear next step. <span className="font-semibold text-[#f4f1ea]">Avecore</span> is that layer.
+                AI can give you more output than ever. What still takes structure is
+                knowing what to do with it — which direction matters, which tool fits,
+                what comes first, and when it is time to stop thinking and move.
+              </p>
+
+              <p>
+                <span className="font-semibold text-[#111512]">Avecore</span> handles that layer.
               </p>
             </motion.div>
           </div>
@@ -225,7 +242,7 @@ export default function Landing() {
           >
             <Link
               href="/diagnostic"
-              className="inline-flex items-center justify-center rounded-2xl bg-[#1a2820] px-6 py-3 text-sm font-medium text-[#f4f1ea] transition duration-300 hover:bg-[#314b41]"
+              className="inline-flex items-center justify-center rounded-2xl bg-[#1a2820] px-6 py-3 text-sm font-medium text-[#f4f1ea] transition duration-300 hover:bg-[#24342c]"
             >
               Start Diagnostic
             </Link>

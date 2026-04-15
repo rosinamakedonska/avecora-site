@@ -1,7 +1,5 @@
 import { Link } from "wouter";
-import { motion, type Variants } from "framer-motion";
 import SiteFooter from "@/components/site-footer";
-import SiteHeader from "@/components/site-header";
 
 const functions = [
   {
@@ -64,63 +62,9 @@ const accentStyles = [
   "bg-[#f4ede2] border-[#d8cfc2]",
 ];
 
-const heroContainer = {
-  hidden: {},
-  visible: {
-    transition: {
-      staggerChildren: 0.1,
-    },
-  },
-};
-
-const sectionContainer = {
-  hidden: {},
-  visible: {
-    transition: {
-      staggerChildren: 0.12,
-      delayChildren: 0.04,
-    },
-  },
-};
-
-const cardContainer = {
-  hidden: {},
-  visible: {
-    transition: {
-      staggerChildren: 0.1,
-      delayChildren: 0.06,
-    },
-  },
-};
-
-const fadeUp: Variants = {
-  hidden: { opacity: 0, y: 24 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.65,
-      ease: "easeOut",
-    },
-  },
-};
-
-const softRise: Variants = {
-  hidden: { opacity: 0, y: 18, scale: 0.985 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    scale: 1,
-    transition: {
-      duration: 0.7,
-      ease: "easeOut",
-    },
-  },
-};
-
 export default function Landing() {
   return (
-    <><SiteHeader /><main className="min-h-screen overflow-hidden bg-[linear-gradient(to_bottom,_#fcfbf8_0%,_#f7f2e9_38%,_#ffffff_100%)] text-neutral-900">
+    <main className="min-h-screen overflow-hidden bg-[linear-gradient(to_bottom,_#fcfbf8_0%,_#f7f2e9_38%,_#ffffff_100%)] text-neutral-900">
       <section className="relative">
         <div className="pointer-events-none absolute inset-0 overflow-hidden">
           <div className="absolute left-[-8rem] top-[-7rem] h-[19rem] w-[19rem] rounded-full bg-[#efe6d8] blur-3xl opacity-80" />
@@ -128,43 +72,43 @@ export default function Landing() {
           <div className="absolute bottom-[-8rem] left-[26%] h-[16rem] w-[16rem] rounded-full bg-[#ece7df] blur-3xl opacity-65" />
         </div>
 
-        <motion.div
-          className="relative mx-auto max-w-7xl px-6 pb-16 pt-10 md:px-8 md:pb-20 md:pt-14"
-          variants={heroContainer}
-          initial="hidden"
-          animate="visible"
-        >
-          <div className="flex max-w-4xl flex-col rounded-[2rem] border border-[#2e3f38] bg-[#1a2820] px-8 py-8 shadow-[0_18px_50px_rgba(26,48,41,0.22)] md:px-10 md:py-10">
-            <motion.h1
-              variants={fadeUp}
-              className="order-2 mt-5 max-w-4xl leading-none text-[#f4f1ea]"
-            >
-              <span className="block text-[clamp(2.4rem,5.1vw,4.25rem)] font-semibold uppercase tracking-[-0.045em]">
-                The Intelligence Filter
+        <div className="relative mx-auto max-w-7xl px-6 pb-16 pt-10 md:px-8 md:pb-20 md:pt-14">
+          <div className="max-w-4xl">
+            <div className="inline-flex items-center rounded-full border border-black/10 bg-white/75 px-4 py-2 text-[11px] uppercase tracking-[0.22em] text-neutral-600 backdrop-blur">
+              Avecore
+              <span className="mx-2 opacity-30">•</span>
+              <span className="normal-case tracking-normal text-neutral-500">
+                Decision Systems for AI
               </span>
-              <span className="hidden">
+            </div>
+
+            <h1 className="mt-10 max-w-4xl leading-none text-[#111512]">
+              <span className="block text-[clamp(2.4rem,5.1vw,4.25rem)] font-semibold uppercase tracking-[-0.045em]">
+                The Decision Layer
+              </span>
+              <span className="mt-4 block text-[clamp(1.38rem,2.45vw,1.95rem)] font-medium leading-[1.38] tracking-[-0.012em] text-[#4d5751]">
                 That Makes AI Output Useful
               </span>
-            </motion.h1>
+            </h1>
 
-            <motion.p
-              variants={fadeUp}
-              className="order-1 max-w-3xl text-lg leading-8 text-[#d7ddd8]"
-            >
+            <p className="mt-7 max-w-xl text-lg leading-8 text-neutral-600">
               AI gives you answers. Avecore gives you decisions.
-            </motion.p>
+            </p>
 
-            <motion.div
-              variants={fadeUp}
-              className="order-3 mt-8 max-w-3xl space-y-5 text-base leading-8 text-[#d7ddd8]"
-            >
+            <div className="mt-8 max-w-xl space-y-5 text-base leading-8 text-neutral-500">
               <p>
-                Today, AI is everywhere. There are more tools, more answers, more options, and more output than ever before. What was supposed to make things easier often creates a different kind of difficulty - too much information, too many directions, and no clear next step. <span className="font-semibold text-[#f4f1ea]">Avecore</span> is that layer.
+                AI can give you more output than ever. What still takes structure is
+                knowing what to do with it — which direction matters, which tool fits,
+                what comes first, and when it is time to stop thinking and move.
               </p>
-            </motion.div>
+
+              <p>
+                <span className="font-semibold text-[#111512]">Avecore</span> handles that layer.
+              </p>
+            </div>
           </div>
 
-          <motion.div variants={softRise} className="mt-8 w-full md:mt-10">
+          <div className="mt-8 w-full md:mt-10">
             <div className="mx-auto flex w-full max-w-6xl items-center justify-center gap-5 rounded-full border border-[#c4b8a4] bg-[#f4ede2] px-6 py-3 text-center shadow-[0_4px_16px_rgba(0,0,0,0.08)]">
               <p className="shrink-0 text-[10px] font-bold uppercase tracking-[0.26em] text-[#5c4a38]">
                 Decision quality
@@ -174,19 +118,13 @@ export default function Landing() {
                 Relief, control, precision
               </p>
             </div>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </section>
 
-      <motion.section
-        className="relative pb-16 md:pb-20"
-        variants={sectionContainer}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.16 }}
-      >
+      <section className="relative pb-16 md:pb-20">
         <div className="mx-auto max-w-7xl px-6 md:px-8">
-          <motion.div variants={fadeUp} className="mx-auto max-w-2xl text-center">
+          <div className="mx-auto max-w-2xl text-center">
             <p className="text-[2rem] font-semibold leading-[1.12] tracking-[-0.03em] text-[#0e1210] md:text-[2.5rem]">
               One decision system
             </p>
@@ -217,45 +155,31 @@ export default function Landing() {
             <p className="mt-7 text-base leading-7 text-neutral-500">
               One of these is where movement is currently breaking.
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            variants={fadeUp}
-            className="mt-10 flex flex-col items-center gap-3 sm:flex-row sm:justify-center"
-          >
+          <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
             <Link
               href="/diagnostic"
-              className="inline-flex items-center justify-center rounded-2xl bg-[#1a2820] px-6 py-3 text-sm font-medium text-[#f4f1ea] transition duration-300 hover:bg-[#314b41]"
+              className="inline-flex items-center justify-center rounded-2xl bg-[#1a2820] px-6 py-3 text-sm font-medium text-[#f4f1ea] transition duration-300 hover:bg-[#24342c]"
             >
               Start Diagnostic
             </Link>
+          </div>
 
-            <Link
-              href="/products-and-packages"
-              className="inline-flex items-center justify-center rounded-2xl border border-[#cdc3b4] bg-white/80 px-6 py-3 text-sm font-medium text-[#1f241f] transition duration-300 hover:bg-white"
-            >
-              See Products and Packages
-            </Link>
-          </motion.div>
-
-          <motion.div variants={fadeUp} className="mt-6 text-center">
+          <div className="mt-6 text-center">
             <Link
               href="/clarity-for-beginners"
               className="inline-flex items-center justify-center rounded-full border border-[#d8cec2] bg-white/80 px-6 py-3 text-sm font-medium text-[#2a2a26] shadow-[0_10px_26px_rgba(60,52,46,0.08)] transition-colors hover:bg-white"
             >
               New to AI? Start with Clarity for Beginners
             </Link>
-          </motion.div>
+          </div>
 
-          <motion.div
-            variants={cardContainer}
-            className="mt-16 space-y-6 md:mt-20"
-          >
+          <div className="mt-16 space-y-6 md:mt-20">
             {functions.map((item, index) => (
-              <motion.article
+              <article
                 key={item.id}
                 id={item.id}
-                variants={softRise}
                 className={`rounded-[2rem] border px-6 py-7 shadow-[0_18px_40px_rgba(48,38,28,0.06)] md:px-8 md:py-8 ${sequenceStyles[index]} ${accentStyles[index]}`}
               >
                 <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
@@ -299,23 +223,15 @@ export default function Landing() {
                     </Link>
                   </div>
                 </div>
-              </motion.article>
+              </article>
             ))}
-          </motion.div>
+          </div>
         </div>
-      </motion.section>
+      </section>
 
-      <motion.section
-        className="relative pb-16 md:pb-24"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.22 }}
-      >
+      <section className="relative pb-16 md:pb-24">
         <div className="mx-auto max-w-7xl px-6 md:px-8">
-          <motion.div
-            variants={softRise}
-            className="max-w-3xl rounded-[2rem] border border-[#2e3f38] bg-[#1a2820] px-8 py-10 text-[#f4f1ea] shadow-[0_22px_60px_rgba(0,0,0,0.10)] md:px-10 md:py-12"
-          >
+          <div className="max-w-3xl rounded-[2rem] border border-[#2e3f38] bg-[#1a2820] px-8 py-10 text-[#f4f1ea] shadow-[0_22px_60px_rgba(0,0,0,0.10)] md:px-10 md:py-12">
             <p className="text-sm uppercase tracking-[0.18em] text-[#b9c4be]">
               Next step
             </p>
@@ -344,12 +260,11 @@ export default function Landing() {
                 See Products and Packages
               </Link>
             </div>
-          </motion.div>
+          </div>
         </div>
-      </motion.section>
+      </section>
 
       <SiteFooter />
     </main>
-    </>
   );
 }

@@ -1,0 +1,102 @@
+import { Link } from "wouter";
+import BrandLockup from "@/components/brand-lockup";
+import SiteFooter from "@/components/site-footer";
+import SiteHeader from "@/components/site-header";
+
+export default function ClarityForBeginners() {
+  return (
+    <div className="min-h-screen bg-[#f6f1ea] text-[#1f1f1b]">
+      <SiteHeader />
+<main className="mx-auto max-w-4xl px-6 py-10 md:px-8 md:py-12">
+        <BrandLockup />
+
+        <Link
+          href="/"
+          className="mt-8 mb-10 inline-flex items-center text-sm text-[#5c554d] transition-colors hover:text-[#1f1f1b]"
+        >
+          ← Back to home
+        </Link>
+
+        <section className="max-w-3xl">
+          <h1 className="mb-8 text-4xl font-semibold tracking-tight text-[#1f1f1b] md:text-5xl">
+            Clarity for Beginners
+          </h1>
+
+          <div className="space-y-6 text-[17px] leading-8 text-[#4a4540] md:text-[18px]">
+            <p>Starting with AI can feel strangely confusing.</p>
+
+            <p>
+              You open a tool, ask a question, and get an answer that sounds impressive — but still does not really help. Then you try again, change a few words, open another tool, and somehow the whole thing starts to feel harder instead of easier. After a while, it becomes easy to assume that everyone else understands this world better than you do.
+            </p>
+
+            <p>Usually, that is not what is happening.</p>
+
+            <p>
+              The real difficulty is that AI often gives people output before it gives them orientation. Everything looks powerful. Everything sounds possible. But very little explains where to begin, what each type of tool is actually for, and why one tool can feel useful while another only adds more noise.
+            </p>
+
+            <p>That is where clarity matters.</p>
+
+            <p>
+              One of the first things beginners need to understand is that AI is not one thing. It is a wide landscape of different tools built for different roles. Some tools are best for thinking, structuring, and writing. Some are better for research, searching, and comparing information. Others are built for visuals — presentations, images, layouts, and design directions. Others are better for video, voice, or sound. And some tools are most useful at the end, when the main task is no longer to think, but to polish, shorten, edit, or package what already exists.
+            </p>
+
+            <p>That difference matters more than most people realize at the beginning.</p>
+
+            <p>
+              A tool that is excellent for visuals may be weak at helping you think. A tool that is good at writing may not be the right place to compare sources. A tool that produces polished output may still be the wrong place to decide what the output should be in the first place. When those roles get mixed together, AI starts to feel inconsistent. In reality, the tools are different. The roles are different. And the value becomes clearer once those differences are understood.
+            </p>
+
+            <p>This is also why more tools do not automatically create more control.</p>
+
+            <p>
+              Very quickly, beginners can end up surrounded by options — one tool for writing, one for research, one for slides, one for video, one for voice, one for automation. At that point, AI can start to feel bigger than it needs to be. There are more tabs open, more answers coming in, more advice, more experimentation — and still no clear sense of what should come first.
+            </p>
+
+            <p>A better starting point is simpler.</p>
+
+            <p>
+              Before you need a bigger AI stack, you usually need a clearer view of your own situation. Are you trying to get better answers because your input is still too vague? Are you overloaded because too much information is coming in at once? Are you trying to understand which tools belong in which role? Or are you simply trying to choose one next step you can trust?
+            </p>
+
+            <p>These are different situations.</p>
+
+            <p>And different situations need different forms of clarity.</p>
+
+            <p>That is the role Avecore plays.</p>
+
+            <p>
+              Avecore helps people get oriented before they get buried in tools, outputs, and conflicting advice. It helps you see what kind of clarity is missing, what kind of decision is actually in front of you, and what should come next. Sometimes that means improving the way you give instructions. Sometimes it means setting better priorities. Sometimes it means understanding which AI tools belong in which role. Sometimes it means turning several possible moves into one clearer direction.
+            </p>
+
+            <p>That changes the experience completely.</p>
+
+            <p>
+              Once the landscape becomes clearer, AI starts to feel less like a chaotic stream of answers and more like something you can actually use with intention.
+            </p>
+
+            <p>That is where Avecore begins.</p>
+          </div>
+
+          <div className="mt-12 flex flex-col gap-4 sm:flex-row">
+            <Link
+              href="/diagnostic"
+              className="inline-flex items-center justify-center rounded-full bg-[#2f4a43] px-6 py-3 text-sm font-medium text-white shadow-[0_12px_32px_rgba(35,52,47,0.18)] transition-colors hover:bg-[#263d37]"
+            >
+              Start with the Diagnostic
+            </Link>
+
+            <Link
+              href="/products-and-packages"
+              className="inline-flex items-center justify-center rounded-full border border-[#d8cec2] bg-white/80 px-6 py-3 text-sm font-medium text-[#2a2a26] shadow-[0_10px_26px_rgba(60,52,46,0.08)] transition-colors hover:bg-white"
+            >
+              Explore Products &amp; Packages
+            </Link>
+          </div>
+        </section>
+      </main>
+
+      <SiteFooter />
+    </div>
+  );
+}

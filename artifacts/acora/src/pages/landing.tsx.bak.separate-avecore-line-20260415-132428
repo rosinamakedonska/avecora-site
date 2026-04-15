@@ -134,7 +134,7 @@ export default function Landing() {
           initial="hidden"
           animate="visible"
         >
-          <div className="flex max-w-4xl flex-col rounded-[2rem] border border-[#2e3f38] bg-[#1a2820] px-8 py-8 shadow-[0_18px_50px_rgba(26,48,41,0.22)] md:px-10 md:py-10">
+          <div className="flex max-w-4xl flex-col rounded-[2rem] border border-[#385247] bg-[#263f35] px-8 py-8 shadow-[0_18px_50px_rgba(26,48,41,0.22)] md:px-10 md:py-10">
             <motion.h1
               variants={fadeUp}
               className="order-2 mt-5 max-w-4xl leading-none text-[#f4f1ea]"
@@ -225,7 +225,7 @@ export default function Landing() {
           >
             <Link
               href="/diagnostic"
-              className="inline-flex items-center justify-center rounded-2xl bg-[#1a2820] px-6 py-3 text-sm font-medium text-[#f4f1ea] transition duration-300 hover:bg-[#314b41]"
+              className="inline-flex items-center justify-center rounded-2xl bg-[#263f35] px-6 py-3 text-sm font-medium text-[#f4f1ea] transition duration-300 hover:bg-[#314b41]"
             >
               Start Diagnostic
             </Link>

@@ -1,0 +1,88 @@
+Edit only the Home page system-reveal section, the floating DECISION QUALITY strip, the mid-page CTA row, and the lower function teaser CTA styling. Leave the rest of the page untouched.
+
+Do not rewrite the whole page.
+Do not change routes, imports, slugs, product names, footer, or the main hero section.
+
+Make these exact corrections:
+
+1. DECISION QUALITY strip
+Strengthen it.
+
+Use exactly this content:
+DECISION QUALITY
+Relief, control, precision
+
+Requirements:
+- keep it as a horizontal accent strip, not a card
+- keep beige
+- keep the soft shadow
+- increase contrast and readability of “DECISION QUALITY”
+- make the second line more prominent
+- the whole strip should feel cleaner, stronger, and easier to read at a glance
+
+2. System-reveal block
+Keep the current structure, but refine it:
+Avecore
+One decision system
+Four functions
+[Clarity] [Priority] [Tool] [Execution]
+One of these is where movement is currently breaking.
+
+Now improve it like this:
+- center-align everything inside this system-reveal block only
+- do not center the whole page, only this block
+- strengthen the color/contrast slightly
+- make the final support line larger and more readable
+- make the whole block feel more intentional and visually anchored
+
+3. Clickable function pills
+Make the 4 function pills clickable.
+They should scroll/jump to the corresponding lower function teaser/explanation sections on the same Home page:
+
+Clarity → lower Clarity section
+Priority → lower Priority section
+Tool → lower Tool section
+Execution → lower Execution section
+
+Use polished in-page anchor behavior.
+Do not send these clicks to external pages.
+Do not change the destination behavior of the lower CTA buttons.
+
+4. Mid-page CTA row
+Add a clean CTA row after the system-reveal block and before the lower function teaser/explanation sections.
+
+Use these two buttons:
+- Start with the Diagnostic
+- See Products and Packages
+
+Requirements:
+- this mid-page CTA row should feel integrated, not heavy
+- keep premium styling
+- keep the graphite-emerald / beige / soft neutral palette
+- it should sit between the system reveal and the lower function teaser sections
+- keep the bottom CTA as well; this is an additional action point, not a replacement
+
+5. Lower function CTA styling
+Keep the CTA label exactly:
+Explore this function
+
+But remove any trailing arrow or arrow-like symbol.
+Use only:
+Explore this function
+
+No arrow.
+No extra icon.
+No “→”.
+
+6. Keep these locked decisions
+- main hero stays left-aligned
+- beige floating accent stays
+- dark accents stay graphite-emerald, not black
+- the page must clearly communicate one system with four functions
+- lower function sections remain teaser-style, not full dense explanations
+
+Workflow:
+1. Inspect the current Home page
+2. Make only these targeted refinements
+3. Leave the rest of the page unchanged
+4. Summarize exactly what changed

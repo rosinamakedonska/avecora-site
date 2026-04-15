@@ -1,0 +1,76 @@
+Update the AI Clarity Funnel page so it clearly reads as the Clarity function inside the Avecore system.
+
+Reference direction:
+This page should not feel like a random standalone PDF sales page.
+It should feel like:
+Avecore → Clarity function → AI Clarity Funnel
+
+Keep unchanged:
+- pricing
+- Stripe link
+- route / slug
+- footer
+- overall premium tone
+- any working purchase logic
+
+Add / adjust the page with this structure:
+
+1. Top back link
+- add a small back link at the top:
+  ← Back to Products and Packages
+- link target:
+  /products-and-packages
+
+2. Function label
+Use a small upper label above the main headline:
+CLARITY FUNCTION
+
+3. Main headline
+Use this headline:
+Turn unclear situations into usable AI direction.
+
+4. Supporting copy
+Use supporting copy in this direction:
+AI works better when the situation is defined clearly enough to guide the output. AI Clarity Funnel helps structure the goal, the context, and the constraints so the answer becomes more specific, more relevant, and easier to use.
+
+5. Short system bridge
+Add a short bridge block that makes the system logic visible without over-explaining it:
+AI Clarity Funnel runs the Clarity function inside Avecore.
+It is designed for moments when the answer stays broad because the situation is still too loose.
+
+6. Core outcome section
+Create a clean section showing what this function helps clarify.
+Use 3 points:
+- the goal
+- the context
+- the constraints
+
+Each point should have one short sentence, not a long paragraph.
+
+Suggested direction:
+- Goal — define what the output actually needs to help with
+- Context — surface the situation around the decision
+- Constraints — make limits visible before asking for direction
+
+7. Why this matters section
+Add one short section explaining the shift:
+When the situation becomes clearer, AI output becomes easier to trust, compare, and act on.
+
+8. Purchase area
+Keep the existing purchase area, price, and CTA logic.
+Do not redesign the checkout structure unless needed for visual consistency only.
+
+9. Visual direction
+- premium, calm, controlled
+- aligned with current Avecore palette
+- no pure black
+- no overcrowded explanations
+- no “course seller” feel
+- no generic productivity language
+- avoid turning the page into a wall of text
+
+Goal:
+The page should sell one function clearly and elegantly:
+the Clarity function.
+Not the whole system.
+Not a random PDF.

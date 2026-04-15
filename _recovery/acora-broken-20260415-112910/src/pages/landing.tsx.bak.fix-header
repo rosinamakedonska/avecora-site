@@ -1,5 +1,6 @@
+import SiteHeader from "@/components/site-header";
 import { Link } from "wouter";
-import { motion, type Variants } from "framer-motion";
+import { motion } from "framer-motion";
 import SiteFooter from "@/components/site-footer";
 import SiteHeader from "@/components/site-header";
 
@@ -93,19 +94,19 @@ const cardContainer = {
   },
 };
 
-const fadeUp: Variants = {
+const fadeUp = {
   hidden: { opacity: 0, y: 24 },
   visible: {
     opacity: 1,
     y: 0,
     transition: {
       duration: 0.65,
-      ease: "easeOut",
+      ease: [0.22, 1, 0.36, 1],
     },
   },
 };
 
-const softRise: Variants = {
+const softRise = {
   hidden: { opacity: 0, y: 18, scale: 0.985 },
   visible: {
     opacity: 1,
@@ -113,13 +114,13 @@ const softRise: Variants = {
     scale: 1,
     transition: {
       duration: 0.7,
-      ease: "easeOut",
+      ease: [0.22, 1, 0.36, 1],
     },
   },
 };
 
 export default function Landing() {
-  return (
+  return (<><SiteHeader />
     <><SiteHeader /><main className="min-h-screen overflow-hidden bg-[linear-gradient(to_bottom,_#fcfbf8_0%,_#f7f2e9_38%,_#ffffff_100%)] text-neutral-900">
       <section className="relative">
         <div className="pointer-events-none absolute inset-0 overflow-hidden">
@@ -134,34 +135,29 @@ export default function Landing() {
           initial="hidden"
           animate="visible"
         >
-          <div className="flex max-w-4xl flex-col rounded-[2rem] border border-[#2e3f38] bg-[#1a2820] px-8 py-8 shadow-[0_18px_50px_rgba(26,48,41,0.22)] md:px-10 md:py-10">
-            <motion.h1
+          <div className="max-w-4xl">
+            <motion.div
               variants={fadeUp}
-              className="order-2 mt-5 max-w-4xl leading-none text-[#f4f1ea]"
+              className="inline-flex items-center rounded-full border border-black/10 bg-white/75 px-4 py-2 text-[11px] uppercase tracking-[0.22em] text-neutral-600 backdrop-blur"
             >
-              <span className="block text-[clamp(2.4rem,5.1vw,4.25rem)] font-semibold uppercase tracking-[-0.045em]">
-                The Intelligence Filter
+              Avecore
+              <span className="mx-2 opacity-30">•</span>
+              <span className="normal-case tracking-normal text-neutral-500">
               </span>
-              <span className="hidden">
-                That Makes AI Output Useful
-              </span>
-            </motion.h1>
+            </motion.div>
 
-            <motion.p
-              variants={fadeUp}
-              className="order-1 max-w-3xl text-lg leading-8 text-[#d7ddd8]"
-            >
-              AI gives you answers. Avecore gives you decisions.
-            </motion.p>
 
             <motion.div
               variants={fadeUp}
-              className="order-3 mt-8 max-w-3xl space-y-5 text-base leading-8 text-[#d7ddd8]"
+              className="max-w-xl space-y-5 text-base leading-8 text-neutral-500"
             >
               <p>
-                Today, AI is everywhere. There are more tools, more answers, more options, and more output than ever before. What was supposed to make things easier often creates a different kind of difficulty - too much information, too many directions, and no clear next step. <span className="font-semibold text-[#f4f1ea]">Avecore</span> is that layer.
-              </p>
-            </motion.div>
+                Today, AI is everywhere. There are more tools, more answers, more options, and more output than ever before.
+                What was supposed to make things easier often creates a different kind of difficulty — too much information, too many directions, and no clear next step.
+              
+
+              
+              <p>Avecore turns AI output into one clear next step.</p>
           </div>
 
           <motion.div variants={softRise} className="mt-8 w-full md:mt-10">
@@ -174,10 +170,6 @@ export default function Landing() {
                 Relief, control, precision
               </p>
             </div>
-          </motion.div>
-        </motion.div>
-      </section>
-
       <motion.section
         className="relative pb-16 md:pb-20"
         variants={sectionContainer}
@@ -225,7 +217,7 @@ export default function Landing() {
           >
             <Link
               href="/diagnostic"
-              className="inline-flex items-center justify-center rounded-2xl bg-[#1a2820] px-6 py-3 text-sm font-medium text-[#f4f1ea] transition duration-300 hover:bg-[#314b41]"
+              className="inline-flex items-center justify-center rounded-2xl bg-[#1a2820] px-6 py-3 text-sm font-medium text-[#f4f1ea] transition duration-300 hover:bg-[#24342c]"
             >
               Start Diagnostic
             </Link>
@@ -349,7 +341,7 @@ export default function Landing() {
       </motion.section>
 
       <SiteFooter />
-    </main>
+    </main></>
     </>
   );
 }

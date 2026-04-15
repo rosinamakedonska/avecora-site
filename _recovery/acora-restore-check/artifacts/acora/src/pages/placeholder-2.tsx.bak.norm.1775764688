@@ -1,0 +1,52 @@
+import { Link } from "wouter";
+import BrandLockup from "@/components/brand-lockup";
+
+export default function Placeholder2() {
+  return (
+    <div className="min-h-screen bg-[#f7f3ee] text-[#1f1f1b] px-6 py-10">
+      <div className="max-w-5xl mx-auto">
+        <Link href="/diagnostic">
+          <a className="text-sm opacity-70 hover:opacity-100 transition">← Back</a>
+        </Link>
+
+        
+
+        <BrandLockup className="mt-8 mb-7" />
+
+        <h1 className="text-[30px] md:text-[42px] font-semibold leading-[1.12] tracking-[-0.02em] mb-8 max-w-4xl">
+          Too much information is coming in. I can’t see what matters.
+        </h1>
+
+        <p className="text-[18px] md:text-[20px] leading-[1.9] text-black/68 mb-12 max-w-4xl">
+          When too much is coming in — inputs, tasks, thoughts, options, AI outputs —
+          it becomes hard to see what matters right now. Progress becomes possible only
+          after the right priorities are set.
+        </p>
+
+        <div className="text-[11px] tracking-[0.24em] uppercase text-black/45 mb-5 font-medium">
+          Which of these matters most right now?
+        </div>
+
+        <div className="grid gap-3 max-w-4xl">
+          <Link href="/mini-mental-priority-matters-now">
+            <a className="block rounded-[18px] border border-[#d8cec1] bg-[#ece4d8] px-5 py-3 text-[15px] leading-6 shadow-[0_6px_14px_rgba(31,31,27,0.05)] hover:bg-[#e6ddcf] hover:shadow-[0_10px_22px_rgba(31,31,27,0.08)] transition">
+              what matters now
+            </a>
+          </Link>
+
+          <Link href="/mini-mental-priority-can-wait">
+            <a className="block rounded-[18px] border border-[#d8cec1] bg-[#ece4d8] px-5 py-3 text-[15px] leading-6 shadow-[0_6px_14px_rgba(31,31,27,0.05)] hover:bg-[#e6ddcf] hover:shadow-[0_10px_22px_rgba(31,31,27,0.08)] transition">
+              what can wait
+            </a>
+          </Link>
+
+          <Link href="/mini-mental-priority-pressure">
+            <a className="block rounded-[18px] border border-[#d8cec1] bg-[#ece4d8] px-5 py-3 text-[15px] leading-6 shadow-[0_6px_14px_rgba(31,31,27,0.05)] hover:bg-[#e6ddcf] hover:shadow-[0_10px_22px_rgba(31,31,27,0.08)] transition">
+              what is creating the most pressure
+            </a>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}

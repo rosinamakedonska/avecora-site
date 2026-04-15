@@ -1,0 +1,13 @@
+cd ~/workspace
+
+# AI Clarity: top back -> /placeholder/1 ; bottom link -> bigger
+perl -0777 -pi -e 's|const backHref  = context \? context\.route : "/products-and-packages";|const backHref  = "/placeholder/1";|g; s|const backLabel = context \? "← Back" : "← Back to Products and Packages";|const backLabel = "← Back";|g; s|className="text-sm text-\[#8a7d6e\] hover:text-\[#3a3530\] underline underline-offset-4 transition-colors"|className="text-base font-medium text-[#8a7d6e] hover:text-[#3a3530] underline underline-offset-4 transition-colors"|g' artifacts/acora/src/pages/product-ai-clarity-funnel.tsx
+
+# Mental Priority: top back -> /placeholder/2 ; bottom link -> bigger
+perl -0777 -pi -e 's|href="/products-and-packages" className="text-sm text-\[#8a7d6e\] hover:text-\[#3a3530\] transition-colors"|href="/placeholder/2" className="text-sm text-[#8a7d6e] hover:text-[#3a3530] transition-colors"|g; s|← Back to Products and Packages|← Back|g; s|className="text-sm text-\[#8a7d6e\] hover:text-\[#3a3530\] underline underline-offset-4 transition-colors"|className="text-base font-medium text-[#8a7d6e] hover:text-[#3a3530] underline underline-offset-4 transition-colors"|g' artifacts/acora/src/pages/product-mental-priority-system.tsx
+
+# AI Tool Navigator: top back -> /placeholder/3 ; bottom link -> bigger
+perl -0777 -pi -e 's|href="/products-and-packages" className="text-sm text-\[#8a7d6e\] hover:text-\[#3a3530\] transition-colors"|href="/placeholder/3" className="text-sm text-[#8a7d6e] hover:text-[#3a3530] transition-colors"|g; s|← Back to Products and Packages|← Back|g; s|className="text-sm text-\[#8a7d6e\] hover:text-\[#3a3530\] underline underline-offset-4 transition-colors"|className="text-base font-medium text-[#8a7d6e] hover:text-[#3a3530] underline underline-offset-4 transition-colors"|g' artifacts/acora/src/pages/product-ai-tool-navigator.tsx
+
+# 3–70–24: top back -> /placeholder/4 ; bottom link -> bigger
+perl -0777 -pi -e 's|window\.history\.back\(\)|window.location.href="/placeholder/4"|g; s|className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"|className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-lg font-medium border hover:opacity-90"|g' artifacts/acora/src/pages/product-3-70-24.tsx

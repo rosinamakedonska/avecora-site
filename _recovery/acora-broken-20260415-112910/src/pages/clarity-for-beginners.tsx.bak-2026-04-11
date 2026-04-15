@@ -1,0 +1,79 @@
+import BrandLockup from "@/components/brand-lockup";
+import { Link } from "wouter";
+import SiteFooter from "@/components/site-footer";
+
+const routes = [
+  {
+    label: "Clarity",
+    symptom: "AI doesn't understand my situation well enough.",
+    product: "AI Clarity Funnel",
+    slug: "/placeholder/1",
+  },
+  {
+    label: "Priority",
+    symptom: "Too much information is coming in. I can't see what matters.",
+    product: "Mental Priority System",
+    slug: "/placeholder/2",
+  },
+  {
+    label: "Tool",
+    symptom: "Too many AI promises. I need the right combination for my work.",
+    product: "AI Tool Navigator",
+    slug: "/ai-tool-navigator",
+  },
+  {
+    label: "Execution",
+    symptom: "I have several possible next moves, but I can't choose one.",
+    product: "3–70–24 Decision Frame",
+    slug: "/placeholder/4",
+  },
+];
+
+export default function ClarityForBeginners() {
+  return (
+    <>
+      <main className="min-h-screen bg-[#f8f6f2] text-[#2f2f2f] px-6 py-12 md:py-16">
+        <div className="max-w-2xl mx-auto">
+          <Link
+            href="/"
+            className="text-sm text-[#6b6058] hover:text-[#1f1f1f] transition-colors"
+          >
+            ← Back to home
+          </Link>
+
+          <div className="mt-10 mb-12">
+            <BrandLockup className="mb-7" />
+            <h1 className="text-2xl font-semibold leading-[1.2] tracking-[-0.02em] text-[#111512] md:text-[1.75rem]">
+              Where is movement breaking?
+            </h1>
+            <p className="mt-4 text-base leading-7 text-[#6b6058]">
+              Locate the point where things are stuck. Each function addresses a
+              different problem. Find the one that fits your situation.
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            {routes.map((item) => (
+              <Link
+                key={item.slug}
+                href={item.slug}
+                className="group block rounded-2xl border border-[#e2d9cc] bg-[#faf7f2] px-6 py-5 shadow-[0_4px_16px_rgba(0,0,0,0.05)] transition-all duration-200 hover:border-[#c8bfb0] hover:bg-[#f4ede2] hover:shadow-[0_6px_20px_rgba(0,0,0,0.07)]"
+              >
+                <p className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[#2d5a45]">
+                  {item.label}
+                </p>
+                <p className="mt-2 text-base font-medium leading-[1.4] text-[#1a1f1c]">
+                  {item.symptom}
+                </p>
+                <p className="mt-2.5 text-sm text-[#6b6058] group-hover:text-[#2d5a45] transition-colors">
+                  {item.product} →
+                </p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </main>
+      <SiteFooter />
+    </>
+  );
+}

@@ -1,0 +1,84 @@
+Update the AI Tool Navigator page so it clearly reads as the Tool function inside the Avecore system.
+
+Reference direction:
+This page should not feel like a random AI tools PDF page.
+It should feel like:
+Avecore → Tool function → AI Tool Navigator
+
+Keep unchanged:
+- pricing
+- Stripe link
+- route / slug
+- footer
+- working CTA / purchase logic
+- the product name
+
+Important:
+Do not position this page as a generic list of AI tools.
+Do not make it sound like “here are many apps.”
+This product is about choosing roles, deciding when to stay with one tool, when to switch, and how to use AI tools with clearer decision control.
+
+Add / adjust the page with this structure:
+
+1. Top back link
+- add a small back link at the top:
+  ← Back to Products and Packages
+- link target:
+  /products-and-packages
+
+2. Function label
+Use a small upper label above the main headline:
+TOOL FUNCTION
+
+3. Main headline
+Use this headline:
+Use AI tools with clearer roles, not more noise.
+
+4. Supporting copy
+Use supporting copy in this direction:
+More AI tools do not automatically create better outcomes. AI Tool Navigator helps define what each tool should do, when one tool is enough, when a switch improves the result, and how to handle output with more control.
+
+5. Short system bridge
+Add a short bridge block that makes the system logic visible without over-explaining it:
+AI Tool Navigator runs the Tool function inside Avecore.
+It is designed for moments when access to AI is no longer the issue, but decision control inside the stack still is.
+
+6. Core outcome section
+Create a clean section showing what this function helps organize.
+Use 4 points:
+- roles
+- switching
+- trust
+- disagreement
+
+Each point should have one short sentence, not a long paragraph.
+
+Suggested direction:
+- Roles — assign each tool a clear function instead of using everything for everything
+- Switching — change tools only when role fit improves
+- Trust — judge output by decision usefulness, not by polish
+- Disagreement — compare conflicting outputs by constraint fit and action value
+
+7. Why this matters section
+Add one short section explaining the shift:
+When tools have clearer roles, the stack becomes easier to trust, easier to manage, and more useful in real work.
+
+8. Purchase area
+Keep the existing purchase area, price, and CTA logic.
+Do not redesign the checkout structure unless needed for visual consistency only.
+
+9. Visual direction
+- premium, calm, controlled
+- aligned with current Avecore palette
+- no pure black
+- no tech-bro dashboard feel
+- no generic “top tools for 2026” tone
+- no wall of text
+- this page should feel structured, clear, and dry in a good way
+
+Goal:
+The page should sell one function clearly and elegantly:
+the Tool function.
+Not the whole system.
+Not a generic tools guide.
+Not a random PDF page.

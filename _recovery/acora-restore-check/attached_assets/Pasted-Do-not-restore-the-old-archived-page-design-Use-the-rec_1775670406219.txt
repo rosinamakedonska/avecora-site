@@ -1,0 +1,74 @@
+Do not restore the old archived page design.
+
+Use the recovered old flow ONLY as source copy and flow logic.
+Rebuild it inside the current Avecore site design and current live preview.
+
+Current problem:
+You surfaced the old page/version.
+That is not the goal.
+
+Goal:
+Keep the current Avecore visual system and current live site styling,
+but reintroduce the missing 3-step AI Clarity Funnel flow using the recovered text.
+
+Do this in execution mode.
+No planning talk.
+No audit summary.
+No “already exists.”
+No placeholder-only work.
+
+Required result in the live preview:
+CURRENT ENTRY POINT → Page 1 → Page 2 branch → current Page 3 product page
+
+Important:
+- do NOT bring back the old archived layout
+- do NOT bring back old ACORA page styling
+- do NOT create a hidden parallel flow
+- do NOT change the current product page into an old-looking page
+- do NOT rewrite the copy beyond minimal brand alignment
+- do NOT touch price / checkout / refund / bonus / footer logic
+
+Use the old recovered flow as text/sequence only:
+
+PAGE 1 CONTENT
+AI doesn't understand my situation well enough.
+Useful output depends on a clearly defined situation. Without that, the answer remains too general.
+Which of these feels closest to your situation?
+1. The goal becomes more specific
+2. The context becomes clearer
+3. The limits become visible
+
+PAGE 2A CONTENT
+The goal becomes more specific
+The output changes when the goal becomes precise. That is when the answer starts moving in the right direction.
+This is where AI Clarity Funnel begins. It helps define the situation more clearly, so the output becomes more relevant and easier to use.
+
+PAGE 2B CONTENT
+The context becomes clearer
+The output changes when the context becomes clear. That is when the answer becomes closer to the real situation.
+This is where AI Clarity Funnel begins. It helps define the situation more clearly, so the output becomes more relevant and easier to use.
+
+PAGE 2C CONTENT
+The limits become visible
+The output changes when the limits become visible. That is when the answer becomes more accurate.
+This is where AI Clarity Funnel begins. It helps define the situation more clearly, so the output becomes more relevant and easier to use.
+
+Implementation rules:
+1. Use current Avecore styling, spacing, footer, palette, and navigation patterns.
+2. Page 1 and Page 2 must feel like current Avecore pages, not old placeholders.
+3. Page 3 remains the current AI Clarity Funnel product page in the current style.
+4. The Page 2 button must lead into the current product page.
+5. The whole flow must be reachable from the real current live entry path in preview.
+
+Minimal brand alignment:
+- replace old ACORA page treatment with current Avecore page treatment
+- keep “CLARITY FUNCTION · AVECORE” or current equivalent where appropriate
+- keep the current premium tone
+
+Deliver only after real implementation.
+Then report only:
+- the real live entry route
+- the Page 2 branch routes
+- the Page 3 product page route
+- screenshots from the actual current preview flow
+- one sentence saying exactly what was changed
