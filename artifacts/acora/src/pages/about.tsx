@@ -1,3 +1,4 @@
+import { Link } from "wouter";
 import SiteHeader from "@/components/site-header";
 import SiteFooter from "@/components/site-footer";
 
@@ -42,6 +43,31 @@ export default function About() {
             <p>
               Find that place. Close that gap. Move forward.
             </p>
+          </div>
+
+          <div className="mt-10 flex flex-col items-start gap-3 sm:flex-row sm:items-center">
+            <Link
+              href="/diagnostic"
+              className="inline-flex items-center justify-center rounded-2xl bg-[#1a2820] px-6 py-3 text-sm font-medium text-[#f4f1ea] transition duration-300 hover:bg-[#314b41]"
+            >
+              Start Diagnostic
+            </Link>
+
+            <Link
+              href="/products-and-packages"
+              className="inline-flex items-center justify-center rounded-2xl border border-[#cdc3b4] bg-white/80 px-6 py-3 text-sm font-medium text-[#1f241f] transition duration-300 hover:bg-white"
+            >
+              See Products and Packages
+            </Link>
+          </div>
+
+          <div className="mt-4">
+            <Link
+              href="/clarity-for-beginners"
+              className="inline-flex items-center justify-center rounded-full border border-[#d8cec2] bg-white/80 px-6 py-3 text-sm font-medium text-[#2a2a26] shadow-[0_10px_26px_rgba(60,52,46,0.08)] transition-colors hover:bg-white"
+            >
+              New to AI? Start with Clarity for Beginners
+            </Link>
           </div>
         </section>
       </main>
