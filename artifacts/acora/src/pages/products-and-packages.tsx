@@ -72,10 +72,8 @@ export default function ProductsAndPackages() {
         </div>
 
         <div className="flex flex-col gap-3 mb-12 text-sm md:flex-row md:items-center md:justify-between">
-          <Link href="/diagnostic">
-            <a className="inline-flex items-center text-[#2f5a49] hover:opacity-80 transition-opacity">
-              ← Back to diagnostic
-            </a>
+          <Link href="/diagnostic" className="inline-flex items-center text-[#2f5a49] hover:opacity-80 transition-opacity">
+            ← Back to diagnostic
           </Link>        </div>
 
         <section className="mb-16 max-w-3xl rounded-[2rem] border border-[#2e3f38] bg-[#1a2820] px-8 py-8 text-[#f4f1ea] shadow-[0_18px_50px_rgba(26,48,41,0.22)] md:px-10 md:py-10">
@@ -124,10 +122,8 @@ export default function ProductsAndPackages() {
                 <div className="flex items-center justify-between gap-4">
                   <span className="text-lg font-medium">{item.price}</span>
 
-                  <Link href={item.href}>
-                    <a className="inline-flex items-center justify-center rounded-full bg-[#263f35] px-5 py-3 text-sm font-medium text-white hover:opacity-90 transition-opacity">
-                      Open product
-                    </a>
+                  <Link href={item.href} className="inline-flex items-center justify-center rounded-full bg-[#263f35] px-5 py-3 text-sm font-medium text-white hover:opacity-90 transition-opacity">
+                    Open product
                   </Link>
                 </div>
               </div>
@@ -164,10 +160,8 @@ export default function ProductsAndPackages() {
                 <div className="flex items-center justify-between gap-4">
                   <span className="text-lg font-medium">{item.price}</span>
 
-                  <Link href={item.href}>
-                    <a className="inline-flex items-center justify-center rounded-full border border-[#263f35] px-5 py-3 text-sm font-medium text-[#263f35] hover:bg-[#263f35] hover:text-white transition-colors">
-                      Open package
-                    </a>
+                  <Link href={item.href} className="inline-flex items-center justify-center rounded-full border border-[#263f35] px-5 py-3 text-sm font-medium text-[#263f35] hover:bg-[#263f35] hover:text-white transition-colors">
+                    Open package
                   </Link>
                 </div>
               </div>

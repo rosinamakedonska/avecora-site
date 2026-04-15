@@ -51,16 +51,14 @@ export default function Placeholder() {
 
           <div className="space-y-3">
             {entries.map((entry, index) => (
-              <Link key={entry.href} href={entry.href}>
-                <a className="w-full flex items-center gap-5 px-5 py-4 bg-white border border-[#ddd5c8] rounded-xl text-left hover:border-[#b0a090] hover:bg-[#faf8f4] transition-all group">
-                  <span className="text-[11px] font-semibold w-5 text-center text-[#a09080] shrink-0">
-                    {index + 1}
-                  </span>
-                  <span className="text-base text-[#3a3530] group-hover:text-[#1a1814] transition-colors leading-6 flex-1">
-                    {entry.text}
-                  </span>
-                  <span className="text-[#c4b8a4] group-hover:text-[#8a7d6e] transition-colors text-sm">→</span>
-                </a>
+              <Link key={entry.href} href={entry.href} className="w-full flex items-center gap-5 px-5 py-4 bg-white border border-[#ddd5c8] rounded-xl text-left hover:border-[#b0a090] hover:bg-[#faf8f4] transition-all group">
+                <span className="text-[11px] font-semibold w-5 text-center text-[#a09080] shrink-0">
+                  {index + 1}
+                </span>
+                <span className="text-base text-[#3a3530] group-hover:text-[#1a1814] transition-colors leading-6 flex-1">
+                  {entry.text}
+                </span>
+                <span className="text-[#c4b8a4] group-hover:text-[#8a7d6e] transition-colors text-sm">→</span>
               </Link>
             ))}
           </div>
