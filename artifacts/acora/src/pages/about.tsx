@@ -9,10 +9,6 @@ export default function About() {
       <main className="mx-auto max-w-4xl px-6 py-10 md:px-8 md:py-12">
         <section className="max-w-3xl">
           <div className="mb-10 rounded-[2rem] border border-[#2e3f38] bg-[#1a2820] px-8 py-8 text-[#f4f1ea] shadow-[0_18px_50px_rgba(26,48,41,0.22)] md:px-10 md:py-10">
-            <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-[#7a9e8e]">
-              About
-            </p>
-
             <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
               About
             </h1>
