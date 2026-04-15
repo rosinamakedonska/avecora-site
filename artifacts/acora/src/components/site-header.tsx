@@ -6,6 +6,7 @@ const navItems = [
   { href: "/products-and-packages", label: "Products & Packages" },
   { href: "/clarity-for-beginners", label: "Clarity for Beginners" },
   { href: "/insights", label: "Insights" },
+  { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
 
