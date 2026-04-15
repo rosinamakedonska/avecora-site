@@ -31,7 +31,7 @@ export default function Contact() {
               </p>
 
               <p className="font-medium text-[#1f1f1f]">
-                hello@avecore.com
+                hello@patternos.online
               </p>
 
               <p className="text-sm text-[#6b6058] pt-2">
