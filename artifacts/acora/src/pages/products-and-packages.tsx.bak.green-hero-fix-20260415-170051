@@ -78,13 +78,13 @@ export default function ProductsAndPackages() {
             </a>
           </Link>        </div>
 
-        <section className="mb-16 max-w-3xl rounded-[2rem] border border-[#2e3f38] bg-[#1a2820] px-8 py-8 text-[#f4f1ea] shadow-[0_18px_50px_rgba(26,48,41,0.22)] md:px-10 md:py-10">
+        <section className="mb-16 max-w-3xl">
 
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight mb-6">
             Products and Packages
           </h1>
 
-          <p className="text-lg leading-8 text-[#d5ddd8]">
+          <p className="text-lg leading-8 text-[#4a4540]">
             Start with the function that fits where you are now. Each product
             gives access to one part of the Avecore decision system. Packages
             combine functions when the situation needs more than one layer.
