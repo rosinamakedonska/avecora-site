@@ -8,20 +8,22 @@ export default function Insights() {
 
       <main className="mx-auto max-w-4xl px-6 py-10 md:px-8 md:py-12">
         <section className="max-w-3xl">
-          <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-[#8a7d6e]">
-            Insights
-          </p>
+          <div className="mb-10 rounded-[2rem] border border-[#2e3f38] bg-[#1a2820] px-8 py-8 text-[#f4f1ea] shadow-[0_18px_50px_rgba(26,48,41,0.22)] md:px-10 md:py-10">
+            <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-[#7a9e8e]">
+              Insights
+            </p>
 
-          <h1 className="mb-6 text-4xl font-semibold tracking-tight text-[#1f1a17] md:text-5xl">
-            AI changes fast.
-            <br />
-            Decision clarity should not.
-          </h1>
+            <h1 className="mb-6 text-4xl font-semibold tracking-tight md:text-5xl">
+              AI changes fast.
+              <br />
+              Decision clarity should not.
+            </h1>
 
-          <p className="mb-10 text-lg leading-8 text-[#4a4540]">
-            This section will hold AI news, decision guides, and tool breakdowns
-            translated into practical decision usefulness.
-          </p>
+            <p className="text-lg leading-8 text-[#d5ddd8]">
+              This section will hold AI news, decision guides, and tool breakdowns
+              translated into practical decision usefulness.
+            </p>
+          </div>
 
           <div className="grid gap-5 md:grid-cols-3">
             <div className="rounded-[28px] border border-[#ddd2c2] bg-[#fbf7f0] p-6 shadow-[0_10px_30px_rgba(0,0,0,0.04)]">
