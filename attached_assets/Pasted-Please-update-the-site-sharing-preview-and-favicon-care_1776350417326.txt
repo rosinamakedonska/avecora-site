@@ -1,0 +1,71 @@
+Please update the site sharing preview and favicon carefully, without changing layout, routes, or page content.
+
+Do this in TWO steps: OG first, then favicon.
+
+STEP 1 — Open Graph / social preview
+
+Use these exact branding settings:
+- Title: Avecore
+- Description: AI gives you answers. The Intelligence Filter turns them into decisions.
+
+Rules:
+- Remove any old "ACORA" references from title/meta
+- Do not reference any replit domain anywhere in meta tags
+- Canonical / OG URL must use: https://patternos.online/
+
+OG image:
+- Place the image file at: public/og-image.png
+- Use this live URL: https://patternos.online/og-image.png
+
+Add/update these tags in the correct head/meta location:
+- <title>Avecore</title>
+- og:title = Avecore
+- og:description = AI gives you answers. The Intelligence Filter turns them into decisions.
+- og:image = https://patternos.online/og-image.png
+- og:type = website
+- og:url = https://patternos.online/
+- twitter:card = summary_large_image
+- twitter:title = Avecore
+- twitter:description = AI gives you answers. The Intelligence Filter turns them into decisions.
+- twitter:image = https://patternos.online/og-image.png
+
+Important:
+- Keep only one correct version of each meta tag
+- Remove outdated duplicates safely
+- Do not alter layout, routes, or page structure
+
+STEP 2 — Favicon
+
+Use this file as the favicon source:
+- Logo FI.png
+
+Instructions:
+- Rename it to a clean web-safe filename if needed
+- Place it in the correct public directory
+- Update the favicon link tag accordingly
+- Do not use the OG image as the favicon
+
+Requirements:
+- Favicon must appear in the browser tab
+- Keep favicon setup separate from OG setup
+
+VALIDATION
+- Site builds successfully
+- Site runs normally
+- Title shows “Avecore”
+- No ACORA appears in title/meta
+- No replit domain appears in meta
+- OG image loads from patternos.online
+- Favicon works
+
+REPORT BACK
+1. Which files were edited
+2. Where og-image.png was added
+3. What the favicon file was renamed to and where it is stored
+4. Whether duplicate meta tags were removed
+5. Whether build and preview passed
+
+SAFETY
+- Create a backup before editing each changed file
+- Make the smallest safe changes only
+- Do OG first, verify it, then do favicon
