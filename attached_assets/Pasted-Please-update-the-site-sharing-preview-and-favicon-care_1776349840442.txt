@@ -1,0 +1,83 @@
+Please update the site sharing preview and favicon carefully, without changing layout, routes, or page content.
+
+We will do this in TWO steps: OG first, then favicon.
+
+-----------------------------------
+STEP 1 — Open Graph / social preview
+-----------------------------------
+
+Update the site meta so link previews show the correct branding.
+
+Use:
+Title: The Intelligence Filter
+Description: AI gives you answers. The Intelligence Filter turns them into decisions.
+
+Add/update the following meta tags in the correct head/meta location:
+
+- <title>
+- og:title
+- og:description
+- og:image
+- og:type
+- og:url
+- twitter:card
+- twitter:title
+- twitter:description
+- twitter:image
+
+OG image:
+- File must be placed in: public/og-image.png
+- URL must resolve as: https://patternos.online/og-image.png
+
+Important:
+- Do NOT redesign anything
+- Do NOT change routes or layout
+- Replace outdated meta safely (no duplicates)
+- Keep only one correct version of each tag
+
+-----------------------------------
+STEP 2 — Favicon
+-----------------------------------
+
+Use this file as favicon:
+File name: Logo FI.png
+
+Instructions:
+- Move/rename it if needed to a clean filename (e.g. favicon.png or favicon.ico)
+- Place it in the correct public directory
+- Update the <link rel="icon"> tag in index.html (or correct head location)
+
+Requirements:
+- Favicon must display in browser tab
+- Do NOT use og-image.png as favicon
+- Do NOT distort or resize incorrectly
+
+-----------------------------------
+VALIDATION
+-----------------------------------
+
+- Site builds successfully
+- Site runs normally
+- Title shows “The Intelligence Filter”
+- OG image loads correctly
+- Favicon appears in browser tab
+
+-----------------------------------
+REPORT BACK
+-----------------------------------
+
+1. Which files were edited
+2. Where og-image.png was added
+3. What the favicon file was renamed to and where it is stored
+4. Whether any duplicate meta tags were removed
+5. Whether build and preview passed
+
+-----------------------------------
+SAFETY
+-----------------------------------
+
+Before editing:
+- Create a backup copy of each modified file
+
+Make the smallest safe changes only.
+Do OG first, confirm it, then do favicon.
