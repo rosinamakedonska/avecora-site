@@ -34,7 +34,7 @@ export default function PurchaseCTABlock({
         />
         <span>
           I understand that this is a digital product and the purchase is non-refundable.{" "}
-          <a href={`/legal/refund?from=${encodeURIComponent(window.location.pathname)}`} className="underline underline-offset-4">
+          <a href="/legal/refund" className="underline underline-offset-4">
             Refund policy
           </a>
         </span>

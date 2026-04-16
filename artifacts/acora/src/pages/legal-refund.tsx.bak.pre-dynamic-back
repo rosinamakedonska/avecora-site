@@ -1,16 +1,6 @@
 import SiteFooter from "@/components/site-footer";
 
-function getBackDestination(): { href: string; label: string } {
-  const params = new URLSearchParams(window.location.search);
-  const from = params.get("from");
-  if (from && from !== "/legal/refund") {
-    return { href: from, label: "← Back" };
-  }
-  return { href: "/products-and-packages", label: "Back to products and packages" };
-}
-
 export default function LegalRefund() {
-  const back = getBackDestination();
   return (
     <>
     <main className="min-h-screen px-6 py-10 md:px-10 bg-[#f7f4ed] text-[#1f1f1f]">
@@ -44,10 +34,10 @@ export default function LegalRefund() {
         </section>
 
         <a
-          href={back.href}
+          href="/products-and-packages"
           className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-medium border hover:opacity-90"
         >
-          {back.label}
+          Back to products and packages
         </a>
       </div>
     </main>
