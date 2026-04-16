@@ -1,0 +1,2 @@
+cp index.html ~/workspace/_safety_snapshots/og-fix-$STAMP/index.html.bak
+ls -l ~/workspace/_safety_snapshots/og-fix-$STAMP/
